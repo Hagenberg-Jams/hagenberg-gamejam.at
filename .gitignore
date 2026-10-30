@@ -8,7 +8,6 @@
 
 # LLM tooling
 /.claude
-/CLAUDE.md
 /.cursor
 /.cursorrules
 /.github/copilot-instructions.md
