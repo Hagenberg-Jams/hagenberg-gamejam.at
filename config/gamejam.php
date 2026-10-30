@@ -31,7 +31,7 @@ return [
 
     'social' => [
         'instagram' => env('GAMEJAM_INSTAGRAM_URL', 'https://www.instagram.com/hagenberg_gamejam/'),
-        'github' => env('GAMEJAM_GITHUB_URL', 'https://github.com/Hagenberg-Game-Jam/hagenberg-gamejam.at/'),
+        'github' => env('GAMEJAM_GITHUB_URL', 'https://github.com/Hagenberg-Jams/hagenberg-gamejam.at/'),
         'discord' => env('GAMEJAM_DISCORD_URL', 'https://discord.gg/kh2rXBj8nr'),
     ],
 
