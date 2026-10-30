@@ -1302,12 +1302,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Hagenberg-Jams/jam-engine.git",
-                "reference": "3d5c3329aae24ecff964cb7dfc008b3605841842"
+                "reference": "f1e5eeb2a499ba42939462766481a9091f61fcdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Hagenberg-Jams/jam-engine/zipball/3d5c3329aae24ecff964cb7dfc008b3605841842",
-                "reference": "3d5c3329aae24ecff964cb7dfc008b3605841842",
+                "url": "https://api.github.com/repos/Hagenberg-Jams/jam-engine/zipball/f1e5eeb2a499ba42939462766481a9091f61fcdb",
+                "reference": "f1e5eeb2a499ba42939462766481a9091f61fcdb",
                 "shasum": ""
             },
             "require": {
@@ -1321,6 +1321,7 @@
             "require-dev": {
                 "larastan/larastan": "^3.11",
                 "laravel/pint": "^1.31",
+                "pestphp/pest": "^4.0",
                 "phpstan/phpstan": "^2.2"
             },
             "default-branch": true,
@@ -1349,7 +1350,8 @@
                 ],
                 "test": [
                     "@lint",
-                    "@analyse"
+                    "@analyse",
+                    "pest"
                 ]
             },
             "license": [
@@ -1360,7 +1362,7 @@
                 "source": "https://github.com/Hagenberg-Jams/jam-engine/tree/main",
                 "issues": "https://github.com/Hagenberg-Jams/jam-engine/issues"
             },
-            "time": "2026-10-30T20:07:05+00:00"
+            "time": "2026-10-30T20:18:46+00:00"
         },
         {
             "name": "hyde/framework",
