@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: 'Feature Freeze'
     players: '1'
     controls:
@@ -38,7 +38,7 @@
       platform: Windows
       checksum: 3ee166053f2cf0a56697c3525ddc89eca0562dfb146906a361f3a67753039be9
 -
-  game:
+  project:
     name: "It's a Feature"
     players: '1'
     controls:
@@ -76,7 +76,7 @@
       platform: Windows
       checksum: f388ff8b22378206492a06b2308500f19d7d4cb179e6ecc546f767cc3eb1a9e9
 -
-  game:
+  project:
     name: 'Sky is the Limit'
     players: '2'
     controls:
@@ -112,7 +112,7 @@
       platform: Windows
       checksum: 7d21626d8e67d9d80c03fbf540e8ac3ee98deb3fce444f42b7089554b0763a09
 -
-  game:
+  project:
     name: 'The Dark Night'
     players: '2'
     controls:
@@ -150,7 +150,7 @@
       platform: Windows
       checksum: 3da03b329abc2c323cd23f8521c3a330c03bf25252927f99598eeb50a8d242e8
 -
-  game:
+  project:
     name: 'The Great EscAPE'
     players: '1'
     controls:
@@ -188,7 +188,7 @@
       platform: Windows
       checksum: bb817abf2a7015fa6b5577df5337965122c1233bf0557bd28b1de2947087080f
 -
-  game:
+  project:
     name: Triangloids
     players: '2'
     controls:

@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: 'Brave New World'
     players: '1'
     controls:
@@ -37,7 +37,7 @@
       platform: Web
       checksum: 57cbdafc67569111b6a0a180f19941e3f89491c2d8e614318ba5b486a50d5d60
 -
-  game:
+  project:
     name: Cataclysm
     players: '1'
     controls:
@@ -73,7 +73,7 @@
       platform: Windows
       checksum: 1f64db8328b2908f5b847721f3721eebba16f0d0645085640159229aef69d0b1
 -
-  game:
+  project:
     name: 'FH Doomsday - Try to Survive'
     players: '1'
     controls:
@@ -113,7 +113,7 @@
       platform: Windows
       checksum: dc0716dbfa1123714f17db542740f0a5ae2596ab10994cbf9b9102963f196a6f
 -
-  game:
+  project:
     name: Mayaction
     players: '1'
     controls:
@@ -147,7 +147,7 @@
       platform: Windows
       checksum: f3b042d6ce4f833d55e718244f78e020db4379e213f1ef75082b25c15deab13b
 -
-  game:
+  project:
     name: 'Mega Asteroids vs. Giant Cubes'
     players: 1-2
     controls:
@@ -190,7 +190,7 @@
       platform: Web
       checksum: a3a039b6e6f53bd7cefa43b26974d7afecacb66acdf50dc632315e8c8ce92408
 -
-  game:
+  project:
     name: 'Route 36'
     players: '1'
     controls:

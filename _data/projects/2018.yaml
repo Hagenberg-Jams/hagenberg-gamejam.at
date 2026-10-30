@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: Aubandln
     players: 1
     controls:
@@ -36,7 +36,7 @@
       platform: Windows
       checksum: 4fd3c95893ee2a170dc4f31f988cf6db7b6de3c79916ce284a492de318ff398b
 -
-  game:
+  project:
     name: 'Barking Hard'
     players: 1
     controls:
@@ -75,7 +75,7 @@
       platform: Windows
       checksum: d8fa7355565fc64aa1b6325a4babd979fadfb58c6523739f8275aade59abe387
 -
-  game:
+  project:
     name: Beewitched
     players: 1
     controls:
@@ -113,7 +113,7 @@
       platform: Windows
       checksum: f4849471c4a6b0768d14cbe03574d354b49cd3930396c402f88c43b72e2faca5
 -
-  game:
+  project:
     name: "Flakingo's Witnesses"
     players: 1
     controls:
@@ -156,7 +156,7 @@
       platform: macOS
       checksum: da9ced634277d085e3f9ba794b6ca603678e88e50a86a79fb9de7132d094c625
 -
-  game:
+  project:
     name: Fluffy
     players: 1-6
     controls:
@@ -194,7 +194,7 @@
       platform: Windows
       checksum: e7ee501ca35b42dc6c4b2c57a8fa53d1c19b2a821d852a7e727e2912cd8e9ff3
 -
-  game:
+  project:
     name: Hierarchy
     players: 1
     controls:
@@ -228,7 +228,7 @@
       platform: Windows
       checksum: eb12cda3b59d6f7d0c97bc90937b1ea2b816dde12233de19b4c80b99977c34c8
 -
-  game:
+  project:
     name: 'Lead the Beat'
     players: 1
     controls:
@@ -264,7 +264,7 @@
       platform: Windows
       checksum: cbbe554db3ca515a2206a2bbb2bfc0f4abe7617640159020a5a650cba42eb616
 -
-  game:
+  project:
     name: 'Lego Erego'
     players: 1
     controls:
@@ -299,7 +299,7 @@
       platform: Windows
       checksum: cde73c3e9c058f828b29d27ca502119d21ad06c1a57e879ff4f81967274b9094
 -
-  game:
+  project:
     name: 'Prime Delivery'
     players: 1
     controls:
@@ -334,7 +334,7 @@
       platform: Windows
       checksum: a27b2f45d3411bfc9e0369b1877b0ee26ca874f11794665f996327db81ab6571
 -
-  game:
+  project:
     name: "Quentin Québec's Quest for Questionable Quality"
     players: 1
     controls:
@@ -372,7 +372,7 @@
       platform: Windows
       checksum: 71a26e5f6bb38552df3f55d22d6182bbb960808472f1828d5abe2267b223974e
 -
-  game:
+  project:
     name: 'The Saga of Droja'
     players: 1
     controls:

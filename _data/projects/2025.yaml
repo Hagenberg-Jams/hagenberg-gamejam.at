@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: 2FAil
     players: 1
     controls:
@@ -35,7 +35,7 @@
       platform: Web
       checksum: 89ec7207a0eaea0a05e8d265ce7aad6331b02b4866d9766e95579bd5527e2c35
 -
-  game:
+  project:
     name: '5 Days at the Office'
     players: '1'
     controls:
@@ -73,7 +73,7 @@
       platform: Windows
       checksum: f7fa3faae1e7f7786aec928d4c6f5c2f7d2ea9b32e3b5a8e13f66eefdf1bdd21
 -
-  game:
+  project:
     name: A-13-UN-IVY
     players: '1'
     controls:
@@ -110,7 +110,7 @@
       platform: Windows
       checksum: b639169da1fc1ade759407db2af2370272fbb3f26d0eab01bb0daa7e0df42dce
 -
-  game:
+  project:
     name: 'Banana Code'
     players: 3-8
     controls:
@@ -146,7 +146,7 @@
       platform: Windows
       checksum: 02c12a8a9cb52b9d57452ed81cacd1171cd88dad951c9aa5cd2c11424a63cacf
 -
-  game:
+  project:
     name: 'Dumber Than You Think'
     players: 1
     controls:
@@ -183,7 +183,7 @@
       platform: Windows
       checksum: 7f09a659793562f5e488208f0b55e07f313c7cf0ee61667e7c7b6448ed0e0bb0
 -
-  game:
+  project:
     name: 'Freindin Keat Zombaut'
     players: 1
     controls:
@@ -222,7 +222,7 @@
       platform: Linux
       checksum: 8676083056ca72ea23515f6d2c7ee9bda9e24acab174c223c8d97ad2e22319a2
 -
-  game:
+  project:
     name: GPS-E
     players: 1
     controls:
@@ -259,7 +259,7 @@
       platform: Windows
       checksum: e4bd311129b1b6c80c1163bfc19dc359f4dfe2643a148683b38967cbafe6d151
 -
-  game:
+  project:
     name: 'He Moasta'
     players: '1'
     controls:
@@ -296,7 +296,7 @@
       platform: Windows
       checksum: 26ddbc2c487ac565578144a9b707f2dafcfcb85bcba50a21abc41bdfbc619ff3
 -
-  game:
+  project:
     name: 'How to D-AI-TE'
     players: '1'
     controls:
@@ -333,7 +333,7 @@
       platform: Windows
       checksum: 202b22875fbf45b71895ef74b3e70155f9bbaa6d040b3b2bb895be3159eec49c
 -
-  game:
+  project:
     name: 'Knight And Squire'
     players: '1'
     controls:
@@ -371,7 +371,7 @@
       platform: Windows
       checksum: e74d292cfd34a403a4f7423f211fa82302d3afd4bba42a263b27a140c89fc42c
 -
-  game:
+  project:
     name: 'Prove You Bleed'
     players: 2
     controls:
@@ -408,7 +408,7 @@
       platform: Windows
       checksum: 7f006a3dcd957c740ebe01078ee31aff342ef1937ec370a771f6c154b2fe6510
 -
-  game:
+  project:
     name: 'R.O.B - Royally Ordinary Bot'
     players: '1'
     controls:
@@ -444,7 +444,7 @@
       platform: Windows
       checksum: 5223cff225194a34dc37e3d68e14b67a1be6b2381e097e36dd0f8e593d6acb04
 -
-  game:
+  project:
     name: 'RAM Rampant'
     players: 1
     controls:
@@ -479,7 +479,7 @@
       platform: Windows
       checksum: e20de04dd66ff6dc372b591d46909c72a564c8f501ff2a1dbae18740b099c6d0
 -
-  game:
+  project:
     name: 'Singing Fish Enterprise'
     players: '1'
     controls:
@@ -515,7 +515,7 @@
       platform: Windows
       checksum: 3dc08727418e91a8b81cedc1a509dc4e00ac269e27e6a911fabc13f88196fd82
 -
-  game:
+  project:
     name: 'Stupido Cupido'
     players: '1'
     controls:
@@ -552,7 +552,7 @@
       platform: Windows
       checksum: f29b772dd76b5faea34ba200101fef5e481b6587bbf420d1d8afa018c6bc9de8
 -
-  game:
+  project:
     name: 'Wind Up Journey'
     players: '1'
     controls:

@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: 'Angel on Prohibition'
     players: 1
     controls:
@@ -36,7 +36,7 @@
       platform: Windows
       checksum: 82f25a6356f634b8057b3808274220862bb4d90ad59dc2f010fdfda83a557d02
 -
-  game:
+  project:
     name: 'Car Jack'
     players: 1
     controls:
@@ -72,7 +72,7 @@
       platform: Windows
       checksum: 67e2661c775aac0b36e36a3e9bfb1febb1698e843e3c5a96b3ad519122f47ba4
 -
-  game:
+  project:
     name: 'Der Rattenfänger von Götschka'
     players: 1
     controls:
@@ -108,7 +108,7 @@
       platform: Windows
       checksum: 97b6466b98907fa2492c4de4e86e58fc44d9143c0b6e658d5cd8197c4b2f02c3
 -
-  game:
+  project:
     name: Ekia
     players: 1
     controls:
@@ -147,7 +147,7 @@
       platform: Windows
       checksum: d8f373ba7b436796974252b506f8a5cd713533aaff5267f0f4d051305361210e
 -
-  game:
+  project:
     name: 'Fund Raider'
     players: 1
     controls:
@@ -184,7 +184,7 @@
       platform: Windows
       checksum: da971c976144e7407d462909089eef23f432f5d2b7aa5269b5287cab459932d9
 -
-  game:
+  project:
     name: '"Good" Boy'
     players: 1
     controls:
@@ -218,7 +218,7 @@
       platform: Windows
       checksum: 48016a85ffea726ebe8a5568d4e3c95b1506f2806fbfc4343fa01430588cfdfa
 -
-  game:
+  project:
     name: Hack-IT
     players: 1
     controls:
@@ -258,7 +258,7 @@
       platform: Windows
       checksum: 79fbf7d6dffdafa77eb367b9359e2f6a16eb74cf4f8a1a6673c87a8b371b1821
 -
-  game:
+  project:
     name: Rotzbuab
     players: 1
     controls:
@@ -296,7 +296,7 @@
       platform: Windows
       checksum: dd1460ca5e9ce05fc4bcdda01050bf72e38bcb0a121e14aef2a91c19db3cbd63
 -
-  game:
+  project:
     name: "Santa's Crystal Mess"
     players: 1
     controls:
@@ -335,7 +335,7 @@
       platform: Windows
       checksum: 883e7e9bc872ce455cf54402ff8754e2fb18501bea441ecd2ad83cde8c4d099c
 -
-  game:
+  project:
     name: 'Snails with Feet'
     players: 1
     controls:
@@ -370,7 +370,7 @@
       platform: Windows
       checksum: 703e75e06052aec60392f5cbb60b96a69449e0c8be298eeef4f97ebe5d953635
 -
-  game:
+  project:
     name: 'The Rise and Fall of Bernd'
     players: 1
     controls:

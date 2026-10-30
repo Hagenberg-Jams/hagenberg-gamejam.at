@@ -6,6 +6,16 @@ hero:
     - gamejam_index_1.webp
     - gamejam_index_2.webp
     - gamejam_index_3.webp
+highlights:
+  - icon: document
+    title: '1 Topic'
+    text: 'Each Hagenberg Game Jam follows a single topic, often related to current events.'
+  - icon: clock
+    title: '36 Hours'
+    text: 'From Saturday, 9 am to Sunday, 9 pm: there are only 36 hours available to create a game.'
+  - icon: bolt
+    title: '∞ Ideas'
+    text: "Perfection isn't usually the essential quality in a game jam. Great ideas are."
 about:
   eyebrow: About
   title: 'The Hagenberg Game Jam'

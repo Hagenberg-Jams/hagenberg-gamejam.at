@@ -54,15 +54,49 @@ function listFiles(string $dir): array
     return $files;
 }
 
-function normalize(string $relative, string $content): string
+function normalize(string $relative, string $content, bool $isBaseline): string
 {
     // The sitemap contains the build time.
     if ($relative === 'sitemap.xml') {
         $content = (string) preg_replace('#<lastmod>[^<]*</lastmod>#', '<lastmod/>', $content);
         $content = (string) preg_replace('#processing_time_ms="[^"]*"#', '', $content);
+        // The order of the URLs has no meaning.
+        preg_match_all('#<url>.*?</url>#s', $content, $urls);
+        sort($urls[0]);
+        $content = implode("\n", $urls[0]);
     }
 
-    return $content;
+    if (!str_ends_with($relative, '.html')) {
+        return $content;
+    }
+
+    // Intended renames since pre-engine, applied to the baseline only.
+    if ($isBaseline) {
+        $content = strtr($content, [
+            'indigo-' => 'primary-',
+            'game-card' => 'project-card',
+            'game-search-' => 'project-search-',
+            'games-grid' => 'projects-grid',
+            'games-heading' => 'projects-heading',
+            'data-game-name' => 'data-project-name',
+            'gameCards' => 'projectCards',
+        ]);
+
+        // These texts moved from the template into a YAML file, so they are now escaped.
+        if ($relative === 'index.html') {
+            $content = strtr($content, ['&infin;' => '∞', "isn't" => 'isn&#039;t']);
+        }
+    }
+
+    // The stylesheet is rebuilt, so its cache-busting hash changes.
+    $content = (string) preg_replace('#app\.css\?v=[0-9a-f]+#', 'app.css', $content);
+    // The consent script was rewritten for several videos per page. Browser tests cover it.
+    $content = (string) preg_replace('#// Cookie consent \(DSGVO\).*?applyConsentState\(\);\s*\}\);#s', '', $content);
+    $content = (string) preg_replace('/<!--.*?-->/s', '', $content);
+    // Whitespace between tags changes when templates are split up.
+    $content = (string) preg_replace('/\s+/', ' ', $content);
+
+    return (string) preg_replace('/> </', '><', $content);
 }
 
 $baseline = null;
@@ -97,8 +131,12 @@ $added = array_keys(array_diff_key($new, $old));
 $changed = [];
 
 foreach (array_intersect_key($old, $new) as $relative => $path) {
-    $before = normalize($relative, (string) file_get_contents($path));
-    $after = normalize($relative, (string) file_get_contents($new[$relative]));
+    if ($relative === 'media/app.css') {
+        continue;
+    }
+
+    $before = normalize($relative, (string) file_get_contents($path), true);
+    $after = normalize($relative, (string) file_get_contents($new[$relative]), false);
     if ($before !== $after) {
         $changed[] = $relative;
     }

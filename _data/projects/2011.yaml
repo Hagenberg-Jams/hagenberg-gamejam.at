@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: 'Dude hit Space to Play?!'
     players: '2'
     controls:
@@ -37,7 +37,7 @@
       platform: Windows
       checksum: b2be0b276ceb99bd53b5f3fce2c6eb8da06d62abbef683bea97bb4d80dce80c5
 -
-  game:
+  project:
     name: "Dude, where's my super powers?!"
     players: '1'
     controls:
@@ -71,7 +71,7 @@
       platform: Windows
       checksum: ff7ddf8de6b8a3c5d7f93c6afe3ce4ac8835a7deda8f5825730ad97bc445b383
 -
-  game:
+  project:
     name: Herocraft
     players: '1'
     controls:
@@ -115,7 +115,7 @@
       platform: Web
       checksum: 7c2d65651f4ac1f124b12e0f73b26f0382f5f72cf97fee21a2be2cbcdad10c05
 -
-  game:
+  project:
     name: SP4WN
     players: '2'
     controls:
@@ -153,7 +153,7 @@
       platform: Windows
       checksum: 5bebc03e98cff1bf453a67761cbd056bd662d9565ef3807b6825ba809cf54b52
 -
-  game:
+  project:
     name: 'Super Hangover'
     players: '1'
     controls:
@@ -186,7 +186,7 @@
       platform: Windows
       checksum: 5f9b28044bb59e53cf8cdf3468eb2a70aca3dc81a4d4c5dfc49af410dfec432e
 -
-  game:
+  project:
     name: 'The Holy Hangover'
     players: '1'
     controls:
@@ -220,7 +220,7 @@
       platform: Windows
       checksum: 9ffb51cdfe33f91fd6c45663b8aefc77ef7d3d8838af5ff53e9aae99533cf369
 -
-  game:
+  project:
     name: Winterfest
     players: '1'
     controls:

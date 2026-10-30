@@ -1,6 +1,8 @@
 <?php
 
 return [
+    'type' => 'game',
+
     /*
     |--------------------------------------------------------------------------
     | Site Data (previously Jekyll _config.yml/site.data)
@@ -9,7 +11,8 @@ return [
     | This file contains content-ish configuration used in templates
     | (logos, contact info, social links, current jam state, etc.).
     |
-    | Access it using: config('gamejam.key')
+    | Access it using: config('jam.key'). Everything not set here comes from the
+    | engine's defaults and the preset named by `type`.
     |
     */
 
@@ -60,5 +63,7 @@ return [
     | Leave empty for local or same-origin /games/.
     |
     */
-    'games_base_url' => env('GAMES_BASE_URL', null),
+    'downloads' => [
+        'base_url' => env('GAMES_BASE_URL', null),
+    ],
 ];

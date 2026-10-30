@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: 'Brut Force'
     players: 1
     controls:
@@ -38,7 +38,7 @@
       platform: macOS
       checksum: 6260d78575832273783ef455d26ad0239ded620c28e473e680d6ae707d780e97
 -
-  game:
+  project:
     name: CATharsis
     players: 1
     controls:
@@ -74,7 +74,7 @@
       platform: Windows
       checksum: 0bdcfc5e28964c4c68294dfd168f003fcf112418402fd6aac873300c38a32c79
 -
-  game:
+  project:
     name: Counttown
     players: 1
     controls:
@@ -115,7 +115,7 @@
       platform: macOS
       checksum: a385c62f0ac8b66318df4e7ddcd03374345b2899e0fbbbab0d952a81f6517f28
 -
-  game:
+  project:
     name: 'Kraut und Rüben'
     players: 1
     controls:
@@ -150,7 +150,7 @@
       platform: Windows
       checksum: a0552cba3565f7d477a6f93827090759c22868e0b3d3e2611d8c9546b1e10e29
 -
-  game:
+  project:
     name: 'Last Minute Love'
     players: 1
     controls:
@@ -189,7 +189,7 @@
       platform: macOS
       checksum: 9cd15049a7867c43573c47b0c83126f48187f167804813d71189732b38e9e4bc
 -
-  game:
+  project:
     name: "Santa's Dash Driver"
     players: 1
     controls:
@@ -225,7 +225,7 @@
       platform: Windows
       checksum: d9c99e27c4e92d8398150fa4af5a1c8bf83afbcf0ebd175d248f91b891b711bc
 -
-  game:
+  project:
     name: Smashtronaut
     players: 1
     controls:
@@ -260,7 +260,7 @@
       platform: Windows
       checksum: 1d579c28d9fc529083e4e05514f9a52ab3712fa89957d1d2e8d37a217459e59d
 -
-  game:
+  project:
     name: 'You Only Die Once'
     players: 1
     controls:

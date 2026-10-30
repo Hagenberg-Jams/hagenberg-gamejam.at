@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: 'Area 2020'
     players: 1
     controls:
@@ -35,7 +35,7 @@
       platform: Windows
       checksum: 3359ee206f139b2525183878c1edb71cb13d84fe79b58589b5da6b1e45bfdce9
 -
-  game:
+  project:
     name: 'Back in Time'
     players: 1
     controls:
@@ -75,7 +75,7 @@
       platform: Windows
       checksum: 462c2fe7c939ae962b66230d738787a05b8c1604faa4bd684b8fb89f8121ba9c
 -
-  game:
+  project:
     name: 'Bodybuilder Blackout'
     players: 2
     controls:
@@ -115,7 +115,7 @@
       platform: Windows
       checksum: 26a7b308a9feceb243c4846cbfcdbb9842398427516cce8ce05cbc6dbbb42a0c
 -
-  game:
+  project:
     name: 'Cyberspace 2020'
     players: 1
     controls:
@@ -150,7 +150,7 @@
       platform: Windows
       checksum: f74868ebb3af6dd685f6d53434d8a0b410912e15bdb5ef0fe6e04c9a980309c7
 -
-  game:
+  project:
     name: 'Hätte Hätte Fahrradkette'
     players: 1
     controls:
@@ -190,7 +190,7 @@
       platform: Windows
       checksum: a9037baf3c2f9dc7b708f465eee2ab8580c6ba95c42665e92d26d65fa3bd9317
 -
-  game:
+  project:
     name: 'Roberto Karotto'
     players: 1
     controls:
@@ -228,7 +228,7 @@
       platform: Windows
       checksum: 665ff12f5e59a9f33696a26ea53d76ca912cd7967466f2030d8d92605d686476
 -
-  game:
+  project:
     name: Unplanet
     players: 1
     controls:
@@ -269,7 +269,7 @@
       platform: Linux
       checksum: d0039aa14d47e9bd9d62b61fe84f7f454e5e632bf89c83f322b33339dbca4ec3
 -
-  game:
+  project:
     name: WIZZ
     players: 1
     controls:

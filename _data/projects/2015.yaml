@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: 'Christmas Chaos: Home Edition'
     players: 2-4
     controls:
@@ -43,7 +43,7 @@
       platform: Windows
       checksum: 85b5132b6e39d821fb567044daba3fecb8f95907b8b7e5c49847939413b3cff4
 -
-  game:
+  project:
     name: 'Fuck Yeah, Bullets'
     players: 2
     controls:
@@ -81,7 +81,7 @@
       platform: macOS
       checksum: 61a2625b416665414f2783fbfee0d2013de25fcc3f05b98cf22e1358038fdaf3
 -
-  game:
+  project:
     name: 'Lanner die Waldfee'
     players: 1
     controls:
@@ -121,7 +121,7 @@
       platform: Windows
       checksum: a71c39b4ccb8a7f5d7a8317da9c26595897c0f5ff4b6e7f3f8f83b11d2010ee2
 -
-  game:
+  project:
     name: 'Magnomaster 3000'
     players: 2-4
     controls:
@@ -164,7 +164,7 @@
       platform: Windows
       checksum: a7d376f0040feff8703aef2ff06c63b87a109697cfb83404519f645f362acba8
 -
-  game:
+  project:
     name: 'Notwendiges Übel'
     players: 1-4
     controls:
@@ -204,7 +204,7 @@
       platform: Windows
       checksum: 58d2b4f6fcf7862620c8e6a631ebb6676edbf367a5401dad8fcd9dd9d4af170f
 -
-  game:
+  project:
     name: 'One Push-Men'
     players: 1-2
     controls:
@@ -242,7 +242,7 @@
       platform: Windows
       checksum: c5daf72b46d4494ca2499f5993346df4f73090fa4fca09714d2f314cb7eb10a1
 -
-  game:
+  project:
     name: 'Power Switch'
     players: 1
     controls:
@@ -291,7 +291,7 @@
       platform: Windows
       checksum: 6247e68f524692d91c5697c165720a41b2655f1a442fcbb7c69b69836ac41f0d
 -
-  game:
+  project:
     name: 'Super Elemental Fighters'
     players: 1-4
     controls:
@@ -327,7 +327,7 @@
       file: superelementalfighters.zip
       platform: Windows
 -
-  game:
+  project:
     name: 'The Legend of Journey'
     players: 1
     controls:
@@ -364,7 +364,7 @@
       platform: Windows
       checksum: 90f407381e60eff0aa1e61e77ebe07452cf450aefe0887774534e2caeecb2d3d
 -
-  game:
+  project:
     name: 'We Heart Mom'
     players: 1-4
     controls:

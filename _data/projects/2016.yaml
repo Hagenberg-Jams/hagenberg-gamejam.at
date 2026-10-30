@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: 'Call Your Mom'
     players: 2
     controls:
@@ -35,7 +35,7 @@
       platform: Windows
       checksum: 33ba401a3069a9cbcfe0fc8e8f1ab8dc44c89545dafb3dfb61de07e3b1697fbd
 -
-  game:
+  project:
     name: 'Dark Booty'
     players: 2-4
     controls:
@@ -71,7 +71,7 @@
       platform: Windows
       checksum: 04e3458da1e7989d0ca61fe2a284ff39b3ab487498aed7ed281beaf1b5923c6a
 -
-  game:
+  project:
     name: 'Divided We Stand'
     players: 1
     controls:
@@ -107,7 +107,7 @@
       platform: Windows
       checksum: 3fb1808376ef36555b6cefbdf21d197dc597a523a1f53c7d288a144cfe37702f
 -
-  game:
+  project:
     name: 'Drop Down For What'
     players: 2-4
     controls:
@@ -148,7 +148,7 @@
       platform: macOS
       checksum: 973b54dcaa6a639e154fb656335902b3a9f95a252d6450ee1dc88f373203af1f
 -
-  game:
+  project:
     name: 'Elevator Pitch'
     players: 2
     controls:
@@ -184,7 +184,7 @@
       platform: Windows
       checksum: 8bea1b57e93cbdb24b5cd675fe662d0f23a5593e21906f3aa771dc0f57f76adf
 -
-  game:
+  project:
     name: 'Elevator Rush'
     players: 1
     controls:
@@ -222,7 +222,7 @@
       platform: Windows
       checksum: b615140b7ec5f7be6238198c932d1ce887285d8de4d55a2d04a5b695c20a1017
 -
-  game:
+  project:
     name: 'Falling in Love'
     players: 2
     controls:
@@ -257,7 +257,7 @@
       url: 'http://playcanv.as/p/lgvUkAuU/'
       platform: PlayCanvas
 -
-  game:
+  project:
     name: 'Flunkyball Simulator'
     players: 2-4
     controls:
@@ -295,7 +295,7 @@
       platform: Windows
       checksum: be2711552392b1de3cf51b7cec966422568fbebb7d0ef7ab15afe2da31f08c23
 -
-  game:
+  project:
     name: 'Panda Punch'
     players: 1
     controls:
@@ -331,7 +331,7 @@
       platform: Windows
       checksum: 6a76f82c521044f7a5c1e33036fc31146ab2e2a3f1ef4d4f331720b7b784eb59
 -
-  game:
+  project:
     name: Ram-Hog-Boom
     players: 2-8
     controls:
@@ -370,7 +370,7 @@
       platform: Windows
       checksum: c299a96ed2520d4601339328f0cf89e5abf5f113959a11285d2b19e40a5f0711
 -
-  game:
+  project:
     name: Shields
     players: 2
     controls:
@@ -404,7 +404,7 @@
       platform: Windows
       checksum: c75f9b23282f46999534cfad899683bf5c1278e1cc0fd55dfd5baa3b0990fa07
 -
-  game:
+  project:
     name: 'Stoned 2 Death'
     players: 2-4
     controls:
@@ -441,7 +441,7 @@
       platform: Windows
       checksum: fe8682da98ca4e3dd5fbcd650395a435a8d39f6430e7912f79622922452726ab
 -
-  game:
+  project:
     name: 'Urtica Marina'
     players: 3
     controls:

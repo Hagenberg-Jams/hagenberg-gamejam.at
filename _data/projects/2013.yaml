@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: "Angry Programmer's Violent Adventures"
     players: '1'
     controls:
@@ -38,7 +38,7 @@
       platform: Windows
       checksum: 9d2beb54e5a399e77a16af11cea4f548ce48fcdd712f9fd51627a999ca389f8e
 -
-  game:
+  project:
     name: 'Bank Robby'
     players: '1'
     controls:
@@ -74,7 +74,7 @@
       platform: Windows
       checksum: 23f68ce63ca9f969d589346a760a957666eae98a8e9e8a814ebacaf1a49812f0
 -
-  game:
+  project:
     name: I969
     players: '2'
     controls:
@@ -114,7 +114,7 @@
       platform: macOS
       checksum: 082732805312ad9013507468c8d405712cc37e1959a02ffe7493f0f388983465
 -
-  game:
+  project:
     name: IndusTree
     players: '2'
     controls:
@@ -148,7 +148,7 @@
       platform: Windows
       checksum: d9c89700c84c220117964bdcece27699c6906346e0cd29c9b95a6b3d5153c743
 -
-  game:
+  project:
     name: 'Space Revenge'
     players: '2'
     controls:
@@ -185,7 +185,7 @@
       platform: Windows
       checksum: 06c404c4fe4cc958c230d5b54a71fb4b4e68a11a4bf3257d21d443a47b9db287
 -
-  game:
+  project:
     name: Venganza
     players: '1'
     controls:

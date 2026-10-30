@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: 'A Heist Through the Past'
     players: 1
     controls:
@@ -36,7 +36,7 @@
       platform: Windows
       checksum: cf1191d2964ff1e1063dcf11572a3d0e9f1f1b7fb3be7e6376afd0317f926c7c
 -
-  game:
+  project:
     name: 'Blurred Thoughts'
     players: 1
     controls:
@@ -73,7 +73,7 @@
       platform: Windows
       checksum: c4bcca86665ff2836734301fd6e8825f045710392ffbe75e2cffde15dc0ac45b
 -
-  game:
+  project:
     name: 'Box of Blocks'
     players: 1
     controls:
@@ -109,7 +109,7 @@
       platform: Windows
       checksum: e00e57850d233fd26bbfa716a3c5605ccca4ecf62505655e563fb80ef70c47cb
 -
-  game:
+  project:
     name: 'Der Herr Lumpus'
     players: 1
     controls:
@@ -142,7 +142,7 @@
       platform: Windows
       checksum: a6347f3ff22985b7fa7779fc322e6361d411f2cc09cf21e2f7a92703d2934e28
 -
-  game:
+  project:
     name: Faeground
     players: 1
     controls:
@@ -178,7 +178,7 @@
       platform: Windows
       checksum: 090bde4626748ba160680e48a260449ab0dea0dbe8d67f0a3f9b07b52e6cd215
 -
-  game:
+  project:
     name: 'Götschka 2077'
     players: 1
     controls:
@@ -224,7 +224,7 @@
       platform: Web
       checksum: e27f3c1d46c0e23c1125a1a55e3e4e4e910e4db9076b9012691df6038ca880e1
 -
-  game:
+  project:
     name: HomsTimyWimyAdventure
     players: 1
     controls:
@@ -260,7 +260,7 @@
       platform: Windows
       checksum: a1655fc1a24c8b84059bf57ff8db1b6d3ce4a1d284f74896b71c365808a5f6f9
 -
-  game:
+  project:
     name: 'Killing Time'
     players: 1
     controls:
@@ -297,7 +297,7 @@
       platform: Windows
       checksum: c1f9f7c890d938b7724a23f223372cabc393fcb50f41cdbc25e72bdf76ade203
 -
-  game:
+  project:
     name: 'Lost Knightlings'
     players: 1
     controls:
@@ -333,7 +333,7 @@
       platform: Windows
       checksum: 23531b2eccb9bf286847077ac575c3f2b04e97b708e61bccb6195422c9317a01
 -
-  game:
+  project:
     name: 'Night Drive'
     players: 1
     controls:
@@ -374,7 +374,7 @@
       platform: macOS
       checksum: d9a9ad2c399e924c1edb809113c988b93308e6d66dcb08f367da4f601187c69e
 -
-  game:
+  project:
     name: 'Ölige Fische putzen Spiele für Mädchen gratis online'
     players: 1
     controls:
@@ -411,7 +411,7 @@
       platform: Windows
       checksum: 456c3cc711acfb28ed3dd5be25a4e8db2247c29f438220119c545f17c156ba4d
 -
-  game:
+  project:
     name: "One Night at Furby's"
     players: 1
     controls:
@@ -449,7 +449,7 @@
       platform: Windows
       checksum: 2d20111f2eca0daeabd772da8bb2d47c74ae780f79064122203e5c129bdd2de0
 -
-  game:
+  project:
     name: 'Pac-Man – Blast from the Past'
     players: 1
     controls:
@@ -482,7 +482,7 @@
       platform: Windows
       checksum: 08a826bae5ee75b0b32532fdcbe3c7aee48f28934c1bc50972951a87a94480c0
 -
-  game:
+  project:
     name: 'Pasta from the Blasta'
     players: 1
     controls:
@@ -518,7 +518,7 @@
       platform: Windows
       checksum: 02c205d98e0fdd069dccf89f57ffefd3dc3176cf6c0e6f62b4d4186b51168915
 -
-  game:
+  project:
     name: Pipe.exe
     players: 1
     controls:
@@ -555,7 +555,7 @@
       platform: Windows
       checksum: f1881068572a85e03a50afe5087fed12ef847ea0d9b2321276d29a66c0f48411
 -
-  game:
+  project:
     name: RetroRex
     players: 1
     controls:
@@ -592,7 +592,7 @@
       platform: Windows
       checksum: d866af9a137b4adbb52e3498a1ca2e6ebeba4dc957248d5e15c1781537d5350a
 -
-  game:
+  project:
     name: Rexplosion
     players: 1
     controls:
@@ -629,7 +629,7 @@
       platform: Windows
       checksum: 0201ec9ffb5d0e6e8a4cbdcace73016a84eee23e933236d2713a56d5ff18a6c3
 -
-  game:
+  project:
     name: 'Sands of the Ancient'
     players: 1
     controls:
@@ -666,7 +666,7 @@
       platform: Windows
       checksum: b401ab031b7137ee4190d5f6019aa1dd18f523506087e1000367e05bf0cb4046
 -
-  game:
+  project:
     name: 'The Last Blast'
     players: 1
     controls:
@@ -700,7 +700,7 @@
       platform: Windows
       checksum: df75344d11a5de6305e5a29e1d01ac0f86919f18de76f204043c87cee0367399
 -
-  game:
+  project:
     name: 'The Last Jerboa – Surviving Mesozoic'
     players: 1
     controls:
@@ -737,7 +737,7 @@
       platform: Windows
       checksum: ebc6f337ed3a4a60b0c711b1ef5ec6928ed7d8f3f5ef9f52af980dec2abfce8e
 -
-  game:
+  project:
     name: 'The Whimsical Adventures Of Sir Trips A Lot'
     players: 1
     controls:
@@ -774,7 +774,7 @@
       platform: Windows
       checksum: 834a396d827dc8c48f4885cf4a9850e9f570feedfa93cda4fcfda7fc8d2e8198
 -
-  game:
+  project:
     name: 'Timelines Apart'
     players: 2
     controls:

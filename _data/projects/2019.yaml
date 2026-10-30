@@ -1,5 +1,5 @@
 -
-  game:
+  project:
     name: 'A Bedtime Story'
     players: 1
     controls:
@@ -39,7 +39,7 @@
       platform: Windows
       checksum: d36d51edba383f397353beba17e15a4d91e390b242c8c6f739318b53ab500b08
 -
-  game:
+  project:
     name: 'Block Western'
     players: 1
     controls:
@@ -76,7 +76,7 @@
       platform: Windows
       checksum: d743efca7723fff3227587b6e76c8ee83200c0d558bb4e96df0aba199be21ed0
 -
-  game:
+  project:
     name: 'BLUT BLUT BLUT'
     players: 1
     controls:
@@ -117,7 +117,7 @@
       platform: Windows
       checksum: 17fa17156b6b697d3dc6fe41f8bc00fdb82acc5408867da94cf84af590e4fdb6
 -
-  game:
+  project:
     name: Erfrechung
     players: 1
     controls:
@@ -157,7 +157,7 @@
       platform: Windows
       checksum: c864ec330a8975ff2a8822a9b11dd68f36c6e3b1ccbb0be2395a1fee186401b8
 -
-  game:
+  project:
     name: 'Eternal Duty'
     players: 1
     controls:
@@ -199,7 +199,7 @@
       platform: Linux
       checksum: fa0a083a31eba5d451c5c6cb7285639736964d440f69d4d634f2c9dfc012250a
 -
-  game:
+  project:
     name: 'Santa, Baby!'
     players: 1
     controls:
@@ -237,7 +237,7 @@
       platform: Windows
       checksum: f318e2becd7bdb250f1ba5e2f6cae3c315d90d64d3d65f683c959d740b89fa87
 -
-  game:
+  project:
     name: 'Space Politics'
     players: 1
     controls:
@@ -278,7 +278,7 @@
       platform: Windows
       checksum: 7e39efc956e85b5c74dfb86ca0a9e4451ff077650932a45f43e7628a2171613d
 -
-  game:
+  project:
     name: 'Summoning Pet Demons'
     players: 1
     controls:
@@ -325,7 +325,7 @@
       platform: Linux
       checksum: 484e54114545ccde7bfa51c55545a13c6b89f18298bfa3525ba67f1794dc758d
 -
-  game:
+  project:
     name: 'The Blame Game'
     players: 1
     controls:
@@ -373,7 +373,7 @@
       platform: Linux
       checksum: 1679d956631756569fa43a2f3733458fec85b89999a927d59f9ae5f0e7c8a772
 -
-  game:
+  project:
     name: 'Time - emiT'
     players: 1
     controls:
@@ -418,7 +418,7 @@
       platform: Windows
       checksum: c148531dbb11d861afa081c9e329a9b2e54d5fc850326d50a4a21f74a85eb6a5
 -
-  game:
+  project:
     name: Valhella
     players: 1
     controls:
