@@ -2,7 +2,7 @@
 
 @section('content')
 @php
-    $rules = \App\GameJamData::getRules();
+    $rules = \HagenbergJams\JamEngine\GameJamData::getRules();
     $columnSize = ceil(count($rules) / 2);
 @endphp
 

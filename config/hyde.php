@@ -492,10 +492,7 @@ return [
     'empty_output_directory' => false,
 
     // Register our custom tasks. TransferMediaAssets replaces Hyde's to optimize images before copy.
-    'build_tasks' => [
-        \App\Actions\ACleanSiteDirectoryBuildTask::class,
-        \App\Actions\PreBuildTasks\TransferMediaAssets::class,
-    ],
+    'build_tasks' => [],
 
     // Should a JSON build manifest with metadata about the build be generated?
     'generate_build_manifest' => true,

@@ -23,14 +23,6 @@
             "email": "emma@desilva.se"
         }
     ],
-    "require": {
-        "php": "^8.2",
-        "aws/aws-sdk-php": "^3.394",
-        "dompdf/dompdf": "^3.1",
-        "hyde/framework": "^2.0",
-        "laravel-zero/framework": "^11.0",
-        "symfony/yaml": "^7.4"
-    },
     "require-dev": {
         "hyde/realtime-compiler": "^4.5",
         "larastan/larastan": "^3.11",
@@ -78,5 +70,20 @@
     "prefer-stable": true,
     "bin": [
         "hyde"
-    ]
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Hagenberg-Jams/jam-engine"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.394",
+        "dompdf/dompdf": "^3.1",
+        "hagenberg-jams/jam-engine": "dev-main",
+        "hyde/framework": "^2.0",
+        "laravel-zero/framework": "^11.0",
+        "php": "^8.2",
+        "symfony/yaml": "^7.4"
+    }
 }

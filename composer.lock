@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c190ed661fa8e1bd235ac0f2dece1af9",
+    "content-hash": "3cf406aea06221b3603dc6902ced7bc7",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1295,6 +1295,69 @@
                 }
             ],
             "time": "2026-08-24T09:15:32+00:00"
+        },
+        {
+            "name": "hagenberg-jams/jam-engine",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Hagenberg-Jams/jam-engine.git",
+                "reference": "7b63e182aca80f62f081fcf70daf3014a0fb85a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Hagenberg-Jams/jam-engine/zipball/7b63e182aca80f62f081fcf70daf3014a0fb85a2",
+                "reference": "7b63e182aca80f62f081fcf70daf3014a0fb85a2",
+                "shasum": ""
+            },
+            "require": {
+                "aws/aws-sdk-php": "^3.394",
+                "dompdf/dompdf": "^3.1",
+                "hyde/framework": "^2.0",
+                "laravel-zero/framework": "^11.0",
+                "php": "^8.2",
+                "symfony/yaml": "^7.4"
+            },
+            "require-dev": {
+                "larastan/larastan": "^3.11",
+                "laravel/pint": "^1.31",
+                "phpstan/phpstan": "^2.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "HagenbergJams\\JamEngine\\JamEngineServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "HagenbergJams\\JamEngine\\": "src/"
+                }
+            },
+            "scripts": {
+                "lint": [
+                    "pint --test"
+                ],
+                "lint:fix": [
+                    "pint"
+                ],
+                "analyse": [
+                    "phpstan analyse --memory-limit=2G"
+                ],
+                "test": [
+                    "@lint",
+                    "@analyse"
+                ]
+            },
+            "description": "Reusable HydePHP engine for Hagenberg jam websites.",
+            "support": {
+                "source": "https://github.com/Hagenberg-Jams/jam-engine/tree/main",
+                "issues": "https://github.com/Hagenberg-Jams/jam-engine/issues"
+            },
+            "time": "2026-10-30T08:58:33+00:00"
         },
         {
             "name": "hyde/framework",
@@ -7815,7 +7878,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {},
+    "stability-flags": {
+        "hagenberg-jams/jam-engine": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

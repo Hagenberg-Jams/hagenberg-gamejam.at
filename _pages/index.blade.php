@@ -8,7 +8,7 @@
     $registrationActive = (bool) config('gamejam.registration.active', false);
     $registrationUrl = config('gamejam.registration.url', '');
 
-    $homepage = \App\GameJamData::getHomepage();
+    $homepage = \HagenbergJams\JamEngine\GameJamData::getHomepage();
     $hero = $homepage['hero'] ?? [];
     $heroImages = $hero['images'] ?? ['gamejam_index_1.jpg', 'gamejam_index_2.jpg', 'gamejam_index_3.jpg'];
     $about = $homepage['about'] ?? [];
@@ -135,7 +135,7 @@
                                 
                                 $imageSrc = ($imageFile !== '' && str_starts_with($imageFile, '/')) ? $imageFile : '/media/' . ltrim($imageFile, '/');
                                 // Responsive variants (400w, 800w) generated at build time
-                                $variants = \App\Services\OptimizeImagesService::getResponsiveVariants($imageFile);
+                                $variants = \HagenbergJams\JamEngine\Services\OptimizeImagesService::getResponsiveVariants($imageFile);
                                 $imgSrc = !empty($variants[400]) ? '/media/' . $variants[400] : $imageSrc;
                                 $srcset = !empty($variants)
                                     ? implode(', ', array_map(fn ($w, $v) => '/media/' . $v . ' ' . $w . 'w', array_keys($variants), $variants))
