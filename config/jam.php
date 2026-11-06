@@ -94,7 +94,7 @@ return [
             // Organisers are in the GitHub secret JAM_REGISTRATION_NOTIFY.
             'from' => 'noreply@hagenberg-gamejam.at',
             'retention_days' => 90,
-            'turnstile_site_key' => '',
+            'turnstile_site_key' => '0x4AAAAAAF1-azvKHw7ApI_n',
             'access' => [
                 'team' => 'hagenberg-jams',
                 'aud' => '',
