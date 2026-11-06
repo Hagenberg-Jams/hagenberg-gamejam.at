@@ -16,41 +16,95 @@ return [
     |
     */
 
-    'website' => env('GAMEJAM_WEBSITE', 'https://hagenberg-gamejam.at'),
-    'phone_number' => env('GAMEJAM_PHONE_NUMBER', ''),
-    'email' => env('GAMEJAM_EMAIL', 'info@hagenberg-gamejam.at'),
+    'website' => 'https://hagenberg-gamejam.at',
+    'phone_number' => '',
+    'email' => 'info@hagenberg-gamejam.at',
 
     'company' => [
-        'name' => env('GAMEJAM_COMPANY_NAME', 'University of Applied Sciences Upper Austria – Department of Digital Media'),
-        'url' => env('GAMEJAM_COMPANY_URL', 'https://fh-ooe.at/'),
-        'address' => env('GAMEJAM_COMPANY_ADDRESS', 'Softwarepark 11, 4232 Hagenberg, Austria'),
+        'name' => 'University of Applied Sciences Upper Austria – Department of Digital Media',
+        'url' => 'https://fh-ooe.at/',
+        'address' => 'Softwarepark 11, 4232 Hagenberg, Austria',
     ],
 
     // These are media file names (stored under _media/)
     'branding' => [
-        'logo_dark' => env('GAMEJAM_LOGO_DARK', 'hagenberg_game_jam_logo_black.svg'),
-        'logo_light' => env('GAMEJAM_LOGO_LIGHT', 'hagenberg_game_jam_logo_white.svg'),
+        'logo_dark' => 'hagenberg_game_jam_logo_black.svg',
+        'logo_light' => 'hagenberg_game_jam_logo_white.svg',
     ],
 
     'social' => [
-        'instagram' => env('GAMEJAM_INSTAGRAM_URL', 'https://www.instagram.com/hagenberg_gamejam/'),
-        'github' => env('GAMEJAM_GITHUB_URL', 'https://github.com/Hagenberg-Jams/hagenberg-gamejam.at/'),
-        'discord' => env('GAMEJAM_DISCORD_URL', 'https://discord.gg/kh2rXBj8nr'),
+        'instagram' => 'https://www.instagram.com/hagenberg_gamejam/',
+        'github' => 'https://github.com/Hagenberg-Jams/hagenberg-gamejam.at/',
+        'discord' => 'https://discord.gg/kh2rXBj8nr',
     ],
 
-    'latest_jam' => env('GAMEJAM_LATEST_JAM', '2025'),
+    'latest_jam' => '2025',
 
     'voting' => [
-        'active' => filter_var(env('GAMEJAM_VOTING_ACTIVE', 'false'), FILTER_VALIDATE_BOOL),
-        'url' => env('GAMEJAM_VOTING_URL', 'https://www.instagram.com/hagenberg_gamejam/'),
-        'deadline' => env('GAMEJAM_VOTING_DEADLINE', '2026-01-25T23:59:00'),
+        'active' => false,
+        'url' => 'https://www.instagram.com/hagenberg_gamejam/',
+        'deadline' => '2026-01-25T23:59:00',
     ],
 
     'registration' => [
-        'next_jam' => env('GAMEJAM_NEXT_JAM', '2025'),
-        'active' => filter_var(env('GAMEJAM_REGISTRATION_ACTIVE', 'false'), FILTER_VALIDATE_BOOL),
-        'url' => env('GAMEJAM_REGISTRATION_URL', 'https://forms.office.com/e/J0cpwNdunh'),
-        'deadline' => env('GAMEJAM_REGISTRATION_DEADLINE', '2025-12-07T23:59:00'),
+        'next_jam' => '2026',
+        'active' => true,
+        // Empty: the form on this site at /register.
+        'url' => '',
+        'deadline' => '2026-12-06T23:59:00',
+        'form' => [
+            'enabled' => true,
+            // A team lead and up to 5 members.
+            'team_size' => [1, 6],
+            'onsite_capacity' => 100,
+            'fields' => [
+                'participation' => true,
+                'discord' => true,
+                'programs' => true,
+                'comment' => true,
+            ],
+            'programs_label' => 'Our team consists of people from…',
+            'programs' => [
+                'Digital Arts Bachelor (DA.ba)',
+                'Media Technology and Design (MTD.ba)',
+                'Digital Arts Master (DA.ma)',
+                'Interactive Media Master (IM.ma)',
+                'Artificial Intelligence Solutions (AIS.ba)',
+                'Automotive Computing (AC.ba)',
+                'Design of Digital Products (DDP.ba)',
+                'Hardware-Software-Design (HSD.ba)',
+                'Communication and Knowledge Media Bachelor (KWM.ba)',
+                'Medical and Bioinformatics (MBI.ba)',
+                'Mobile Computing Bachelor (MC.ba)',
+                'Secure Information Systems Bachelor (SI.ba)',
+                'Software Engineering Bachelor (SE.ba)',
+                'Data Science and Engineering (DSE.ma)',
+                'Embedded Systems Design (ESD.ma)',
+                'Energy Informatics (ENI.ma)',
+                'Human-Centered Computing (HCC.ma)',
+                'Information Engineering and Management (IEM.ma)',
+                'Communication and Knowledge Media Master (KWM.ma)',
+                'Mobile Computing Master (MC.ma)',
+                'Secure Information Systems Master (SI.ma)',
+                'Software Engineering Master (SE.ma)',
+                'Alumni (graduates of any programme, not studying anymore)',
+                'External (not studying at FH OÖ)',
+            ],
+            'nickname_label' => 'Nickname',
+            // Organisers are in the GitHub secret JAM_REGISTRATION_NOTIFY.
+            'from' => 'noreply@hagenberg-gamejam.at',
+            'retention_days' => 90,
+            'turnstile_site_key' => '',
+            'access' => [
+                'team' => 'hagenberg-jams',
+                'aud' => '',
+            ],
+            'texts' => [
+                'intro' => 'Register your team for the Hagenberg Game Jam 2026! A team consists of a team lead and up to 5 members. We can host up to 100 people on site, and remote participation via Discord is possible too.',
+                'confirmed' => 'Join our Discord to get the latest news and your team roles: https://discord.gg/kh2rXBj8nr',
+                'declined' => '',
+            ],
+        ],
     ],
 
     /*

@@ -88,8 +88,8 @@ function normalize(string $relative, string $content, bool $isBaseline): string
         }
     }
 
-    // The stylesheet is rebuilt, so its cache-busting hash changes.
-    $content = (string) preg_replace('#app\.css\?v=[0-9a-f]+#', 'app.css', $content);
+    // Stylesheet and script are rebuilt, so their cache-busting hashes change.
+    $content = (string) preg_replace('#app\.(css|js)\?v=[0-9a-f]+#', 'app.$1', $content);
     // The consent script was rewritten for several videos per page. Browser tests cover it.
     $content = (string) preg_replace('#// Cookie consent \(DSGVO\).*?applyConsentState\(\);\s*\}\);#s', '', $content);
     $content = (string) preg_replace('/<!--.*?-->/s', '', $content);
