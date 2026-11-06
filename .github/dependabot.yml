@@ -1,8 +1,16 @@
 version: 2
 updates:
+  # One pull request per week for all PHP packages, including the Jam Engine.
   - package-ecosystem: composer
     directory: /
     schedule: { interval: weekly }
+    groups:
+      composer:
+        patterns: ['*']
+  # One pull request per week for all npm packages.
   - package-ecosystem: npm
     directory: /
     schedule: { interval: weekly }
+    groups:
+      npm:
+        patterns: ['*']
