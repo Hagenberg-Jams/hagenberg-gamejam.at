@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3cf406aea06221b3603dc6902ced7bc7",
+    "content-hash": "125bb609443c43168fe8bd5b9b663738",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1298,16 +1298,16 @@
         },
         {
             "name": "hagenberg-jams/jam-engine",
-            "version": "dev-main",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Hagenberg-Jams/jam-engine.git",
-                "reference": "e63ef3af43be14f8eb0a9e9af8724d0a350e5b5b"
+                "reference": "90a057872ac59f08330c12cb120bcf2041d5f9b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Hagenberg-Jams/jam-engine/zipball/e63ef3af43be14f8eb0a9e9af8724d0a350e5b5b",
-                "reference": "e63ef3af43be14f8eb0a9e9af8724d0a350e5b5b",
+                "url": "https://api.github.com/repos/Hagenberg-Jams/jam-engine/zipball/90a057872ac59f08330c12cb120bcf2041d5f9b0",
+                "reference": "90a057872ac59f08330c12cb120bcf2041d5f9b0",
                 "shasum": ""
             },
             "require": {
@@ -1324,7 +1324,6 @@
                 "pestphp/pest": "^4.0",
                 "phpstan/phpstan": "^2.2"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1359,10 +1358,10 @@
             ],
             "description": "Reusable HydePHP engine for Hagenberg jam websites.",
             "support": {
-                "source": "https://github.com/Hagenberg-Jams/jam-engine/tree/main",
+                "source": "https://github.com/Hagenberg-Jams/jam-engine/tree/v0.2.0",
                 "issues": "https://github.com/Hagenberg-Jams/jam-engine/issues"
             },
-            "time": "2026-11-06T11:16:25+00:00"
+            "time": "2026-11-06T11:29:09+00:00"
         },
         {
             "name": "hyde/framework",
@@ -7883,9 +7882,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "hagenberg-jams/jam-engine": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
