@@ -48,7 +48,7 @@ return [
 
     'registration' => [
         'next_jam' => '2026',
-        'active' => true,
+        'active' => false,
         // Empty: the form on this site at /register.
         'url' => '',
         'deadline' => '2026-12-06T23:59:00',
