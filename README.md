@@ -211,7 +211,7 @@ The announcement disappears from the home page when the jam starts, the topic bl
 
 ## 6. Updates and help
 
-When there is a new version of the engine or another dependency, Dependabot opens a pull request. Check its preview, then merge it. From one week before the jam until the end of the voting, only merge updates that fix a problem.
+Dependabot checks for updates once a week and opens at most one pull request each for `composer` (PHP packages and the engine), `npm` and `actions` (the shared workflow of the engine). A new engine version comes as two of them, `composer` and `actions`: merge both, so that package and workflow match. Check the preview of each pull request before merging. From one week before the jam until the end of the voting, only merge updates that fix a problem.
 
 `composer test` checks the few PHP files of this repository with Pint and PHPStan. `composer lint:fix` fixes the code style.
 

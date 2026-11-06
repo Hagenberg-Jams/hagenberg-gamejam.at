@@ -14,3 +14,10 @@ updates:
     groups:
       npm:
         patterns: ['*']
+  # The shared workflow of the Jam Engine, pinned to a release like the package.
+  - package-ecosystem: github-actions
+    directory: /
+    schedule: { interval: weekly }
+    groups:
+      actions:
+        patterns: ['*']
