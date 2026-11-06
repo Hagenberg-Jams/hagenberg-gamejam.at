@@ -63,7 +63,7 @@ return [
                 'programs' => true,
                 'comment' => true,
             ],
-            'programs_label' => 'Our team consists of people from…',
+            'programs_label' => 'Study programme',
             'programs' => [
                 'Digital Arts Bachelor (DA.ba)',
                 'Media Technology and Design (MTD.ba)',
