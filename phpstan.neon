@@ -1,6 +1,3 @@
-includes:
-    - phpstan-baseline.neon
-
 parameters:
     paths:
         - app
@@ -16,8 +13,8 @@ parameters:
 
     excludePaths:
         - vendor
-        - _site
-        - node_modules
+        - _site (?)
+        - node_modules (?)
         - storage (?)
         - bootstrap (?)
         - app/storage

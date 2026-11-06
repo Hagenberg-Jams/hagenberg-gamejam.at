@@ -1,0 +1,405 @@
+-
+  project:
+    name: 'Angel on Prohibition'
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      In this game, you play as an aspiring guardian "angel" with a questionable moral compass. Your main objective is to protect the cute grandmas while they are crossing the street (they have very poor vision :/ ). For every evil car you smite (including the passengers), extra points can be earned. Smashing two cars together gives you a big bonus! But be careful not to harm pedestrian elders!
+  team:
+    name: Noobiesoft
+    members:
+      - 'Simone Feldbacher'
+      - 'David Hohendanner'
+      - 'Eric Keplinger'
+      - 'Niklas Mikeska'
+      - 'Martin Siedler'
+  winner: 'no'
+  headerimage: angelonprohibition_header.webp
+  images:
+    -
+      file: angelonprohibition_image1_full.webp
+      thumb: angelonprohibition_image1_thumb.webp
+    -
+      file: angelonprohibition_image2_full.webp
+      thumb: angelonprohibition_image2_thumb.webp
+    -
+      file: angelonprohibition_image3_full.webp
+      thumb: angelonprohibition_image3_thumb.webp
+    -
+      file: angelonprohibition_image4_full.webp
+      thumb: angelonprohibition_image4_thumb.webp
+  download:
+    -
+      file: angelonprohibition.zip
+      platform: Windows
+      checksum: 82f25a6356f634b8057b3808274220862bb4d90ad59dc2f010fdfda83a557d02
+-
+  project:
+    name: 'Car Jack'
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Ever wondered how to become THE perfect car mechanic? Try our highly accurate car mechanic simulator now! Available in VR\*! Repair, replace and tune cars at your heart's desire! Help Jack to repair all the cars and lead the cars to a longer life and DIFFERENT, MULTIPLE ENDINGS!
+  team:
+    name: Uppertale
+    members:
+      - 'Sarah Haim'
+      - 'Johannes Huber'
+      - 'Rui Kremsmayr'
+      - 'Kevin La'
+  winner: 'no'
+  headerimage: carjack_header.webp
+  images:
+    -
+      file: carjack_image1_full.webp
+      thumb: carjack_image1_thumb.webp
+    -
+      file: carjack_image2_full.webp
+      thumb: carjack_image2_thumb.webp
+    -
+      file: carjack_image3_full.webp
+      thumb: carjack_image3_thumb.webp
+    -
+      file: carjack_image4_full.webp
+      thumb: carjack_image4_thumb.webp
+  download:
+    -
+      file: carjack.zip
+      platform: Windows
+      checksum: 67e2661c775aac0b36e36a3e9bfb1febb1698e843e3c5a96b3ad519122f47ba4
+-
+  project:
+    name: 'Der Rattenfänger von Götschka'
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      A man with a flute, a simple dream and nothing left to lose sets foot into an adventure of intrigue. Only the rats know his true motivation...
+  team:
+    name: 'Die Spieleentwickler'
+    members:
+      - 'Marcel Hasieber'
+      - 'Maximilian Punz'
+      - 'Florian Winkler'
+      - 'Sebastian Winkler'
+  winner: 'no'
+  headerimage: derrattenfaengervongoetschka_header.webp
+  images:
+    -
+      file: derrattenfaengervongoetschka_image1_full.webp
+      thumb: derrattenfaengervongoetschka_image1_thumb.webp
+    -
+      file: derrattenfaengervongoetschka_image2_full.webp
+      thumb: derrattenfaengervongoetschka_image2_thumb.webp
+    -
+      file: derrattenfaengervongoetschka_image3_full.webp
+      thumb: derrattenfaengervongoetschka_image3_thumb.webp
+    -
+      file: derrattenfaengervongoetschka_image4_full.webp
+      thumb: derrattenfaengervongoetschka_image4_thumb.webp
+  download:
+    -
+      file: derrattenfaengervongoetschka.zip
+      platform: Windows
+      checksum: 97b6466b98907fa2492c4de4e86e58fc44d9143c0b6e658d5cd8197c4b2f02c3
+-
+  project:
+    name: Ekia
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      The game is about an employee of a certain furniture store named Ekia. He is really good at being bad at his job because he is extremely introverted and avoids any customer interaction. However, to not lose his job, he has to complete several tasks throughout the day, like taking boxes from the pickup spot to the warehouse or taking care of accidents involving fake toilets. As he tries to complete his daily tasks, customers chase him, trying to get help from the employee. To get away, he can do actions like throwing cans of soda pop at them, or even hauling their children through the air, as this momentarily stuns them. 
+
+      Listen for the enthusiastic Ekia colleagues that give you new tasks over the intercom!
+  team:
+    name: "It'sAFeature"
+    members:
+      - 'Christoph Englert'
+      - 'Ramona Kranzl'
+      - 'Elisabeth Marx'
+      - 'Laura Pointinger'
+      - 'Jana Welte'
+  winner: 'no'
+  headerimage: ekia_header.webp
+  images:
+    -
+      file: ekia_image1_full.webp
+      thumb: ekia_image1_thumb.webp
+    -
+      file: ekia_image2_full.webp
+      thumb: ekia_image2_thumb.webp
+    -
+      file: ekia_image3_full.webp
+      thumb: ekia_image3_thumb.webp
+    -
+      file: ekia_image4_full.webp
+      thumb: ekia_image4_thumb.webp
+  download:
+    -
+      file: ekia.zip
+      platform: Windows
+      checksum: d8f373ba7b436796974252b506f8a5cd713533aaff5267f0f4d051305361210e
+-
+  project:
+    name: 'Fund Raider'
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Play as a Venetian who needs to outrun the global warming causing the rise of the water by jumping up the tall houses and edges provided. Along the way, you can even help people out and perhaps lessen the water with some good actions. Or make it rise faster by doing something bad.
+  team:
+    name: 'Suicide Squad'
+    members:
+      - 'Antonia Klar'
+      - 'Stefan Miskovic'
+      - 'Sandro Tadic'
+      - 'Julian Strunz'
+      - 'Viktoria Wereszczynska'
+  winner: 'no'
+  headerimage: fundraider_header.webp
+  images:
+    -
+      file: fundraider_image1_full.webp
+      thumb: fundraider_image1_thumb.webp
+    -
+      file: fundraider_image2_full.webp
+      thumb: fundraider_image2_thumb.webp
+    -
+      file: fundraider_image3_full.webp
+      thumb: fundraider_image3_thumb.webp
+    -
+      file: fundraider_image4_full.webp
+      thumb: fundraider_image4_thumb.webp
+  download:
+    -
+      file: fundraider.zip
+      platform: Windows
+      checksum: da971c976144e7407d462909089eef23f432f5d2b7aa5269b5287cab459932d9
+-
+  project:
+    name: '"Good" Boy'
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      "Good" Boy is about a recently adopted Shiba Inu puppy named Marshmallow, who doesn't know how to be a good boy for his owners. So he asks the experienced housecat, Mr. Mittens, for advice. But this devious feline doesn't like to have a dog around, so he tells Marshmallow that humans love destruction, turning the young dog into a destructive puppy. The game follows little Marshmallow through the house as he rips everything to bits!
+  team:
+    name: i++;
+    members:
+      - 'Michael Aichinger'
+      - 'Katharina Hegedüs'
+      - 'Andreas Schrattenecker'
+  winner: 'no'
+  headerimage: goodboy_header.webp
+  images:
+    -
+      file: goodboy_image1_full.webp
+      thumb: goodboy_image1_thumb.webp
+    -
+      file: goodboy_image2_full.webp
+      thumb: goodboy_image2_thumb.webp
+    -
+      file: goodboy_image3_full.webp
+      thumb: goodboy_image3_thumb.webp
+    -
+      file: goodboy_image4_full.webp
+      thumb: goodboy_image4_thumb.webp
+  download:
+    -
+      file: goodboy.zip
+      platform: Windows
+      checksum: 48016a85ffea726ebe8a5568d4e3c95b1506f2806fbfc4343fa01430588cfdfa
+-
+  project:
+    name: Hack-IT
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      You are an expert hacker who a mysterious stranger contacts for contract work. You are asked to infiltrate an enemy system without asking any questions. However, it soon becomes clear that the stranger is willing to go to extreme lengths to achieve his goals.
+
+      As you finish contracts, you earn money to upgrade your systems. Play multiple times to solve even the most challenging objectives.
+    controls_text: "Move - WASD\nShoot - Left Click / Space\nPause - ESC"
+  team:
+    name: Sboonorp
+    members:
+      - 'Stijn Driessens'
+      - 'CyberFreak44'
+      - 'Danielk0703'
+      - 'TheGamblingMan'
+      - 'Tim Willaert'
+  winner: jury
+  headerimage: hackit_header.webp
+  images:
+    -
+      file: hackit_image1_full.webp
+      thumb: hackit_image1_thumb.webp
+    -
+      file: hackit_image2_full.webp
+      thumb: hackit_image2_thumb.webp
+    -
+      file: hackit_image3_full.webp
+      thumb: hackit_image3_thumb.webp
+    -
+      file: hackit_image4_full.webp
+      thumb: hackit_image4_thumb.webp
+  download:
+    -
+      file: hackit.zip
+      platform: Windows
+      checksum: 79fbf7d6dffdafa77eb367b9359e2f6a16eb74cf4f8a1a6673c87a8b371b1821
+-
+  project:
+    name: Rotzbuab
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Rotzbuab (austr. for “snot boy”, alternatives include ‘louse boy’, ‘lout’, and ‘nuisance’, meaning: juvenile misbehaver) is not a game—it’s an experience. Become the neighborhood's snotty-nosed brat—revel in the power of a small boy wielding a carton of eggs, bottles and cans.
+
+      Watch all the grown-ups quiver in fear as you approach, riding your dreaded tricycle. Crash! Boom! Just make sure you look Cool while vandalizing; you would not want to look uncool doing all this…
+
+      The developers have cruelly abandoned this game due to a severe lack of time. There currently is no implemented win condition, so if you reach maximum swag, count yourself a winner!
+  team:
+    name: 'Moritz and the Machine'
+    members:
+      - 'Mia Cain'
+      - 'Moritz Höll'
+  winner: 'no'
+  headerimage: rotzbuab_header.webp
+  images:
+    -
+      file: rotzbuab_image1_full.webp
+      thumb: rotzbuab_image1_thumb.webp
+    -
+      file: rotzbuab_image2_full.webp
+      thumb: rotzbuab_image2_thumb.webp
+    -
+      file: rotzbuab_image3_full.webp
+      thumb: rotzbuab_image3_thumb.webp
+    -
+      file: rotzbuab_image4_full.webp
+      thumb: rotzbuab_image4_thumb.webp
+  download:
+    -
+      file: rotzbuab.zip
+      platform: Windows
+      checksum: dd1460ca5e9ce05fc4bcdda01050bf72e38bcb0a121e14aef2a91c19db3cbd63
+-
+  project:
+    name: "Santa's Crystal Mess"
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Santa wakes up just a few minutes before Christmas. He overslept because the day before, he had been partying very hard with some of his elves. The other elves have decided they do not want to work for him anymore because he does not treat them very well.
+
+      Santa has to collect as many gifts as possible before the time runs out to save Christmas. On his way around the hall, many elves block his way, and he has to overcome them and collect the gifts scattered around the hall.
+  team:
+    name: 'Angry Noodelz'
+    members:
+      - 'Dario Ackermann'
+      - 'Axel Bauer'
+      - 'Thomas Förg'
+      - 'Jascha Hanisch'
+      - 'Wolfgang Schwendtbauer'
+  winner: people
+  headerimage: santascrystalmess_header.webp
+  images:
+    -
+      file: santascrystalmess_image1_full.webp
+      thumb: santascrystalmess_image1_thumb.webp
+    -
+      file: santascrystalmess_image2_full.webp
+      thumb: santascrystalmess_image2_thumb.webp
+    -
+      file: santascrystalmess_image3_full.webp
+      thumb: santascrystalmess_image3_thumb.webp
+    -
+      file: santascrystalmess_image4_full.webp
+      thumb: santascrystalmess_image4_thumb.webp
+  download:
+    -
+      file: santascrystalmess.zip
+      platform: Windows
+      checksum: 883e7e9bc872ce455cf54402ff8754e2fb18501bea441ecd2ad83cde8c4d099c
+-
+  project:
+    name: 'Snails with Feet'
+    players: 1
+    controls:
+      - mouse
+    description: |
+      Snails with feet is a little narrative-driven experience where you play as "Feetifax". Your character has one weakness, and that is that he stinks. That is why he is locked away from society.
+
+      One day the resident of the fictional country "Feetaly" attempts to visit your town, but an accident happens. Your job is to rescue the president.
+  team:
+    name: 'Fungal Footed Friends'
+    members:
+      - 'Valentin Postl'
+      - 'Felix Rader'
+  winner: 'no'
+  headerimage: snailswithfeet_header.webp
+  images:
+    -
+      file: snailswithfeet_image1_full.webp
+      thumb: snailswithfeet_image1_thumb.webp
+    -
+      file: snailswithfeet_image2_full.webp
+      thumb: snailswithfeet_image2_thumb.webp
+    -
+      file: snailswithfeet_image3_full.webp
+      thumb: snailswithfeet_image3_thumb.webp
+    -
+      file: snailswithfeet_image4_full.webp
+      thumb: snailswithfeet_image4_thumb.webp
+  download:
+    -
+      file: snailswithfeet.zip
+      platform: Windows
+      checksum: 703e75e06052aec60392f5cbb60b96a69449e0c8be298eeef4f97ebe5d953635
+-
+  project:
+    name: 'The Rise and Fall of Bernd'
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: "You most certainly know the feeling when you've got a terrible day and just want to destroy everything. Your world is dark, and you can't escape. These days, talking to people or trying to walk to the colorful side is not recommended. This is the perfect moment to resign and release your raw emotions. You may find out that you still feel empty after destroying all there is to destroy. Not till then is the time right to finally walk to the bright side again. Thus, nobody wants to stay long in that angry state; you should get to the colorful side as soon as possible. If things seem too high to reach, just try holding on. Possibly, Bernd feels the same way."
+  team:
+    name: 'The Uncertain Result'
+    members:
+      - 'Aaron Bandion'
+      - 'Boris Steiner'
+      - 'Ahmed Zerzour'
+  winner: 'no'
+  headerimage: theriseandfallofbernd_header.webp
+  images:
+    -
+      file: theriseandfallofbernd_image1_full.webp
+      thumb: theriseandfallofbernd_image1_thumb.webp
+    -
+      file: theriseandfallofbernd_image2_full.webp
+      thumb: theriseandfallofbernd_image2_thumb.webp
+    -
+      file: theriseandfallofbernd_image3_full.webp
+      thumb: theriseandfallofbernd_image3_thumb.webp
+    -
+      file: theriseandfallofbernd_image4_full.webp
+      thumb: theriseandfallofbernd_image4_thumb.webp
+  download:
+    -
+      file: theriseandfallofbernd.zip
+      platform: Windows
+      checksum: e2695546be2847ec4a988fd6b223327a926d43673aab22b09d6a2455cb8ff340

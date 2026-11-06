@@ -1,0 +1,300 @@
+-
+  project:
+    name: 'Brut Force'
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      This game is about a solicitous hen who just wants to keep her eggs warm. But the batteries for the so important heating lamp need to be recharged all the time! But watch out - don't let them in for too long! So this simple task turns into an action-packed adventure full of fun, obstacles and batteries!
+  team:
+    name: 'Curly Braces'
+    members:
+      - 'Florian Friedrich'
+      - 'Julia Hauptmann'
+      - 'Jacqueline Lowe'
+      - 'Lukas Paul'
+  winner: 'no'
+  headerimage: brutforce_header.webp
+  images:
+    -
+      file: brutforce_image1_full.webp
+      thumb: brutforce_image1_thumb.webp
+    -
+      file: brutforce_image2_full.webp
+      thumb: brutforce_image2_thumb.webp
+    -
+      file: brutforce_image3_full.webp
+      thumb: brutforce_image3_thumb.webp
+    -
+      file: brutforce_image4_full.webp
+      thumb: brutforce_image4_thumb.webp
+  download:
+    -
+      file: brutforceWin.zip
+      platform: Windows
+      checksum: 5fc8fda903da3df20b740fd6ab377cc6904c53d9fed34ed74d9fc7b229491d46
+    -
+      file: brutforceMac.zip
+      platform: macOS
+      checksum: 6260d78575832273783ef455d26ad0239ded620c28e473e680d6ae707d780e97
+-
+  project:
+    name: CATharsis
+    players: 1
+    controls:
+      - gamepad
+    description: |
+      You are a cat and your owner has neglected you for too long, so it's time for revenge! Cause as much mayhem as you can before the alarm clock wakes him up. While you're redecorating the room always keep an eye on the clock. If the timer is close to zero, punch the clock to press the snooze button, for it will give you additional time! Now go and do your duty as a vengeful cat!
+  team:
+    name: 'Byte my ASCII'
+    members:
+      - 'Niko Frenkenberger'
+      - 'Lisa Gonaus'
+      - 'Christine Pühringer'
+      - 'Moritz Rührlinger'
+      - 'Damiano Weidenhausen'
+  winner: 'no'
+  headerimage: catharsis_header.webp
+  images:
+    -
+      file: catharsis_image1_full.webp
+      thumb: catharsis_image1_thumb.webp
+    -
+      file: catharsis_image2_full.webp
+      thumb: catharsis_image2_thumb.webp
+    -
+      file: catharsis_image3_full.webp
+      thumb: catharsis_image3_thumb.webp
+    -
+      file: catharsis_image4_full.webp
+      thumb: catharsis_image4_thumb.webp
+  download:
+    -
+      file: catharsis.zip
+      platform: Windows
+      checksum: 0bdcfc5e28964c4c68294dfd168f003fcf112418402fd6aac873300c38a32c79
+-
+  project:
+    name: Counttown
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      Space Engineer Nole got a last minute assignment: Fix the rocket while the countdown goes down and the rocket starts. Unfortunately the rocket is so rusty, that it continues to break - so don't stop hammering and fixing stuff because more repairing means more points! First Nole has to find one of the problems (could be a broken wing, tank, pipe, engine, ...), then fix it with the according tool. On the console at the bottom he can see how much time he has left.
+  team:
+    name: 'Rainbow Chilli Puppers'
+    members:
+      - 'Friedrich Bachinger'
+      - 'Niklas Guth'
+      - 'Eva-Maria Hobl'
+      - 'Daniel Lanner'
+      - 'Johannes Lugstein'
+      - 'Susanne Teufelauer'
+  winner: 'no'
+  headerimage: counttown_header.webp
+  images:
+    -
+      file: counttown_image1_full.webp
+      thumb: counttown_image1_thumb.webp
+    -
+      file: counttown_image2_full.webp
+      thumb: counttown_image2_thumb.webp
+    -
+      file: counttown_image3_full.webp
+      thumb: counttown_image3_thumb.webp
+    -
+      file: counttown_image4_full.webp
+      thumb: counttown_image4_thumb.webp
+  download:
+    -
+      file: counttownWin.zip
+      platform: Windows
+      checksum: 96aa752dcb0992924b678a96af7ca4450bf2593bb161f4b591bf9cced478e213
+    -
+      file: counttownMac.zip
+      platform: macOS
+      checksum: a385c62f0ac8b66318df4e7ddcd03374345b2899e0fbbbab0d952a81f6517f28
+-
+  project:
+    name: 'Kraut und Rüben'
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      In this game King Kraut has to fight off monstrous Rüben with exploding crystals on a tiny magical planet. Survive the attacks as long as possible and kill off enemies.
+  team:
+    name: Final_final_v02
+    members:
+      - 'Markus Hadinger'
+      - 'Matthias Patscheider'
+      - 'Bianca Zankl'
+  winner: 'no'
+  headerimage: krautundrueben_header.webp
+  images:
+    -
+      file: krautundrueben_image1_full.webp
+      thumb: krautundrueben_image1_thumb.webp
+    -
+      file: krautundrueben_image2_full.webp
+      thumb: krautundrueben_image2_thumb.webp
+    -
+      file: krautundrueben_image3_full.webp
+      thumb: krautundrueben_image3_thumb.webp
+    -
+      file: krautundrueben_image4_full.webp
+      thumb: krautundrueben_image4_thumb.webp
+  download:
+    -
+      file: krautundrueben.zip
+      platform: Windows
+      checksum: a0552cba3565f7d477a6f93827090759c22868e0b3d3e2611d8c9546b1e10e29
+-
+  project:
+    name: 'Last Minute Love'
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      Last Minute Love is a dating simulator in a nursing home. Don't waste your last chance to find true love and romance one of the available characters. Humor them with items or fulfill requests.
+  team:
+    name: 'I Thought This Was Speeddating'
+    members:
+      - 'Philip Caligagan'
+      - 'Sonja Futterknecht'
+      - 'Moritz Kubesch'
+      - 'Sebastian Tombor'
+  winner: people
+  headerimage: lastminutelove_header.webp
+  images:
+    -
+      file: lastminutelove_image1_full.webp
+      thumb: lastminutelove_image1_thumb.webp
+    -
+      file: lastminutelove_image2_full.webp
+      thumb: lastminutelove_image2_thumb.webp
+    -
+      file: lastminutelove_image3_full.webp
+      thumb: lastminutelove_image3_thumb.webp
+    -
+      file: lastminutelove_image4_full.webp
+      thumb: lastminutelove_image4_thumb.webp
+  download:
+    -
+      file: lastminuteloveWin.zip
+      platform: Windows
+      checksum: 8e90493d260bf691b22b6cc8441e6b8ee3e8034d3385cf7c678f6134599656b0
+    -
+      file: lastminuteloveMac.zip
+      platform: macOS
+      checksum: 9cd15049a7867c43573c47b0c83126f48187f167804813d71189732b38e9e4bc
+-
+  project:
+    name: "Santa's Dash Driver"
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      It is Christmas Eve, joy and love fills every home, everybody is eager to open presents and enjoy their evening with family and friends. Well, everybody except you, because you forgot to do your job to deliver said presents and are now in danger of being fired... again. So hurry up and deliver as many presents as possible before time runs out and whatever God you believe in has mercy on your poor soul.
+  team:
+    name: 'Voxel Vikings'
+    members:
+      - 'Daniela Krückel'
+      - 'Pascal Pilat'
+      - 'Barbara Reiter'
+      - 'Elias Wagner'
+      - 'Andreas Ziegelwanger'
+  winner: 'no'
+  headerimage: santasdashdriver_header.webp
+  images:
+    -
+      file: santasdashdriver_image1_full.webp
+      thumb: santasdashdriver_image1_thumb.webp
+    -
+      file: santasdashdriver_image2_full.webp
+      thumb: santasdashdriver_image2_thumb.webp
+    -
+      file: santasdashdriver_image3_full.webp
+      thumb: santasdashdriver_image3_thumb.webp
+    -
+      file: santasdashdriver_image4_full.webp
+      thumb: santasdashdriver_image4_thumb.webp
+  download:
+    -
+      file: santasdashdriver.zip
+      platform: Windows
+      checksum: d9c99e27c4e92d8398150fa4af5a1c8bf83afbcf0ebd175d248f91b891b711bc
+-
+  project:
+    name: Smashtronaut
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      A clumsy astronaut slept on the job on Mars and now they’re missing the rocket launch home! Your objective is to get to the rocket in time while struggling with (not so intuitive) controls and obstacles along the way.
+  team:
+    name: Toasty
+    members:
+      - 'Leoni Bassenge'
+      - 'Fabian Kainz'
+      - 'Theodor Knab'
+      - 'Marleigh Pach'
+  winner: 'no'
+  headerimage: smashtronaut_header.webp
+  images:
+    -
+      file: smashtronaut_image1_full.webp
+      thumb: smashtronaut_image1_thumb.webp
+    -
+      file: smashtronaut_image2_full.webp
+      thumb: smashtronaut_image2_thumb.webp
+    -
+      file: smashtronaut_image3_full.webp
+      thumb: smashtronaut_image3_thumb.webp
+    -
+      file: smashtronaut_image4_full.webp
+      thumb: smashtronaut_image4_thumb.webp
+  download:
+    -
+      file: smashtronaut.zip
+      platform: Windows
+      checksum: 1d579c28d9fc529083e4e05514f9a52ab3712fa89957d1d2e8d37a217459e59d
+-
+  project:
+    name: 'You Only Die Once'
+    players: 1
+    controls:
+      - keyboard
+    description: "After you are diagnosed with an incurable illness you have precisely five minutes left to live. However, there are still plenty of things you need to do before you finally kick the bucket. Clean up as many of your life's loose ends as possible to increase you score - based on which your last day on earth will be rated. Also, you're a weasel."
+  team:
+    name: 'Robotic Weasel Assault'
+    members:
+      - 'Rene Buchmayer'
+      - 'Verena Mappes'
+      - 'Thomas Pichler'
+      - 'Florian Rath'
+      - 'Isabella Rathner'
+  winner: jury
+  headerimage: youonlydieonce_header.webp
+  images:
+    -
+      file: youonlydieonce_image1_full.webp
+      thumb: youonlydieonce_image1_thumb.webp
+    -
+      file: youonlydieonce_image2_full.webp
+      thumb: youonlydieonce_image2_thumb.webp
+    -
+      file: youonlydieonce_image3_full.webp
+      thumb: youonlydieonce_image3_thumb.webp
+    -
+      file: youonlydieonce_image4_full.webp
+      thumb: youonlydieonce_image4_thumb.webp
+  download:
+    -
+      file: youonlydieonceWin.zip
+      platform: Windows
+      checksum: 067016669a8dd81f35af68af07208498846c8ff7d25a242543ac67ff8c077ce5
+    -
+      file: youonlydieonceMac.zip
+      platform: macOS
+      checksum: 73a85f367c5f8174c9bf1c6491fabd32467b3c828f9a38d579b1341c76b7dd52

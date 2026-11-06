@@ -1,0 +1,592 @@
+-
+  project:
+    name: 2FAil
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: "A game about exaggerated 2 Factor Authentication. The goal of the game is to log in and authenticate yourself by completing puzzles just in time before the upcoming gamejam deadline - good luck!\n\nPlay the game online at [2fail.vercel.app](https://2fail.vercel.app/)!"
+    controls_text: 'Keyboard & Mouse'
+  team:
+    name: 'Nocturnal Ducks'
+    members:
+      - 'Anja Greinecker'
+      - 'Nori Greinecker'
+      - 'Justus Warm'
+      - 'Elias Wolschlager'
+  winner: masterminds
+  headerimage: 2fail_header.webp
+  images:
+    -
+      file: 2fail_image1_full.webp
+      thumb: 2fail_image1_thumb.webp
+    -
+      file: 2fail_image2_full.webp
+      thumb: 2fail_image2_thumb.webp
+    -
+      file: 2fail_image3_full.webp
+      thumb: 2fail_image3_thumb.webp
+    -
+      file: 2fail_image4_full.webp
+      thumb: 2fail_image4_thumb.webp
+  download:
+    -
+      file: 2fail-Web.zip
+      platform: Web
+      checksum: 89ec7207a0eaea0a05e8d265ce7aad6331b02b4866d9766e95579bd5527e2c35
+-
+  project:
+    name: '5 Days at the Office'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: 'In 5 Days at the Office, you play an employee who hates his job. Fortunately, he receives an offer from a competing company. You sign a contract, stating that you will receive a massive bonus if you cause as much damage as possible to your current company. However, if you get fired before completing your fifth and final day at the company and receiving your paycheck, the offer is gone. During your workday, you must act artificially stupid and sabotage your objectives. Stay cautious; your boss is watching and will fire you if you are caught directly or if you overdo it.'
+    controls_text: "Movement: W, A, S, D\nInteraction: E"
+  team:
+    name: +gang;
+    members:
+      - 'Kareem Al-Khalily'
+      - 'Katharina Hegedüs'
+      - 'Sarah Lindinger'
+      - 'Jannick Lohner'
+      - 'Andreas Schrattenecker'
+      - 'Sandro Tadic'
+  winner: 'no'
+  headerimage: 5-days-at-the-office_header.webp
+  images:
+    -
+      file: 5-days-at-the-office_image1_full.webp
+      thumb: 5-days-at-the-office_image1_thumb.webp
+    -
+      file: 5-days-at-the-office_image2_full.webp
+      thumb: 5-days-at-the-office_image2_thumb.webp
+    -
+      file: 5-days-at-the-office_image3_full.webp
+      thumb: 5-days-at-the-office_image3_thumb.webp
+    -
+      file: 5-days-at-the-office_image4_full.webp
+      thumb: 5-days-at-the-office_image4_thumb.webp
+  download:
+    -
+      file: 5-days-at-the-office-Windows.zip
+      platform: Windows
+      checksum: f7fa3faae1e7f7786aec928d4c6f5c2f7d2ea9b32e3b5a8e13f66eefdf1bdd21
+-
+  project:
+    name: A-13-UN-IVY
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: "Alone on a Planet, out in the Galaxy, Foggy. The game is about an expedition ship that has crashed on the planet Gamma Centauri. You are an android responsible for maintenance near the crash site, which is why the military contacts you and orders you to assist in the investigation of the crash, since the **stupid** AI of the research rovers that are supposed to handle the investigation keeps causing accidents. So you set out to repair the rovers and uncover the circumstances of the catastrophe. And try to return to your base safely.\n\nHead out, repair all the rovers, and return to the ship/main base. Try to survive as your battery slowly runs out while you're outside."
+    controls_text: "- Movement: WASD  \n- Jump: Space  \n- Flashlight on/off: F\n- Interact: E\n- Close the minigame on the rover: ESC\n- Play the Minigames on the rover and look around: Mouse"
+  team:
+    name: 'Space Carrots'
+    members:
+      - 'Zoe McFife'
+      - 'Vanessa Nagelhofer'
+      - 'Quirin Pöchhacker'
+      - 'Martin Prommegger'
+      - 'Markus Timotheus Strasser'
+  winner: youngblood
+  headerimage: a-13-un-ivy_header.webp
+  images:
+    -
+      file: a-13-un-ivy_image1_full.webp
+      thumb: a-13-un-ivy_image1_thumb.webp
+    -
+      file: a-13-un-ivy_image2_full.webp
+      thumb: a-13-un-ivy_image2_thumb.webp
+    -
+      file: a-13-un-ivy_image3_full.webp
+      thumb: a-13-un-ivy_image3_thumb.webp
+    -
+      file: a-13-un-ivy_image4_full.webp
+      thumb: a-13-un-ivy_image4_thumb.webp
+  download:
+    -
+      file: a-13-un-ivy-Windows.zip
+      platform: Windows
+      checksum: b639169da1fc1ade759407db2af2370272fbb3f26d0eab01bb0daa7e0df42dce
+-
+  project:
+    name: 'Banana Code'
+    players: 3-8
+    controls:
+      - mouse
+    description: "Your boss has implemented a new AI system. He claims it can work 10 times faster and replace the least efficient employees. Only those who can keep up with the new bot will be allowed to stay.\nRumors are spreading that the AI is secretly stealing work from certain employees to have them dismissed. You must act quickly and identify the AI to secure your job. However, be careful, you still have to complete your own tasks. If you fail to finish your work during the day, you will have to continue working at night.\n\nBanana Code is a \"Werewolf\" like game, where you have to find out who is an AI and who are your coworkers. It has a day-and-night cycle. Every night you are working on your Code and trying to get as many points as possible. During the day, the least efficient worker is fired, and in addition, you can vote out a player. But be careful: the AI gets more points and can steal half a player's points each night. The goal is to find the AI and vote it out before it can take your job."
+  team:
+    name: 'Big Duck Energy'
+    members:
+      - 'Leoni Hiptmayr'
+      - 'Jonathan Kirchsteiger'
+      - 'Fabian Kopetzky'
+      - 'Conny Pleichl'
+      - 'Alexander Strauss'
+      - 'Edim Zdralovic'
+  winner: risingstars
+  headerimage: banana-code_header.webp
+  images:
+    -
+      file: banana-code_image1_full.webp
+      thumb: banana-code_image1_thumb.webp
+    -
+      file: banana-code_image2_full.webp
+      thumb: banana-code_image2_thumb.webp
+    -
+      file: banana-code_image3_full.webp
+      thumb: banana-code_image3_thumb.webp
+    -
+      file: banana-code_image4_full.webp
+      thumb: banana-code_image4_thumb.webp
+  download:
+    -
+      file: banana-code-Windows.zip
+      platform: Windows
+      checksum: 02c12a8a9cb52b9d57452ed81cacd1171cd88dad951c9aa5cd2c11424a63cacf
+-
+  project:
+    name: 'Dumber Than You Think'
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: "In Dumber Than You Think, your goal is to save Robert, our stupid Bot. Robert is overwhelmed by constant compiling errors and can't take the suffering anymore, so he starts putting himself in danger. Your job is to interact with hostile objects and drag them out of the way before anything bad happens to him."
+    controls_text: "- Movement: WASD  \n- LMB: Interact/drag"
+  team:
+    name: '1920 x 1 Pixel'
+    members:
+      - 'Florian Guggenberger'
+      - 'Simon Höglinger'
+      - 'Anna Lanz'
+      - 'Clara Pauzenberger'
+      - 'Benedikt Scholz'
+  winner: 'no'
+  headerimage: dumber-than-you-think_header.webp
+  images:
+    -
+      file: dumber-than-you-think_image1_full.webp
+      thumb: dumber-than-you-think_image1_thumb.webp
+    -
+      file: dumber-than-you-think_image2_full.webp
+      thumb: dumber-than-you-think_image2_thumb.webp
+    -
+      file: dumber-than-you-think_image3_full.webp
+      thumb: dumber-than-you-think_image3_thumb.webp
+    -
+      file: dumber-than-you-think_image4_full.webp
+      thumb: dumber-than-you-think_image4_thumb.webp
+  download:
+    -
+      file: dumber-than-you-think-Windows.zip
+      platform: Windows
+      checksum: 7f09a659793562f5e488208f0b55e07f313c7cf0ee61667e7c7b6448ed0e0bb0
+-
+  project:
+    name: 'Freindin Keat Zombaut'
+    players: 1
+    controls:
+      - mouse
+    description: "Finally, you've gained the confidence to ask out your online crush to a real-life meeting at her workplace, GF INC.\n\nBut OH NO! In a tragic workplace accident involving numerous boxes of robot girl parts, your date falls apart-quite literally. Now it's up to you to put her back together and, hopefully, grow closer along the way."
+    controls_text: '- Mouse'
+  team:
+    name: 'HGB Pensionisten Club'
+    members:
+      - 'Alexander Gärtner'
+      - 'Florian Neugebauer'
+      - 'Moritz Höll'
+      - 'Simone Feldbacher'
+  winner: 'no'
+  headerimage: freindin-keat-zombaut_header.webp
+  images:
+    -
+      file: freindin-keat-zombaut_image1_full.webp
+      thumb: freindin-keat-zombaut_image1_thumb.webp
+    -
+      file: freindin-keat-zombaut_image2_full.webp
+      thumb: freindin-keat-zombaut_image2_thumb.webp
+    -
+      file: freindin-keat-zombaut_image3_full.webp
+      thumb: freindin-keat-zombaut_image3_thumb.webp
+    -
+      file: freindin-keat-zombaut_image4_full.webp
+      thumb: freindin-keat-zombaut_image4_thumb.webp
+  download:
+    -
+      file: freindin-keat-zombaut-Windows.zip
+      platform: Windows
+      checksum: 9ae83696922a193011aeec9879c5ebbc7f16f7dde9f3f29bc22bdf4ae2e4588d
+    -
+      file: freindin-keat-zombaut-Linux.zip
+      platform: Linux
+      checksum: 8676083056ca72ea23515f6d2c7ee9bda9e24acab174c223c8d97ad2e22319a2
+-
+  project:
+    name: GPS-E
+    players: 1
+    controls:
+      - keyboard
+    description: "In this game, you take the role of a taxi driver tasked with picking up and transporting passengers safely and quickly to their desired destinations.\n\nYour constant companion is GPS-E (Global Positioning System - Eventually), a female AI navigation system designed to guide you through the city... with a little too much humor.\n\nAlong the way, GPS-E provides directions with a sharp tongue, delivering sarcastic and unapologetically snarky commentary on the player's decisions. While her guidance is technically helpful, her attitude turns every journey into an entertaining and unpredictable experience.\n\nThe player's goal is to drive passengers with a taxi to a desired building.\n\nDrop off as many passengers as possible at their desired destinations... before you end up in a coffin due to GPS-E's guidance."
+    controls_text: "+ W: Drive forward \n+ S: Drive backward\n+ A: Turn left\n+ D: Turn right\n+ Q: Open the left door\n+ E: Open the right door\n+ Space: Brake\n+ B: Beep\n+ L: Light on/off\n+ ESC: Open Menu"
+  team:
+    name: 'Die Schokolosen Bananen'
+    members:
+      - 'Alexander Aichinger'
+      - 'Salvino Boyadzhiev'
+      - 'David Gölzner'
+      - 'Dominik Höftberger'
+      - 'Nils Polt'
+      - 'Nathalie Weißengruber'
+  winner: 'no'
+  headerimage: gps-e_header.webp
+  images:
+    -
+      file: gps-e_image1_full.webp
+      thumb: gps-e_image1_thumb.webp
+    -
+      file: gps-e_image2_full.webp
+      thumb: gps-e_image2_thumb.webp
+    -
+      file: gps-e_image3_full.webp
+      thumb: gps-e_image3_thumb.webp
+    -
+      file: gps-e_image4_full.webp
+      thumb: gps-e_image4_thumb.webp
+  download:
+    -
+      file: gps-e-Windows.zip
+      platform: Windows
+      checksum: e4bd311129b1b6c80c1163bfc19dc359f4dfe2643a148683b38967cbafe6d151
+-
+  project:
+    name: 'He Moasta'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: "Ever had an unforgettable experience at the Linz Central Station restroom? This game is based on a true story one we'd probably rather forget. It's our own form of psychic therapy, turning that strange encounter into a bizarrely nostalgic PS1-style experience."
+    controls_text: "- MiniGame 1: Left-click (Mouse)\n- MiniGame 2: Hold left-click (Mouse), Movement of the mouse\n- MiniGame 3: Use keyboard / Shake the mouse"
+  team:
+    name: 'Lerngruppe Remastered'
+    members:
+      - 'Julian Brunner'
+      - 'Niklas Mikeska'
+      - 'Thomas Scherleithner'
+      - 'Lena Schweighofer'
+      - 'Julian Stögmüller'
+  winner: masterminds
+  headerimage: he-moasta_header.webp
+  images:
+    -
+      file: he-moasta_image1_full.webp
+      thumb: he-moasta_image1_thumb.webp
+    -
+      file: he-moasta_image2_full.webp
+      thumb: he-moasta_image2_thumb.webp
+    -
+      file: he-moasta_image3_full.webp
+      thumb: he-moasta_image3_thumb.webp
+    -
+      file: he-moasta_image4_full.webp
+      thumb: he-moasta_image4_thumb.webp
+  download:
+    -
+      file: he-moasta-Windows.zip
+      platform: Windows
+      checksum: 26ddbc2c487ac565578144a9b707f2dafcfcb85bcba50a21abc41bdfbc619ff3
+-
+  project:
+    name: 'How to D-AI-TE'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: "In this game, you try to date and rizz some people, but as the AI has skipped dating school, it suggests you make really hard choices. Your goal: to get as many dates as possible, and trust me, that ain't easy! Because you are a poor student, you only have the base version of the dating app \"Humble\". That's why you have to play some unskippable ads to burn your last brain cells before it's a match again."
+    controls_text: "- Left mouse button for clicking buttons\n- Space to skip to the next message/choices\n\n### CookieClicker\n- Accept cookies by clicking 50 times on the cookie\n\n### Pong\n- W or Up Arrow to move up\n- S or Down Arrow to move down\n- Play until one has 5 points\n\n### Whack-a-Mole\n- Click 25 Moles as long as they are visible\n\n### Endless Runner\n- Space to jump\n- Shift or Left Mouse Button to shoot enemies\n- Kill 10 enemies or get hit 3 times by obstacles"
+  team:
+    name: Whimsickal
+    members:
+      - 'Theresa Ebner'
+      - 'Ariana Jicut'
+      - 'Pascal Nowarra'
+      - 'Philipp Plappart'
+      - 'Neo Theißl'
+  winner: 'no'
+  headerimage: how-to-d-ai-te_header.webp
+  images:
+    -
+      file: how-to-d-ai-te_image1_full.webp
+      thumb: how-to-d-ai-te_image1_thumb.webp
+    -
+      file: how-to-d-ai-te_image2_full.webp
+      thumb: how-to-d-ai-te_image2_thumb.webp
+    -
+      file: how-to-d-ai-te_image3_full.webp
+      thumb: how-to-d-ai-te_image3_thumb.webp
+    -
+      file: how-to-d-ai-te_image4_full.webp
+      thumb: how-to-d-ai-te_image4_thumb.webp
+  download:
+    -
+      file: how-to-d-ai-te-Windows.zip
+      platform: Windows
+      checksum: 202b22875fbf45b71895ef74b3e70155f9bbaa6d040b3b2bb895be3159eec49c
+-
+  project:
+    name: 'Knight And Squire'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: '"Knight and Squire" is a linear story puzzle game about a Knight and Squire on their way home from their last adventure. That should be an easy endeavour, right? Unfortunately, as strong and kind as Knight is, he isn''t the brightest. Seemingly easy tasks, like walking around a gate, become increasingly difficult to complete. Help Squire support Knight and ensure Knight travels home safely for a well-deserved, relaxing vacation.'
+    controls_text: "- Moving the Squire: WASD\n- Interacting and rowing: E\n- Emoting and interacting with the Knight: 1, 2, and 3"
+  team:
+    name: 'Nico Hartl'
+    members:
+      - 'Özenc Dinler'
+      - 'Nico Hartl'
+      - 'Josef Ibrahim'
+      - 'Jan Kaindl'
+      - 'Selina Mensah'
+      - 'Rui Kremsmayr'
+  winner: 'no'
+  headerimage: knight-and-squire_header.webp
+  images:
+    -
+      file: knight-and-squire_image1_full.webp
+      thumb: knight-and-squire_image1_thumb.webp
+    -
+      file: knight-and-squire_image2_full.webp
+      thumb: knight-and-squire_image2_thumb.webp
+    -
+      file: knight-and-squire_image3_full.webp
+      thumb: knight-and-squire_image3_thumb.webp
+    -
+      file: knight-and-squire_image4_full.webp
+      thumb: knight-and-squire_image4_thumb.webp
+  download:
+    -
+      file: knight-and-squire-Windows.zip
+      platform: Windows
+      checksum: e74d292cfd34a403a4f7423f211fa82302d3afd4bba42a263b27a140c89fc42c
+-
+  project:
+    name: 'Prove You Bleed'
+    players: 2
+    controls:
+      - keyboard
+      - mouse
+    description: "\"Prove You Bleed\" is a local multiplayer fighting game with a unique twist: To hurt your enemy, you first have to solve bizarre captchas. Whoever solves it first gets to stab the other!\nProve you can bleed (unlike robots) and enter a gory arena surrounded by the monstrous cheers of a deranged, bloodthirsty audience."
+    controls_text: "Local Multiplayer\n\n- Player 1: WASD  \n- Player 2: Arrow Keys"
+  team:
+    name: 'Brot Jammern'
+    members:
+      - 'Renée Kerschbaumer'
+      - 'Anna Ludwig'
+      - 'David Märzendorfer'
+      - 'Ki Schattauer'
+      - 'Sandra Ye'
+  winner: 'no'
+  headerimage: prove-you-bleed_header.webp
+  images:
+    -
+      file: prove-you-bleed_image1_full.webp
+      thumb: prove-you-bleed_image1_thumb.webp
+    -
+      file: prove-you-bleed_image2_full.webp
+      thumb: prove-you-bleed_image2_thumb.webp
+    -
+      file: prove-you-bleed_image3_full.webp
+      thumb: prove-you-bleed_image3_thumb.webp
+    -
+      file: prove-you-bleed_image4_full.webp
+      thumb: prove-you-bleed_image4_thumb.webp
+  download:
+    -
+      file: prove-you-bleed-Windows.zip
+      platform: Windows
+      checksum: 7f006a3dcd957c740ebe01078ee31aff342ef1937ec370a771f6c154b2fe6510
+-
+  project:
+    name: 'R.O.B - Royally Ordinary Bot'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+      - gamepad
+    description: "R.O.B. has a weird fascination with drinking human beverages, even though robots cannot ingest them whatsoever. Through an unforeseen accident, R.O.B. is now homeless. He comes across an advertisement for beer and becomes determined to try it. And so R.O.B. is setting out for a journey...\n\nR.O.B. leaves the ruins behind and makes his way through the rubble to reach the bar in the city. On his way there, he surely will encounter some obstacles."
+    controls_text: "- Movement: WASD (Keyboard) / Left & Right Stick (Controller)\n- Interaction: Space (Keyboard) / LT + RB (Controller)"
+  team:
+    name: 'Die Royale Gruppe'
+    members:
+      - 'Jiaying Liang'
+      - 'Shiro Neumann'
+      - 'Niklas Steinkoetter'
+  winner: 'no'
+  headerimage: rob-royally-ordinary-bot_header.webp
+  images:
+    -
+      file: rob-royally-ordinary-bot_image1_full.webp
+      thumb: rob-royally-ordinary-bot_image1_thumb.webp
+    -
+      file: rob-royally-ordinary-bot_image2_full.webp
+      thumb: rob-royally-ordinary-bot_image2_thumb.webp
+    -
+      file: rob-royally-ordinary-bot_image3_full.webp
+      thumb: rob-royally-ordinary-bot_image3_thumb.webp
+    -
+      file: rob-royally-ordinary-bot_image4_full.webp
+      thumb: rob-royally-ordinary-bot_image4_thumb.webp
+  download:
+    -
+      file: rob-royally-ordinary-bot-Windows.zip
+      platform: Windows
+      checksum: 5223cff225194a34dc37e3d68e14b67a1be6b2381e097e36dd0f8e593d6acb04
+-
+  project:
+    name: 'RAM Rampant'
+    players: 1
+    controls:
+      - keyboard
+    description: "The player can purchase robots from a conveyor belt.\n\nWhen the player interacts with a robot, it begins to follow them.\n\nIf a robot is following the player and they interact with an unoccupied task station, the bot is assigned to the station and begins working.\nIf the player interacts with the now occupied task station again, the bot is removed.\n\nOccupied task stations generate money every second. There are 3 different types of task stations:\n\n1) Power stations (hamster wheels) generate the least revenue but also produce electricity. They do not consume any electricity.\n2) AI Art Stations (easel) generate slightly more money, but consume a little electricity.\n3) Crypto Mining Stations (computers) generate the most money (Hagencoin stocks are very high right now), but also consume a lot of electricity.\n\nRobots have a certain chance of becoming defective while working at a task station (recognizable by a smoke effect).\nThe player can interact with defective robots to \"repair\" them...\n\nPlayers can buy new task stations at task plots by interacting with them. (Task plots cannot be purchased while a robot is following the player because we were too lazy to code the interaction system better.)\n\nUnnecessary robots can be \"recycled\" in an environmentally friendly way using the hydraulic press. (Please maintain the legally required safety distance when doing so!)\n\nThe goal is to get rich and finally be able to afford RAM again. Have fun!\n\nAdditional information (optional):\n\nRobots have the following stats, which are randomly assigned at purchase:\n1) Intelligence: Determines the efficiency of a robot when working at a crypto mining station.\n2) Creativity: Determines the efficiency of a robot when working at an AI art station.\n3) Robustness: Measures how long a robot can operate at a task station before it fails.\n\nEach stat can have a value between 1 (low) and 5 (high). The higher the value, the stronger the effect."
+    controls_text: "- Movement: WASD  \n- Interact: F\n\nThe player can interact with robots, task stations, task plots, and the conveyor belt."
+  team:
+    name: '4 lernen Audio Design'
+    members:
+      - 'Rebecca Fuchs'
+      - 'Michael Pfabigan'
+      - 'Linus Zambiasi'
+      - 'Alwin Zitek'
+  winner: 'no'
+  headerimage: ram-rampant_header.webp
+  images:
+    -
+      file: ram-rampant_image1_full.webp
+      thumb: ram-rampant_image1_thumb.webp
+    -
+      file: ram-rampant_image2_full.webp
+      thumb: ram-rampant_image2_thumb.webp
+    -
+      file: ram-rampant_image3_full.webp
+      thumb: ram-rampant_image3_thumb.webp
+    -
+      file: ram-rampant_image4_full.webp
+      thumb: ram-rampant_image4_thumb.webp
+  download:
+    -
+      file: ram-rampant-Windows.zip
+      platform: Windows
+      checksum: e20de04dd66ff6dc372b591d46909c72a564c8f501ff2a1dbae18740b099c6d0
+-
+  project:
+    name: 'Singing Fish Enterprise'
+    players: '1'
+    controls:
+      - keyboard
+    description: 'A mongoose working in a Warehouse gets a new co-worker: an AI-fish robot. The Mongoose needs to help the Robot get through the warehouse by repairing it if necessary.'
+    controls_text: "- Movement: WASD  \n- If the bot goes into warning mode, interact with it: F\n- In the 2D jump and run minigame: A and D to move from side to side and SPACE to jump\n- In the pipe minigame: LEFT MOUSE BUTTON to turn the pipes"
+  team:
+    name: Mongoose
+    members:
+      - 'Jacqueline Baumgartner'
+      - 'Florian Beckerle'
+      - 'Stefan Freinschlag'
+      - 'Lena Niedermair'
+      - 'Eva Springl'
+  winner: 'no'
+  headerimage: singing-fish-enterprise_header.webp
+  images:
+    -
+      file: singing-fish-enterprise_image1_full.webp
+      thumb: singing-fish-enterprise_image1_thumb.webp
+    -
+      file: singing-fish-enterprise_image2_full.webp
+      thumb: singing-fish-enterprise_image2_thumb.webp
+    -
+      file: singing-fish-enterprise_image3_full.webp
+      thumb: singing-fish-enterprise_image3_thumb.webp
+    -
+      file: singing-fish-enterprise_image4_full.webp
+      thumb: singing-fish-enterprise_image4_thumb.webp
+  download:
+    -
+      file: singing-fish-enterprise-Windows.zip
+      platform: Windows
+      checksum: 3dc08727418e91a8b81cedc1a509dc4e00ac269e27e6a911fabc13f88196fd82
+-
+  project:
+    name: 'Stupido Cupido'
+    players: '1'
+    controls:
+      - mouse
+    description: '"Stupido Cupido" is a dating sim where you get to know Italian brainrot characters and find your perfect match with a simple click of your mouse.'
+    controls_text: '- Interact: Mouse'
+  team:
+    name: 'Team.exe has stopped responding'
+    members:
+      - 'Elisa Jorge'
+      - 'Jay Molev'
+      - 'Leon Nolte'
+      - 'Sarah Rührnößl'
+      - 'Michael Sandhacker'
+      - 'Robert Schmied'
+  winner: 'no'
+  headerimage: stupido-cupido_header.webp
+  images:
+    -
+      file: stupido-cupido_image1_full.webp
+      thumb: stupido-cupido_image1_thumb.webp
+    -
+      file: stupido-cupido_image2_full.webp
+      thumb: stupido-cupido_image2_thumb.webp
+    -
+      file: stupido-cupido_image3_full.webp
+      thumb: stupido-cupido_image3_thumb.webp
+    -
+      file: stupido-cupido_image4_full.webp
+      thumb: stupido-cupido_image4_thumb.webp
+  download:
+    -
+      file: stupido-cupido-Windows.zip
+      platform: Windows
+      checksum: f29b772dd76b5faea34ba200101fef5e481b6587bbf420d1d8afa018c6bc9de8
+-
+  project:
+    name: 'Wind Up Journey'
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: "A Little cat is trying to deliver her robots through a Portal. However, these robots are pretty dumb: they can only wander in one direction and stop after a short time. By rotating, you can help deliver all robots to the next level.\n\nAfter all robots have fallen off or been through the portal, you can go to the next Level through the portal as well."
+    controls_text: "Move: WASD\n\nSelect: Mouse click on the robot\n\nRotate left and right: Q \\& E\n\nFreeze robots: F"
+  team:
+    name: '404 Brain almost found'
+    members:
+      - 'Paul Bankl'
+      - 'Lara Eck'
+      - 'Tobias Grantl'
+      - 'Lorenz Haas'
+      - 'Florentin Habermaier'
+      - 'Xaver Pötscher'
+      - 'Florian Scheuermann'
+  winner: 'no'
+  headerimage: wind-up-journey_header.webp
+  images:
+    -
+      file: wind-up-journey_image1_full.webp
+      thumb: wind-up-journey_image1_thumb.webp
+    -
+      file: wind-up-journey_image2_full.webp
+      thumb: wind-up-journey_image2_thumb.webp
+    -
+      file: wind-up-journey_image3_full.webp
+      thumb: wind-up-journey_image3_thumb.webp
+    -
+      file: wind-up-journey_image4_full.webp
+      thumb: wind-up-journey_image4_thumb.webp
+  download:
+    -
+      file: wind-up-journey-Windows.zip
+      platform: Windows
+      checksum: 9df6d1fb8ca95ccfa574357de321663c0d4bb596299439c75a3f06cb2d9ee2fa

@@ -1,0 +1,479 @@
+-
+  project:
+    name: 'Call Your Mom'
+    players: 2
+    controls:
+      - gamepad
+    description: |
+      This is an interactive user experience for two players. It's just another day at the office. The last elevator maintenance is due for quite a long time. When two of you get into the elevator, the elevator starts falling. You immediately know that there's no way back. There is only one phone, for one last call. Fight for the phone to ... CALL YOUR MOM!
+  team:
+    name: saftig
+    members:
+      - 'Julia Angerer'
+      - 'Matthias Patscheider'
+      - 'Andreas Pointner'
+      - 'Thomas Preindl'
+      - 'Philipp Stadler'
+  winner: 'no'
+  headerimage: callyourmom_header.webp
+  images:
+    -
+      file: callyourmom_image1_full.webp
+      thumb: callyourmom_image1_thumb.webp
+    -
+      file: callyourmom_image2_full.webp
+      thumb: callyourmom_image2_thumb.webp
+    -
+      file: callyourmom_image3_full.webp
+      thumb: callyourmom_image3_thumb.webp
+    -
+      file: callyourmom_image4_full.webp
+      thumb: callyourmom_image4_thumb.webp
+  download:
+    -
+      file: callyourmom.zip
+      platform: Windows
+      checksum: 33ba401a3069a9cbcfe0fc8e8f1ab8dc44c89545dafb3dfb61de07e3b1697fbd
+-
+  project:
+    name: 'Dark Booty'
+    players: 2-4
+    controls:
+      - gamepad
+    description: |
+      In Dark Booty, a group of pirates make out to discover long lost treasures hidden on the islands of a treacherous sea. Spread out to find clues and treasure maps, as well as to divert any dangerous creatures lurking about. Only in your pirate cove in the MIDDLE OF THE MAP is the treasure safe.
+  team:
+    name: NullPreferenceExpection
+    members:
+      - 'Benjamin Doppler'
+      - 'Thomas Franz'
+      - 'Lorenz Krautgartner'
+      - 'Sebastian Maurer'
+      - 'Daniel Rammer'
+  winner: 'no'
+  headerimage: darkbooty_header.webp
+  images:
+    -
+      file: darkbooty_image1_full.webp
+      thumb: darkbooty_image1_thumb.webp
+    -
+      file: darkbooty_image2_full.webp
+      thumb: darkbooty_image2_thumb.webp
+    -
+      file: darkbooty_image3_full.webp
+      thumb: darkbooty_image3_thumb.webp
+    -
+      file: darkbooty_image4_full.webp
+      thumb: darkbooty_image4_thumb.webp
+  download:
+    -
+      file: darkbooty.zip
+      platform: Windows
+      checksum: 04e3458da1e7989d0ca61fe2a284ff39b3ab487498aed7ed281beaf1b5923c6a
+-
+  project:
+    name: 'Divided We Stand'
+    players: 1
+    controls:
+      - keyboard
+    description: |
+      Some Nerd and a cool girl want to meet, but countless obstacles hinder them. Help them get toghether and fall in LOVE.
+  team:
+    name: '["Hip", "Hip"]'
+    members:
+      - 'Oscar Ablinger'
+      - 'Christopher Berger'
+      - 'Jacqueline Lowe'
+      - 'Marie Strohm'
+      - 'Lisa Weißbacher'
+  winner: 'no'
+  headerimage: dividedwestand_header.webp
+  images:
+    -
+      file: dividedwestand_image1_full.webp
+      thumb: dividedwestand_image1_thumb.webp
+    -
+      file: dividedwestand_image2_full.webp
+      thumb: dividedwestand_image2_thumb.webp
+    -
+      file: dividedwestand_image3_full.webp
+      thumb: dividedwestand_image3_thumb.webp
+    -
+      file: dividedwestand_image4_full.webp
+      thumb: dividedwestand_image4_thumb.webp
+  download:
+    -
+      file: dividedwestand.zip
+      platform: Windows
+      checksum: 3fb1808376ef36555b6cefbdf21d197dc597a523a1f53c7d288a144cfe37702f
+-
+  project:
+    name: 'Drop Down For What'
+    players: 2-4
+    controls:
+      - gamepad
+    description: |
+      A Skydiving adventure with friends goes horribly wrong because they secretly want to kill each other.
+
+      In the beginning one of four unique jet packs (unicorn, reindeer, dragon or elephant) can be chosen. Each player steers a skydiver and tries to push the other players into the dangerous obstacles. The players are connected, thus they have to be careful not to steer themselves into the obstacles or let themselves be crushed to a horrible death.
+  team:
+    name: 'Sparkling Jalapeno Kittens'
+    members:
+      - 'Eva-Maria Hobl'
+      - 'Daniel Lanner'
+      - 'Johannes Lugstein'
+      - 'Elena Pauzenberger'
+  winner: 'no'
+  headerimage: dropdownforwhat_header.webp
+  images:
+    -
+      file: dropdownforwhat_image1_full.webp
+      thumb: dropdownforwhat_image1_thumb.webp
+    -
+      file: dropdownforwhat_image2_full.webp
+      thumb: dropdownforwhat_image2_thumb.webp
+    -
+      file: dropdownforwhat_image3_full.webp
+      thumb: dropdownforwhat_image3_thumb.webp
+    -
+      file: dropdownforwhat_image4_full.webp
+      thumb: dropdownforwhat_image4_thumb.webp
+  download:
+    -
+      file: dropdownforwhatWin.zip
+      platform: Windows
+      checksum: bb94004e5948fdb2fca405f2e1f5bd76c5d7a929bbf5c98a1ef3a235e1292681
+    -
+      file: dropdownforwhatMac.zip
+      platform: macOS
+      checksum: 973b54dcaa6a639e154fb656335902b3a9f95a252d6450ee1dc88f373203af1f
+-
+  project:
+    name: 'Elevator Pitch'
+    players: 2
+    controls:
+      - keyboard
+    description: |
+      Elevator Pitch is a local multiplayer sci-fi action game. The earth gets attacked by an alien life form. They are about to destroy every high building in the city. Nevertheless you, as a passionate window cleaner, want to clean the bulding before it gets destroyed. The army from earth assists you by rewinding time. The goal is to damage the other Player by throwing boxes and getting a high score by cleaning dirty Windows
+  team:
+    name: 'Vandelay Industries'
+    members:
+      - 'Thomas Kriz'
+      - 'Harald Mühleder'
+      - 'Wolfram Weingartner'
+      - 'Klemens Wöhrer'
+      - 'Julian Zauner'
+  winner: 'no'
+  headerimage: elevatorpitch_header.webp
+  images:
+    -
+      file: elevatorpitch_image1_full.webp
+      thumb: elevatorpitch_image1_thumb.webp
+    -
+      file: elevatorpitch_image2_full.webp
+      thumb: elevatorpitch_image2_thumb.webp
+    -
+      file: elevatorpitch_image3_full.webp
+      thumb: elevatorpitch_image3_thumb.webp
+    -
+      file: elevatorpitch_image4_full.webp
+      thumb: elevatorpitch_image4_thumb.webp
+  download:
+    -
+      file: elevatorpitch.zip
+      platform: Windows
+      checksum: 8bea1b57e93cbdb24b5cd675fe662d0f23a5593e21906f3aa771dc0f57f76adf
+-
+  project:
+    name: 'Elevator Rush'
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Your goal is to transport as many people as you can without letting them die. Hover over one person with the mouse and click 1, 2 or 3 on your keyboard to make them go to the elevator of your choice. But be careful! An elevator can only carry a maximum of 8 people. If you overfill an elevator it will crash (UNITED WE FALL). The game is lost when one elevator crashes.
+
+      AVOID THE CHICKEN! If you see a chicken, DON'T let them run into it! It will explode and kill people around it! You can avoid the chickens by clicking on the people, making them stop for a few seconds. But be careful! A person can only handle two clicks. After the third click they will die.
+  team:
+    name: 'Bits Please!'
+    members:
+      - 'Florian Friedrich'
+      - 'Lukas Paul'
+      - 'Daniel Poschinger'
+      - 'Florian Rammerstorfer'
+  winner: 'jury, people'
+  headerimage: elevatorrush_header.webp
+  images:
+    -
+      file: elevatorrush_image1_full.webp
+      thumb: elevatorrush_image1_thumb.webp
+    -
+      file: elevatorrush_image2_full.webp
+      thumb: elevatorrush_image2_thumb.webp
+    -
+      file: elevatorrush_image3_full.webp
+      thumb: elevatorrush_image3_thumb.webp
+    -
+      file: elevatorrush_image4_full.webp
+      thumb: elevatorrush_image4_thumb.webp
+  download:
+    -
+      file: elevatorrush.zip
+      platform: Windows
+      checksum: b615140b7ec5f7be6238198c932d1ce887285d8de4d55a2d04a5b695c20a1017
+-
+  project:
+    name: 'Falling in Love'
+    players: 2
+    controls:
+      - keyboard
+    description: |
+      This Game is about life, love and obstacles. Obstacles can come in many forms and shapes, some are hardly a challenge for you, but maybe for someone else. Some must be solved alone, for others you might need to be "Falling in Love".
+
+      Divided we stand (in front of obstacles), united we fall (in love).
+  team:
+    name: 'No Graphics No Cry'
+    members:
+      - 'Eva-Maria Brucker'
+      - 'Benjamin Hofinger'
+      - 'Gernot Raudner'
+  winner: 'no'
+  headerimage: fallinginlove_header.webp
+  images:
+    -
+      file: fallinginlove_image1_full.webp
+      thumb: fallinginlove_image1_thumb.webp
+    -
+      file: fallinginlove_image2_full.webp
+      thumb: fallinginlove_image2_thumb.webp
+    -
+      file: fallinginlove_image3_full.webp
+      thumb: fallinginlove_image3_thumb.webp
+    -
+      file: fallinginlove_image4_full.webp
+      thumb: fallinginlove_image4_thumb.webp
+  playonline:
+    -
+      url: 'http://playcanv.as/p/lgvUkAuU/'
+      platform: PlayCanvas
+-
+  project:
+    name: 'Flunkyball Simulator'
+    players: 2-4
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Once upon a time there were two players, hating eachother since day one. Searching for fame and the approval, they were battling and competing in every situation.
+
+      After all, they found one game to settle their rivalry - Flunkyball!
+  team:
+    name: 'Mike Hawk Hunters'
+    members:
+      - 'Fabian Eder'
+      - 'Markus Hennerbichler'
+      - 'David Daniel Mateiu'
+      - 'Andreas Sturmberger'
+  winner: 'no'
+  headerimage: flunkyballsimulator_header.webp
+  images:
+    -
+      file: flunkyballsimulator_image1_full.webp
+      thumb: flunkyballsimulator_image1_thumb.webp
+    -
+      file: flunkyballsimulator_image2_full.webp
+      thumb: flunkyballsimulator_image2_thumb.webp
+    -
+      file: flunkyballsimulator_image3_full.webp
+      thumb: flunkyballsimulator_image3_thumb.webp
+    -
+      file: flunkyballsimulator_image4_full.webp
+      thumb: flunkyballsimulator_image4_thumb.webp
+  download:
+    -
+      file: flunkyballsimulator.zip
+      platform: Windows
+      checksum: be2711552392b1de3cf51b7cec966422568fbebb7d0ef7ab15afe2da31f08c23
+-
+  project:
+    name: 'Panda Punch'
+    players: 1
+    controls:
+      - keyboard
+      - mouse
+    description: |
+      Free your girlfriend from the clutches of the zoo. Use your ninja weapons (and paws) to get rid of pesky zookeepers. All zookeepers have to be eliminated at the same time or they will alert the rest of the staff and lock down the zoo. Be careful! You only have a limited amount of shurikens and bombs.
+  team:
+    name: 'null'
+    members:
+      - 'Thomas Irrer'
+      - 'Lukas Mathä'
+      - 'Jakob Winkler'
+      - 'Bianca Zankl'
+  winner: 'no'
+  headerimage: pandapunch_header.webp
+  images:
+    -
+      file: pandapunch_image1_full.webp
+      thumb: pandapunch_image1_thumb.webp
+    -
+      file: pandapunch_image2_full.webp
+      thumb: pandapunch_image2_thumb.webp
+    -
+      file: pandapunch_image3_full.webp
+      thumb: pandapunch_image3_thumb.webp
+    -
+      file: pandapunch_image4_full.webp
+      thumb: pandapunch_image4_thumb.webp
+  download:
+    -
+      file: pandapunch.zip
+      platform: Windows
+      checksum: 6a76f82c521044f7a5c1e33036fc31146ab2e2a3f1ef4d4f331720b7b784eb59
+-
+  project:
+    name: Ram-Hog-Boom
+    players: 2-8
+    controls:
+      - gamepad
+    description: |
+      The annual tournament has started again! Two tribes, the Hogs and the Rams, are fighting again for respect, honor and glory. Join one of the tribes and help them to succeed by carrying a
+      Balldragon into the enemy goal. But beware: the Balldragon is a fragile creature, if you get too close to a teammate while carrying it, it will literally explode (enemies, on the other
+      hand, won´t startle it at all)! Also, watch your step: the tournament is held on a plateau high up in the mountains, so don´t fall. And don´t even dare throwing the sacred Balldragon
+      from the plateau: thunder god Goatdin himself will otherwise punish you with his thunderbolts!
+  team:
+    name: 'Devs May Cry'
+    members:
+      - 'Niko Frenkenberger'
+      - 'Lisa Gonaus'
+      - 'Christine Pühringer'
+      - 'Moritz Rührlinger'
+      - 'Damiano Weidenhausen'
+  winner: 'no'
+  headerimage: ram-hog-boom_header.webp
+  images:
+    -
+      file: ram-hog-boom_image1_full.webp
+      thumb: ram-hog-boom_image1_thumb.webp
+    -
+      file: ram-hog-boom_image2_full.webp
+      thumb: ram-hog-boom_image2_thumb.webp
+    -
+      file: ram-hog-boom_image3_full.webp
+      thumb: ram-hog-boom_image3_thumb.webp
+    -
+      file: ram-hog-boom_image4_full.webp
+      thumb: ram-hog-boom_image4_thumb.webp
+  download:
+    -
+      file: ram-hog-boom.zip
+      platform: Windows
+      checksum: c299a96ed2520d4601339328f0cf89e5abf5f113959a11285d2b19e40a5f0711
+-
+  project:
+    name: Shields
+    players: 2
+    controls:
+      - gamepad
+    description: |
+      Two deleted computer files fight for their lives. They were just deleted, but wouldn't let go, so the computer god "ROMney" put them in a cage to fight. The winner gets restored. Souls from other deleted files are passing by and are used by the two opponents to shield themselves, as well as to attack their opponent. To get restored, both have to die by colliding into one another, but the one, who holds more souls at that point will be restored.
+  team:
+    name: 'Happy Three Friends'
+    members:
+      - 'Lukas Brunner'
+      - 'Martina Huber'
+      - 'Erik Thiele'
+  winner: 'no'
+  headerimage: shields_header.webp
+  images:
+    -
+      file: shields_image1_full.webp
+      thumb: shields_image1_thumb.webp
+    -
+      file: shields_image2_full.webp
+      thumb: shields_image2_thumb.webp
+    -
+      file: shields_image3_full.webp
+      thumb: shields_image3_thumb.webp
+    -
+      file: shields_image4_full.webp
+      thumb: shields_image4_thumb.webp
+  download:
+    -
+      file: shields.zip
+      platform: Windows
+      checksum: c75f9b23282f46999534cfad899683bf5c1278e1cc0fd55dfd5baa3b0990fa07
+-
+  project:
+    name: 'Stoned 2 Death'
+    players: 2-4
+    controls:
+      - gamepad
+    description: |
+      Four explorers, equipped with their jetpacks, embark on a dangerous expedition: To find the long lost blood stone of the ape peoples. After countless traps and riddles they finally arrive in the heart of the ape temple. But just before they can reach their goal, the floor starts trembling and the walls start shaking and the ceiling collapses. They barely manage to escape on tiny platforms but below them the deadly lava awaits. Who will survive to recover the ape treasure?
+
+      Every explorer can move between platforms using their jetpack. Platforms will sink due to the weight of rocks and players. Players can throw rocks on other platforms to make them sink even faster. Be the last one to survive and escape with the blood stone of the ape peoples!
+  team:
+    name: H1S2
+    members:
+      - 'Angelika Hiebl'
+      - 'Robert Gemeinböck'
+      - 'Philipp Bernecker'
+      - 'Christian Resch'
+  winner: 'no'
+  headerimage: stoned2death_header.webp
+  images:
+    -
+      file: stoned2death_image1_full.webp
+      thumb: stoned2death_image1_thumb.webp
+    -
+      file: stoned2death_image2_full.webp
+      thumb: stoned2death_image2_thumb.webp
+    -
+      file: stoned2death_image3_full.webp
+      thumb: stoned2death_image3_thumb.webp
+    -
+      file: stoned2death_image4_full.webp
+      thumb: stoned2death_image4_thumb.webp
+  download:
+    -
+      file: stoned2death.zip
+      platform: Windows
+      checksum: fe8682da98ca4e3dd5fbcd650395a435a8d39f6430e7912f79622922452726ab
+-
+  project:
+    name: 'Urtica Marina'
+    players: 3
+    controls:
+      - gamepad
+      - keyboard
+    description: |-
+      One out of three jellyfish has an infection. It has to touch another one to pass it on. The healthy jellyfish can collect the pickup boni spawned by the infected jellyfish to gain points. They can also bump into each other to create a wave that throws back the infected jellyfish. All jellyfish naturally attract each other and can further pull in boni by blinging up.
+
+      The goal is to collect as many points as possible. Points are gained from picking up bonus objects, hitting another healthy jellyfish or giving the infection to another jellyfish when infected.
+  team:
+    name: 'Todesduo +1'
+    members:
+      - 'Markus Hadinger'
+      - 'Christoph Lendenfeld'
+      - 'Doris Rastinger'
+  winner: 'no'
+  headerimage: urticamarina_header.webp
+  images:
+    -
+      file: urticamarina_image1_full.webp
+      thumb: urticamarina_image1_thumb.webp
+    -
+      file: urticamarina_image2_full.webp
+      thumb: urticamarina_image2_thumb.webp
+    -
+      file: urticamarina_image3_full.webp
+      thumb: urticamarina_image3_thumb.webp
+    -
+      file: urticamarina_image4_full.webp
+      thumb: urticamarina_image4_thumb.webp
+  download:
+    -
+      file: urticamarina.zip
+      platform: Windows
+      checksum: 6733fbdf3ba5842e1a81a66c09e3fe64a06a2016fa613dec9a458c03eb37f502

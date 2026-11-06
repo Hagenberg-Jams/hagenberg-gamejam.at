@@ -354,7 +354,7 @@ return [
         'exclude' => [
             '404',
             '2015', '2016', '2017', '2018', '2019', '2020', '2022', '2023', '2024',
-            'people',            '2025',            '2014',            '2013',            '2012',            '2011',
+            'people',            '2025',            '2026',            '2014',            '2013',            '2012',            '2011',
 
 
 
@@ -492,10 +492,7 @@ return [
     'empty_output_directory' => false,
 
     // Register our custom tasks. TransferMediaAssets replaces Hyde's to optimize images before copy.
-    'build_tasks' => [
-        \App\Actions\ACleanSiteDirectoryBuildTask::class,
-        \App\Actions\PreBuildTasks\TransferMediaAssets::class,
-    ],
+    'build_tasks' => [],
 
     // Should a JSON build manifest with metadata about the build be generated?
     'generate_build_manifest' => true,

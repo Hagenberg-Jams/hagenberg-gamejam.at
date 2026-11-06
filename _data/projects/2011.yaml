@@ -1,0 +1,259 @@
+-
+  project:
+    name: 'Dude hit Space to Play?!'
+    players: '2'
+    controls:
+      - keyboard
+    description: |-
+      Two hot-headed superhero trainees were fighting over a half-eaten taco using their superhuman strength. The League of Blub intervened and, in their unusual way of dealing with problems, decided to withdraw their superpowers and leave the two of them floating in space.
+
+      They are now tied together with an energy band and left with nothing but their will to survive. Desperate to regain their former powers, they try to collect the might power orbs (yes, the League of Blub ironically left those too) and fight each other in a battle of epic proportions.
+
+      But who will prevail, Blue or Red?
+  team:
+    name: Muljava
+    members:
+      - 'Bernhard Handler'
+      - 'Nico Harather'
+      - 'Gernot Raudner'
+  winner: 'no'
+  headerimage: dude-hit-space-to-play_header.webp
+  images:
+    -
+      file: dude-hit-space-to-play_image1_full.webp
+      thumb: dude-hit-space-to-play_image1_thumb.webp
+    -
+      file: dude-hit-space-to-play_image2_full.webp
+      thumb: dude-hit-space-to-play_image2_thumb.webp
+    -
+      file: dude-hit-space-to-play_image3_full.webp
+      thumb: dude-hit-space-to-play_image3_thumb.webp
+    -
+      file: dude-hit-space-to-play_image4_full.webp
+      thumb: dude-hit-space-to-play_image4_thumb.webp
+  download:
+    -
+      file: dude-hit-space-to-play-Windows.zip
+      platform: Windows
+      checksum: b2be0b276ceb99bd53b5f3fce2c6eb8da06d62abbef683bea97bb4d80dce80c5
+-
+  project:
+    name: "Dude, where's my super powers?!"
+    players: '1'
+    controls:
+      - keyboard
+    description: "Students have stolen Wilbur's superpowers! Hochi, Schaufi, and Rudi have to make their way through the crowded halls of Hagenberg Campus to get them back. Cross out green students, with Hochi, send sound waves to red students, and put blue students to sleep with Rudi. Switch between your characters to proceed and fulfill Wilbur's task in time."
+  team:
+    name: Dovahkiin
+    members:
+      - 'Peter Grassberger'
+      - 'Andreas Kasch'
+      - 'Julia Nebauer'
+      - 'Martin Staudinger'
+  winner: 'no'
+  headerimage: dude-wheres-my-super-powers_header.webp
+  images:
+    -
+      file: dude-wheres-my-super-powers_image1_full.webp
+      thumb: dude-wheres-my-super-powers_image1_thumb.webp
+    -
+      file: dude-wheres-my-super-powers_image2_full.webp
+      thumb: dude-wheres-my-super-powers_image2_thumb.webp
+    -
+      file: dude-wheres-my-super-powers_image3_full.webp
+      thumb: dude-wheres-my-super-powers_image3_thumb.webp
+    -
+      file: dude-wheres-my-super-powers_image4_full.webp
+      thumb: dude-wheres-my-super-powers_image4_thumb.webp
+  download:
+    -
+      file: dude-wheres-my-super-powers-Windows.zip
+      platform: Windows
+      checksum: ff7ddf8de6b8a3c5d7f93c6afe3ce4ac8835a7deda8f5825730ad97bc445b383
+-
+  project:
+    name: Herocraft
+    players: '1'
+    controls:
+      - mouse
+    description: |-
+      You are the new leader of the League of Superheroes. You are in command of the laboratory and superhero operations worldwide.
+      The goal is to defeat enough villains to stop Dr. Evil's pursuit of world domination.
+
+      If you run out of time, funds, or superheroes, the game is lost. To defeat villains, you have to 'buy' new heroes and equip them with superpowers. Then you send them into combat. Villains are attacking cities around the world at random. Your map helps you keep track of them.
+      The outcome of a fight is determined by the superpowers of both the hero and the villain.
+
+      Which combinations are the most effective is for you to discover. The 'Justice News' newspaper helps you with this task.
+
+      Note: The game's download is an Adobe Flash SWF File. To play it on a modern-day system, use a Flash emulator like [Ruffle](https://ruffle.rs/).
+  team:
+    name: 'Umbono Imboni'
+    members:
+      - 'Thomas Berger'
+      - 'Jürgen Koller'
+      - 'Marko Jelen'
+      - 'David Schedl'
+      - 'Stefan Srb'
+  winner: 'no'
+  headerimage: herocraft_header.webp
+  images:
+    -
+      file: herocraft_image1_full.webp
+      thumb: herocraft_image1_thumb.webp
+    -
+      file: herocraft_image2_full.webp
+      thumb: herocraft_image2_thumb.webp
+    -
+      file: herocraft_image3_full.webp
+      thumb: herocraft_image3_thumb.webp
+    -
+      file: herocraft_image4_full.webp
+      thumb: herocraft_image4_thumb.webp
+  download:
+    -
+      file: herocraft-Web.zip
+      platform: Web
+      checksum: 7c2d65651f4ac1f124b12e0f73b26f0382f5f72cf97fee21a2be2cbcdad10c05
+-
+  project:
+    name: SP4WN
+    players: '2'
+    controls:
+      - keyboard
+    description: |-
+      The game is a classic beat 'em up for two players, but the abilities change randomly at regular intervals.
+      The attacks available are a melee attack, a range attack, and a shield attack.
+
+      From time to time, (too) small texts flash under the respective player info. While this display is flashing, you must press the corresponding button to trigger an "UBER POWER."
+  team:
+    name: SP4WN
+    members:
+      - 'Tamara Nitsch'
+      - 'Johannes Pfeifer'
+      - 'Stefan Schober'
+      - 'Fabian Wolf'
+  winner: 'no'
+  headerimage: sp4wn_header.webp
+  images:
+    -
+      file: sp4wn_image1_full.webp
+      thumb: sp4wn_image1_thumb.webp
+    -
+      file: sp4wn_image2_full.webp
+      thumb: sp4wn_image2_thumb.webp
+    -
+      file: sp4wn_image3_full.webp
+      thumb: sp4wn_image3_thumb.webp
+    -
+      file: sp4wn_image4_full.webp
+      thumb: sp4wn_image4_thumb.webp
+  download:
+    -
+      file: sp4wn-Windows.zip
+      platform: Windows
+      checksum: 5bebc03e98cff1bf453a67761cbd056bd662d9565ef3807b6825ba809cf54b52
+-
+  project:
+    name: 'Super Hangover'
+    players: '1'
+    controls:
+      - keyboard
+    description: "Help the main character get rid of his hangover. Try to avoid the red kryptonites. They make the character feel even worse. Try to collect the green kryptonite to increase the character's buzz! The rainbow kryptonite shuffles the controls, but they are also a good source of score."
+  team:
+    name: 'Konttisen vasarateatteri'
+    members:
+      - 'Markku Painomaa'
+      - 'Timo Piippo'
+      - 'Jari Räisänen'
+  winner: 'no'
+  headerimage: super-hangover_header.webp
+  images:
+    -
+      file: super-hangover_image1_full.webp
+      thumb: super-hangover_image1_thumb.webp
+    -
+      file: super-hangover_image2_full.webp
+      thumb: super-hangover_image2_thumb.webp
+    -
+      file: super-hangover_image3_full.webp
+      thumb: super-hangover_image3_thumb.webp
+    -
+      file: super-hangover_image4_full.webp
+      thumb: super-hangover_image4_thumb.webp
+  download:
+    -
+      file: super-hangover-Windows.zip
+      platform: Windows
+      checksum: 5f9b28044bb59e53cf8cdf3468eb2a70aca3dc81a4d4c5dfc49af410dfec432e
+-
+  project:
+    name: 'The Holy Hangover'
+    players: '1'
+    controls:
+      - mouse
+    description: 'Jay C. wakes up in a car repair shop after a night of heavy drinking. He has no memory of who he is or what happened last night. But with the help of the Dude, Jay C. finds clues that help him figure out who he is and what happened. His journey takes him across a river to a town where he meets various characters and slowly learns about all the events of the previous night.'
+  team:
+    name: 'BBÖ VT 44'
+    members:
+      - 'Matthäus Baur'
+      - 'David Berger'
+      - 'Markus Oppeneiger'
+      - 'Andreas Volk'
+  winner: 'no'
+  headerimage: the-holy-hangover_header.webp
+  images:
+    -
+      file: the-holy-hangover_image1_full.webp
+      thumb: the-holy-hangover_image1_thumb.webp
+    -
+      file: the-holy-hangover_image2_full.webp
+      thumb: the-holy-hangover_image2_thumb.webp
+    -
+      file: the-holy-hangover_image3_full.webp
+      thumb: the-holy-hangover_image3_thumb.webp
+    -
+      file: the-holy-hangover_image4_full.webp
+      thumb: the-holy-hangover_image4_thumb.webp
+  download:
+    -
+      file: the-holy-hangover-Windows.zip
+      platform: Windows
+      checksum: 9ffb51cdfe33f91fd6c45663b8aefc77ef7d3d8838af5ff53e9aae99533cf369
+-
+  project:
+    name: Winterfest
+    players: '1'
+    controls:
+      - mouse
+    description: "It's Winterfest at Campus Hagenberg, and a group of strangely familiar-looking superheroes are thirsty. Fulfill their orders accurately and promptly to pass."
+  team:
+    name: Bazinga!
+    members:
+      - 'Michael Bauer'
+      - 'Felix Hessenberger'
+      - 'Thomas Kowar'
+      - 'Bernhard Wendt'
+  winner: overall
+  headerimage: winterfest_header.webp
+  images:
+    -
+      file: winterfest_image1_full.webp
+      thumb: winterfest_image1_thumb.webp
+    -
+      file: winterfest_image2_full.webp
+      thumb: winterfest_image2_thumb.webp
+    -
+      file: winterfest_image3_full.webp
+      thumb: winterfest_image3_thumb.webp
+    -
+      file: winterfest_image4_full.webp
+      thumb: winterfest_image4_thumb.webp
+  download:
+    -
+      file: winterfest-Windows.zip
+      platform: Windows
+      checksum: 088198f5fbe53b389eedc6b1089bf37a809e1598028410f08346d66a21e0ae88
+    -
+      file: winterfest-macOS.zip
+      platform: macOS
+      checksum: ae9fa7a93ef4a1ea8dfe407f78b7e0128748372dc5446b35b2d30f4e1f899e6c

@@ -1,0 +1,406 @@
+-
+  project:
+    name: 'Christmas Chaos: Home Edition'
+    players: 2-4
+    controls:
+      - gamepad
+    description: |
+      It's Christmas time. Time of joy, happiness and Chaos.
+
+      Pickup a controller and become a house! Or Santa's sledge! Cooperate with your teammate and together bring down enemy team. Fly with sledge to gather presents and fill the chimney of your house with presents. Shoot presents with your cannons! Kick down enemy house.
+
+      Watch out for the special present! Send it down the chimney and laugh at the enemy trying to get you... their powers ain't gonna work no more.
+
+      But beware! Both families living inside houses are hungry for presents. There is nothing you can do about it. Just pray they go to sleep!
+
+      This game is for the whole family. Use up to 4 Xbox controllers to control 2 houses and 2 sledges.
+  team:
+    name: Tunefish
+    members:
+      - 'Eva-Maria Brucker'
+      - 'Gustav Dahl'
+      - 'Benjamin Hofinger'
+      - 'Roman Lukš'
+      - 'Monika Minichberger'
+  winner: 'no'
+  headerimage: christmaschaos_header.webp
+  images:
+    -
+      file: christmaschaos_image1_full.webp
+      thumb: christmaschaos_image1_thumb.webp
+    -
+      file: christmaschaos_image2_full.webp
+      thumb: christmaschaos_image2_thumb.webp
+    -
+      file: christmaschaos_image3_full.webp
+      thumb: christmaschaos_image3_thumb.webp
+    -
+      file: christmaschaos_image4_full.webp
+      thumb: christmaschaos_image4_thumb.webp
+  download:
+    -
+      file: christmaschaos.zip
+      platform: Windows
+      checksum: 85b5132b6e39d821fb567044daba3fecb8f95907b8b7e5c49847939413b3cff4
+-
+  project:
+    name: 'Fuck Yeah, Bullets'
+    players: 2
+    controls:
+      - gamepad
+    description: |
+      A competitive two player bullet hell game. Nuff said.
+  team:
+    name: 'Team Heidelbeeren'
+    members:
+      - 'David Berger'
+      - 'Peter Kainrad'
+      - 'Fabian Meisinger'
+  winner: 'no'
+  headerimage: fuckyeahbullets_header.webp
+  images:
+    -
+      file: fuckyeahbullets_image1_full.webp
+      thumb: fuckyeahbullets_image1_thumb.webp
+    -
+      file: fuckyeahbullets_image2_full.webp
+      thumb: fuckyeahbullets_image2_thumb.webp
+    -
+      file: fuckyeahbullets_image3_full.webp
+      thumb: fuckyeahbullets_image3_thumb.webp
+    -
+      file: fuckyeahbullets_image4_full.webp
+      thumb: fuckyeahbullets_image4_thumb.webp
+  download:
+    -
+      file: fuckyeahbulletsWin.zip
+      platform: Windows
+      checksum: 4882ec2e16757c0721a6cbafc1fe8730c237f2634ebc16bc6fdb7522c9d13023
+    -
+      file: fuckyeahbulletsMac.zip
+      platform: macOS
+      checksum: 61a2625b416665414f2783fbfee0d2013de25fcc3f05b98cf22e1358038fdaf3
+-
+  project:
+    name: 'Lanner die Waldfee'
+    players: 1
+    controls:
+      - gamepad
+      - keyboard
+      - mouse
+    description: |
+      In this game you are playing a light fairy, who is trying to free her forest from dark shadow creatures that have taken over. The fairy encounters shadow monsters and tries to defeat them. The more creatures she beats, the more light is returning to the forest and her powers grow.
+
+      She can decide whether to plant flowers of light and regain more attack power or increase her inner light to strengthen her defences. When she has defeated as many monsters as possible, she will be strong enough to face the evil necromancer responsible for plunging the forest into darkness.
+  team:
+    name: "TeamName'); DROP TABLE gamejam;--"
+    members:
+      - 'Friedrich Bachinger'
+      - 'Eva-Maria Hobl'
+      - 'Johannes Kostner'
+      - 'Daniel Lanner'
+      - 'Wolfram Weingartner'
+  winner: 'no'
+  headerimage: lannerdiewaldfee_header.webp
+  images:
+    -
+      file: lannerdiewaldfee_image1_full.webp
+      thumb: lannerdiewaldfee_image1_thumb.webp
+    -
+      file: lannerdiewaldfee_image2_full.webp
+      thumb: lannerdiewaldfee_image2_thumb.webp
+    -
+      file: lannerdiewaldfee_image3_full.webp
+      thumb: lannerdiewaldfee_image3_thumb.webp
+    -
+      file: lannerdiewaldfee_image4_full.webp
+      thumb: lannerdiewaldfee_image4_thumb.webp
+  download:
+    -
+      file: lannerdiewaldfee.zip
+      platform: Windows
+      checksum: a71c39b4ccb8a7f5d7a8317da9c26595897c0f5ff4b6e7f3f8f83b11d2010ee2
+-
+  project:
+    name: 'Magnomaster 3000'
+    players: 2-4
+    controls:
+      - gamepad
+    description: |
+      Battle against your friends to become the Magnomaster in the year 3000. Your power (magnetic attraction and repulsion) does not work on your enemies, but merely on your metal surroundings. Push or pull
+
+      * arrows out of their contraption to shoot them through the level,
+      * spikes out of their base in order to make the ground more deadly,
+      * metal crates onto your enemies to shove them into traps and lava.
+
+      Activate the ridiculously oversized Deathulum by pushing one of the red buttons. Everything in its path will be slashed! Last man standing wins the round.
+
+      3.. 2.. 1.. MAGNETIZE!
+  team:
+    name: 'Pixel Packers'
+    members:
+      - 'Jens Cherukad'
+      - 'Alexander Golombek'
+      - 'Moritz Kertesz'
+      - 'Christian Winter'
+  winner: 'no'
+  headerimage: magnomaster3000_header.webp
+  images:
+    -
+      file: magnomaster3000_image1_full.webp
+      thumb: magnomaster3000_image1_thumb.webp
+    -
+      file: magnomaster3000_image2_full.webp
+      thumb: magnomaster3000_image2_thumb.webp
+    -
+      file: magnomaster3000_image3_full.webp
+      thumb: magnomaster3000_image3_thumb.webp
+    -
+      file: magnomaster3000_image4_full.webp
+      thumb: magnomaster3000_image4_thumb.webp
+  download:
+    -
+      file: magnomaster3000.zip
+      platform: Windows
+      checksum: a7d376f0040feff8703aef2ff06c63b87a109697cfb83404519f645f362acba8
+-
+  project:
+    name: 'Notwendiges Übel'
+    players: 1-4
+    controls:
+      - gamepad
+    description: |
+      Fight against the boss by destroying his "Exo-parts".
+
+      Only colored "Exo-Parts" will take damage. Your bullets have to have the same color as the part you want to attack. To change the color of your bullets pick up other weapons (they spawn randomly).
+
+      When all the Parts are destroyed the boss implodes. But then he rise again: bigger and with more weapons. Avoid hostile bullets and lasers AND REACH A NEW HIGHSCORE!
+  team:
+    name: 'Grumpy Lemuriformes Interactive'
+    members:
+      - 'Benjamin Doppler'
+      - 'Thomas Franz'
+      - 'Lorenz Krautgartner'
+      - 'Daniel Rammer'
+      - 'Philipp Stadler'
+  winner: overall
+  headerimage: notwendigesuebel_header.webp
+  images:
+    -
+      file: notwendigesuebel_image1_full.webp
+      thumb: notwendigesuebel_image1_thumb.webp
+    -
+      file: notwendigesuebel_image2_full.webp
+      thumb: notwendigesuebel_image2_thumb.webp
+    -
+      file: notwendigesuebel_image3_full.webp
+      thumb: notwendigesuebel_image3_thumb.webp
+    -
+      file: notwendigesuebel_image4_full.webp
+      thumb: notwendigesuebel_image4_thumb.webp
+  download:
+    -
+      file: notwendigesuebel.zip
+      platform: Windows
+      checksum: 58d2b4f6fcf7862620c8e6a631ebb6676edbf367a5401dad8fcd9dd9d4af170f
+-
+  project:
+    name: 'One Push-Men'
+    players: 1-2
+    controls:
+      - gamepad
+      - mouse
+    description: |
+      wo super-humans are duking it out in a post-apocalyptic world. But there is one problem. There are not able to kill each other. Even though their powers are able to destroy solid stone walls and tear mere mortals into pieces within a fraction of a second, when faced against each other, these powers are reduced to simple pushes.
+
+      So they continue to fight while the world around them falls apart, both of them yearning for the day they will finally be able to rest. Till then they will just continue to push each other into lava.
+  team:
+    name: Ewig★Zeit
+    members:
+      - 'Tobias Moshammer'
+      - 'Harald Mühleder'
+      - 'Philipp Voglhofer'
+      - 'Julian Zauner'
+  winner: 'no'
+  headerimage: onepushmen_header.webp
+  images:
+    -
+      file: onepushmen_image1_full.webp
+      thumb: onepushmen_image1_thumb.webp
+    -
+      file: onepushmen_image2_full.webp
+      thumb: onepushmen_image2_thumb.webp
+    -
+      file: onepushmen_image3_full.webp
+      thumb: onepushmen_image3_thumb.webp
+    -
+      file: onepushmen_image4_full.webp
+      thumb: onepushmen_image4_thumb.webp
+  download:
+    -
+      file: onepushmen.zip
+      platform: Windows
+      checksum: c5daf72b46d4494ca2499f5993346df4f73090fa4fca09714d2f314cb7eb10a1
+-
+  project:
+    name: 'Power Switch'
+    players: 1
+    controls:
+      - mouse
+      - keyboard
+    description: |
+      A giant robot has destroyed the city's centre. The protagonist has to save the day and power off the evil flying robot by pressing its power switch while evading the mechanic deathmachine's deadly attacks on the way by switching his own powers.
+
+      On his way through the devastated city streets, the player must dodge the robot's deadly color ball projectiles. Those color balls come in three colors:
+
+      * RED – superfast
+      * GREEN – able to penetrate through objects
+      * BLUE – bounce back from objects
+
+      In order to survive, the player can hide behind many scattered objects or use his ability to dodge bullets: If he becomes Red, the player is not affected by Red balls (same for Green and Blue). In addition, he gains a color-specific ability:
+
+      * RED – faster running
+      * GREEN – higher jump with air control
+      * BLUE – Walljump
+  team:
+    name: 'The Fire Breathing Penguins'
+    members:
+      - 'Lukas Brunner'
+      - 'Paul Feuerstein'
+      - 'Martina Huber'
+      - 'Thomas Kriz'
+      - 'Erik Thiele'
+  winner: 'no'
+  headerimage: powerswitch_header.webp
+  images:
+    -
+      file: powerswitch_image1_full.webp
+      thumb: powerswitch_image1_thumb.webp
+    -
+      file: powerswitch_image2_full.webp
+      thumb: powerswitch_image2_thumb.webp
+    -
+      file: powerswitch_image3_full.webp
+      thumb: powerswitch_image3_thumb.webp
+    -
+      file: powerswitch_image4_full.webp
+      thumb: powerswitch_image4_thumb.webp
+  download:
+    -
+      file: powerswitch.zip
+      platform: Windows
+      checksum: 6247e68f524692d91c5697c165720a41b2655f1a442fcbb7c69b69836ac41f0d
+-
+  project:
+    name: 'Super Elemental Fighters'
+    players: 1-4
+    controls:
+      - gamepad
+      - keyboard
+    description: |
+      Super Elemental Fighters is a fighting game with 4 different characters (Viking, Archer, Knight and wizard). There are 3 different powerups/elements (water, fire and nature). Use the right element to deal more damage or to be invincible against another element.
+
+      The second playmode is the "Jumpmode" where you have to jump on the platforms and try not to fall down. This mode supports scoring and singleplayer.
+  team:
+    name: 'Voxel Vikings'
+    members:
+      - 'Pascal Pilat'
+      - 'Elias Wagner'
+      - 'Andreas Ziegelwanger'
+  winner: 'no'
+  headerimage: superelementalfighters_header.webp
+  images:
+    -
+      file: superelementalfighters_image1_full.webp
+      thumb: superelementalfighters_image1_thumb.webp
+    -
+      file: superelementalfighters_image2_full.webp
+      thumb: superelementalfighters_image2_thumb.webp
+    -
+      file: superelementalfighters_image3_full.webp
+      thumb: superelementalfighters_image3_thumb.webp
+    -
+      file: superelementalfighters_image4_full.webp
+      thumb: superelementalfighters_image4_thumb.webp
+  download:
+    -
+      file: superelementalfighters.zip
+      platform: Windows
+-
+  project:
+    name: 'The Legend of Journey'
+    players: 1
+    controls:
+      - gamepad
+      - keyboard
+    description: |
+      You are a beautiful heroine in a ruthless, post-apocalyptic, steampunk world. Machines have taken over and it’s your quest to destroy them all and survive other threats, too. Don’t be afraid, you are equipped with a shield producing glove that can deflect projectiles. But its energy runs out after a while, so don’t overuse it!
+
+      Are you brave enough to face the many terrifying dangers that lie ahead? Test your skill in "The Legend of Journey"!
+  team:
+    name: NoobTroop
+    members:
+      - 'Florian Friedrich'
+      - 'Florian Rammerstorfer'
+      - 'Marie Strohm'
+  winner: 'no'
+  headerimage: thelegendofjourney_header.webp
+  images:
+    -
+      file: thelegendofjourney_image1_full.webp
+      thumb: thelegendofjourney_image1_thumb.webp
+    -
+      file: thelegendofjourney_image2_full.webp
+      thumb: thelegendofjourney_image2_thumb.webp
+    -
+      file: thelegendofjourney_image3_full.webp
+      thumb: thelegendofjourney_image3_thumb.webp
+    -
+      file: thelegendofjourney_image4_full.webp
+      thumb: thelegendofjourney_image4_thumb.webp
+  download:
+    -
+      file: thelegendofjourney.zip
+      platform: Windows
+      checksum: 90f407381e60eff0aa1e61e77ebe07452cf450aefe0887774534e2caeecb2d3d
+-
+  project:
+    name: 'We Heart Mom'
+    players: 1-4
+    controls:
+      - gamepad
+      - keyboard
+    description: |-
+      Up to four players are thrown into the arena to prevail against the dreaded Mom as long as possible. Mom's in rage mode and spits fireballs and hurls lightning onto the arena.
+
+      To support the players, the audience keeps throwing items into the arena which can be picked up and thrown on Mom. These items do damage, either on Mom, the other players or even other items.
+
+      The player with the highest score wins.
+  team:
+    name: ThunderCats
+    members:
+      - 'Christine Pühringer'
+      - 'Carmen Schneebauer'
+      - 'Susanne Teufelauer'
+      - 'Thomas Wallner'
+      - 'Damiano Weidenhausen'
+  winner: 'no'
+  headerimage: weheartmom_header.webp
+  images:
+    -
+      file: weheartmom_image1_full.webp
+      thumb: weheartmom_image1_thumb.webp
+    -
+      file: weheartmom_image2_full.webp
+      thumb: weheartmom_image2_thumb.webp
+    -
+      file: weheartmom_image3_full.webp
+      thumb: weheartmom_image3_thumb.webp
+    -
+      file: weheartmom_image4_full.webp
+      thumb: weheartmom_image4_thumb.webp
+  download:
+    -
+      file: weheartmom.zip
+      platform: Windows
+      checksum: 322c014aef2fc417fc0bfdcd7765dabf2cd01c11c5d7d9a4d04d60dd527990d8

@@ -1,0 +1,225 @@
+-
+  project:
+    name: "Angry Programmer's Violent Adventures"
+    players: '1'
+    controls:
+      - keyboard
+      - mouse
+    description: |-
+      Angry Programmer has had enough of big companies' shenanigans at the expense of the general population. When they ultimately started to take away his gaming freedoms, he finally had enough.
+
+      It is time for revenge!
+
+      Follow Angry Programmer through four action-laden levels of a top-down shoot-em-up. Use your trustworthy familiars to support you in combat and take back control from the evil corporations that are threatening the gaming community.
+  team:
+    name: 'Stickman Logic 2.0'
+    members:
+      - 'Oliver Krauss'
+      - 'Christian Ortner'
+      - 'Valentin Winkler'
+  winner: 'no'
+  headerimage: angry-programmers-violent-adventures_header.webp
+  images:
+    -
+      file: angry-programmers-violent-adventures_image1_full.webp
+      thumb: angry-programmers-violent-adventures_image1_thumb.webp
+    -
+      file: angry-programmers-violent-adventures_image2_full.webp
+      thumb: angry-programmers-violent-adventures_image2_thumb.webp
+    -
+      file: angry-programmers-violent-adventures_image3_full.webp
+      thumb: angry-programmers-violent-adventures_image3_thumb.webp
+    -
+      file: angry-programmers-violent-adventures_image4_full.webp
+      thumb: angry-programmers-violent-adventures_image4_thumb.webp
+  download:
+    -
+      file: angry-programmers-violent-adventures-Windows.zip
+      platform: Windows
+      checksum: 9d2beb54e5a399e77a16af11cea4f548ce48fcdd712f9fd51627a999ca389f8e
+-
+  project:
+    name: 'Bank Robby'
+    players: '1'
+    controls:
+      - keyboard
+    description: |-
+      Bank Robby is a real Tyrolean lad who's mad at corporate banks-after all they are the ones who waste all his hard-earned money!
+
+      Robby decides to trash the city's largest bank and give the boss a piece of his mind but to do so he has to reach the highest floor quicker than the rampaging horde of girls!
+  team:
+    name: itengy
+    members:
+      - 'Angelika Bugl'
+      - 'Christoph Lipphart'
+      - 'Marc Mühlberger'
+  winner: 'no'
+  headerimage: bank-robby_header.webp
+  images:
+    -
+      file: bank-robby_image1_full.webp
+      thumb: bank-robby_image1_thumb.webp
+    -
+      file: bank-robby_image2_full.webp
+      thumb: bank-robby_image2_thumb.webp
+    -
+      file: bank-robby_image3_full.webp
+      thumb: bank-robby_image3_thumb.webp
+    -
+      file: bank-robby_image4_full.webp
+      thumb: bank-robby_image4_thumb.webp
+  download:
+    -
+      file: bank-robby-Windows.zip
+      platform: Windows
+      checksum: 23f68ce63ca9f969d589346a760a957666eae98a8e9e8a814ebacaf1a49812f0
+-
+  project:
+    name: I969
+    players: '2'
+    controls:
+      - keyboard
+    description: |-
+      On Saturday, December 14th 2013, the Chinese government managed to land on the moon. The western world already achieved that in the year 1969 and deserves all the glory. It's payback time! An inevitable fight has just begun!
+
+      A multi-platform, two-player space shooter with a twist. Experience a challenging and rewarding scoring system - be fast, destroy your opponent-but don't risk too much. Every single mistake will lessen your chances for victory! Don't hit the satellites and avoid collateral damage.
+  team:
+    name: cheese³
+    members:
+      - 'David Berger'
+      - 'Peter Kainrad'
+      - 'Fabian Meisinger'
+  winner: 'no'
+  headerimage: i969_header.webp
+  images:
+    -
+      file: i969_image1_full.webp
+      thumb: i969_image1_thumb.webp
+    -
+      file: i969_image2_full.webp
+      thumb: i969_image2_thumb.webp
+    -
+      file: i969_image3_full.webp
+      thumb: i969_image3_thumb.webp
+    -
+      file: i969_image4_full.webp
+      thumb: i969_image4_thumb.webp
+  download:
+    -
+      file: i969-Windows.zip
+      platform: Windows
+      checksum: 9c284e9befb87fd4719a95e5f2a9ff4a7b5054929a0a0eb898d2085be21c6cc5
+    -
+      file: i969-macOS.zip
+      platform: macOS
+      checksum: 082732805312ad9013507468c8d405712cc37e1959a02ffe7493f0f388983465
+-
+  project:
+    name: IndusTree
+    players: '2'
+    controls:
+      - keyboard
+    description: 'Industry is expanding and polluting the air. Together, you cooperatively control nature to strike back against industry by planting trees, casting thunder and hailstorms, tornadoes and earthquakes. You win when the air is totally fresh.'
+  team:
+    name: Low-Score
+    members:
+      - 'Fabian Achammer'
+      - 'Markus Hadinger'
+      - 'Matthias Patscheider'
+      - 'David Weichselbaum'
+  winner: overall
+  headerimage: industree_header.webp
+  images:
+    -
+      file: industree_image1_full.webp
+      thumb: industree_image1_thumb.webp
+    -
+      file: industree_image2_full.webp
+      thumb: industree_image2_thumb.webp
+    -
+      file: industree_image3_full.webp
+      thumb: industree_image3_thumb.webp
+    -
+      file: industree_image4_full.webp
+      thumb: industree_image4_thumb.webp
+  download:
+    -
+      file: industree-Windows.zip
+      platform: Windows
+      checksum: d9c89700c84c220117964bdcece27699c6906346e0cd29c9b95a6b3d5153c743
+-
+  project:
+    name: 'Space Revenge'
+    players: '2'
+    controls:
+      - keyboard
+    description: |-
+      Player one starts as the hunter and player two is the hunted. The hunter starts with a laser gun and his prey has bombs to defend himself. With your weapon you can push your opponent off the platforms and win the round. But be careful- the bombs' detonation radius hurts both of you. Also, the roles change each round. If a player leaves the screen, he automatically forfeits the round and his opponent gets a point.
+
+      Start your vendetta and overwhelm your enemy!
+  team:
+    name: 'Legendary Lava Surfers'
+    members:
+      - 'Teo Babic'
+      - 'Benedict Dietrich'
+      - 'Andreas Friedl'
+      - 'Daniel Wilfinger'
+  winner: 'no'
+  headerimage: space-revenge_header.webp
+  images:
+    -
+      file: space-revenge_image1_full.webp
+      thumb: space-revenge_image1_thumb.webp
+    -
+      file: space-revenge_image2_full.webp
+      thumb: space-revenge_image2_thumb.webp
+    -
+      file: space-revenge_image3_full.webp
+      thumb: space-revenge_image3_thumb.webp
+    -
+      file: space-revenge_image4_full.webp
+      thumb: space-revenge_image4_thumb.webp
+  download:
+    -
+      file: space-revenge-Windows.zip
+      platform: Windows
+      checksum: 06c404c4fe4cc958c230d5b54a71fb4b4e68a11a4bf3257d21d443a47b9db287
+-
+  project:
+    name: Venganza
+    players: '1'
+    controls:
+      - keyboard
+    description: |-
+      Two Mexicans are meeting in a bar. Suddenly one of them punches the other. The punched one starts to chase the puncher to get revenge. The chased one throws different obstacles (depending on the surroundings): chairs in the bar, barrels in the city, stones in the desert, as well as chilis.
+
+      If the player gets hit by an obstacle, the chaser slows down. To catch the evil Mexican, the player can collect Tequila bottles, which provide the player with a short boost.
+
+      Catch the evil Mexican and get revenge for being slapped!
+  team:
+    name: 'Robot Unicorn Riders'
+    members:
+      - 'Ilias Koletsis'
+      - 'Georgi Kostov'
+      - 'Helene Lettner'
+      - 'Gaber Šetina'
+  winner: 'no'
+  headerimage: venganza_header.webp
+  images:
+    -
+      file: venganza_image1_full.webp
+      thumb: venganza_image1_thumb.webp
+    -
+      file: venganza_image2_full.webp
+      thumb: venganza_image2_thumb.webp
+    -
+      file: venganza_image3_full.webp
+      thumb: venganza_image3_thumb.webp
+    -
+      file: venganza_image4_full.webp
+      thumb: venganza_image4_thumb.webp
+  download:
+    -
+      file: venganza-Windows.zip
+      platform: Windows
+      checksum: eea6a11af3aa2dbc23786d8d35919322c8123cace17367b873e24a1900cc40d3

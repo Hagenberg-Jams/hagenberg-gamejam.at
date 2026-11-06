@@ -1,0 +1,21 @@
+legal:
+  name: 'University of Applied Sciences Upper Austria'
+  prose_name: 'The University of Applied Sciences Upper Austria'
+  address:
+    - 'Softwarepark 11'
+    - '4232 Hagenberg, Austria'
+  phone: '+43 5 0804 0'
+  email: 'info@fh-ooe.at'
+  website: 'https://www.fh-ooe.at'
+  website_label: 'www.fh-ooe.at'
+responsible:
+  name: 'Department of Digital Media'
+  address:
+    - 'University of Applied Sciences Upper Austria'
+    - 'Softwarepark 11'
+    - '4232 Hagenberg, Austria'
+support_email: 'info@hagenberg-gamejam.at'
+picture_credits:
+  - '© FH Upper Austria / Diephuis'
+  - '© FH Upper Austria / Hochleitner'
+data_protection_url: 'https://www.fh-ooe.at/en/data-protection'
