@@ -97,7 +97,7 @@ return [
             'turnstile_site_key' => '0x4AAAAAAF1-azvKHw7ApI_n',
             'access' => [
                 'team' => 'hagenberg-jams',
-                'aud' => '',
+                'aud' => '3e38e837a89d35c05f4e48869cc8c12a5987782edb18dfbed257cebe9b642337',
             ],
             'texts' => [
                 'intro' => 'Register your team for the Hagenberg Game Jam 2026! A team consists of a team lead and up to 5 members. We can host up to 100 people on site, and remote participation via Discord is possible too.',
