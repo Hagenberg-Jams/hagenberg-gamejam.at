@@ -1,43 +1,39 @@
 # Hagenberg Game Jam website
 
-Static site for https://hagenberg-gamejam.at, built with HydePHP (Laravel Zero) and deployed to Cloudflare Pages. See `README.md` for the full content workflow, `LINTING.md` for tooling and `UPGRADE.md` for dependency upgrades.
+Static site for https://hagenberg-gamejam.at, built with the Jam Engine (`vendor/hagenberg-jams/jam-engine`, HydePHP) and deployed to Cloudflare Pages. See `README.md` for the content workflow.
 
 ## Commands
 
 ```bash
-composer install && npm install   # setup
-php hyde serve                    # dev server (or open the Herd domain)
-php hyde build                    # build the site into _site/
-npm run build                     # rebuild _media/app.css and _media/app.js
-composer test                     # Pint check + PHPStan level 9
-composer lint:fix                 # apply Pint formatting
-php hyde list gamejam             # content commands (create-jam, add-game, print, sync-r2, ...)
+composer install && npm install
+npm run build             # builds _media/app.css and _media/app.js, which are not in Git
+php hyde serve            # dev server
+php hyde build            # builds the site into _site/
+php hyde jam:validate     # checks the data
+php hyde jam:check-links  # checks internal links of the built site
+composer test             # Pint and PHPStan for the few PHP files in app/
+php hyde list jam         # content commands (create-jam, add-project, sync-r2, print, ...)
 ```
 
 ## Architecture
 
-The site is data-driven:
+- Pages, views, build tasks and commands come from the engine. This repository holds content and settings only.
+- `_data/jams/YYYY.yaml` holds jam metadata, `_data/projects/YYYY.yaml` its games. `_data/homepage.yaml`, `_data/rules.yaml` and `_data/imprint.yaml` hold page content.
+- `config/jam.php` holds the site settings: latest jam, registration, voting, awards, branding and links. Everything else comes from the engine defaults and the `game` preset.
+- A view copied to `resources/views/` overrides the engine's view of the same path.
+- `.github/workflows/site.yml` calls the reusable workflow of the engine. It builds, checks, deploys, sets up the registration database and uploads the topic secret.
 
-1. `_data/jams/YYYY.yaml` holds jam metadata and `_data/games/gamesYYYY.yaml` holds its games. `_data/homepage.yaml` and `_data/rules.yaml` hold page content.
-2. `app/GameJamData.php` loads the YAML. `app/Actions/GenerateGameJamPagesBuildTask.php` registers in-memory pages for years, games, people and persons. Do not create `_pages/` files for these.
-3. Views in `resources/views/` render the pages. `_pages/` holds the home, rules, imprint and 404 pages.
-4. `config/gamejam.php` holds site settings: latest jam, registration, voting, branding and links.
+## Rules
 
-Images live in `_media/YYYY/`. `_input/` is a temporary drop folder for `gamejam:add-game`.
-
-## Things to watch
-
-- Pushing to `main` deploys to production immediately via `.github/workflows/deploy.yml`.
-- CI does not run npm. If you add Tailwind classes or change `resources/assets/`, run `npm run build` and commit `_media/app.css` and `_media/app.js`.
-- Download ZIPs in `games/` are not in Git. Production serves them from Cloudflare R2 through `GAMES_BASE_URL`, synced with `gamejam:sync-r2`.
-- There are no automated tests. `composer test` only covers style and static analysis, so check rendered pages after changing views or build tasks.
+- Shared behaviour belongs in the engine: https://github.com/Hagenberg-Jams/jam-engine
+- Never write a jam's topic into this public repository before its `topic_release`. It belongs in the `JAM_TOPIC` GitHub secret until then.
+- Pushing to `main` deploys to production immediately. Use a pull request for a preview.
 - Public URLs must stay stable: `/YYYY`, `/YYYY/<slug>`, `/people`, `/person/<slug>`, `/media/...` and `/games/YYYY/...`.
-- Image commands need ImageMagick (`magick`) on the PATH.
+- Download ZIPs in `games/` are not in Git. Production serves them from Cloudflare R2 through `GAMES_BASE_URL`, synced with `jam:sync-r2`.
+- Registration data (real names, e-mail, Discord) stays in Cloudflare D1. Only `_input/teams-YYYY.json` with chosen names is used locally, and `_input/` is not committed.
 - Never commit `.env` or R2 credentials.
-
-## Conventions
-
-- PHPStan runs at level 9. Add real types rather than extending `phpstan-baseline.neon`.
+- Quote dates with a time in YAML, for example `'2026-12-12T09:00:00+01:00'`.
+- Image commands need ImageMagick (`magick`) on the PATH.
 - Code, comments, site copy and docs are in English.
 
 ## Commits

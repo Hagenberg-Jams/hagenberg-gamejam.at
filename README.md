@@ -1,478 +1,231 @@
-# Hagenberg Game Jam Website (hagenberg-gamejam.at)
+# Hagenberg Game Jam website
 
-This repository contains the source for the **Hagenberg Game Jam** website, built with **HydePHP** (a Laravel-powered static site generator).
+Source of [hagenberg-gamejam.at](https://hagenberg-gamejam.at). The site is built with the [Jam Engine](https://github.com/Hagenberg-Jams/jam-engine), which is shared with the other Hagenberg jams. This repository only holds the content, settings and colours of the Game Jam.
 
-The site is **data-driven**: Jam year pages and individual game detail pages are generated automatically during the build from files in `_data/`.
+This guide covers everything you need to run the site: the one-time setup, how a change goes live, and what to do when in a jam year.
 
-## Requirements
+## 1. Access
 
-### PHP + Composer
+- **GitHub:** You need a GitHub account in the `game-jam` team of the [Hagenberg-Jams](https://github.com/Hagenberg-Jams) organisation. The team has admin rights on this repository, so you can push, start workflows and set secrets. The organisation requires two-factor authentication.
+- **Registrations:** The admin page at [/admin/registrations](https://hagenberg-gamejam.at/admin/registrations) is protected by Cloudflare Access. You sign in with a one-time code sent to your e-mail address. Ask an organisation owner to add your address to the Access policy "Game Jam Organizers".
+- **Game downloads:** Uploading downloads to the file storage needs R2 access keys. Ask an organisation owner for them (section 4, "After the jam").
+- **Hosting:** Everything else runs through GitHub Actions. You do not need a Cloudflare account.
 
-- **PHP**: 8.2+ (see `composer.json`)
-- **Composer**: latest stable
+## 2. One-time setup
 
-**Easy option (recommended): Laravel Herd**
+Install these tools:
 
-- Herd installs and manages PHP for you and works great on **Windows** and **macOS**.
-- If you use Herd, you can either run Hyde’s dev server (`php hyde serve`) or serve the site through Herd using a custom driver.
+| Tool | Why | Check with |
+| --- | --- | --- |
+| [Git](https://git-scm.com) | Download and upload changes | `git --version` |
+| PHP 8.2 or newer and [Composer](https://getcomposer.org) | Build the site. [Laravel Herd](https://herd.laravel.com) installs both on Windows and macOS. | `php -v`, `composer -V` |
+| [Node.js](https://nodejs.org) 24 LTS | Build styles and scripts | `node -v` |
+| [ImageMagick](https://imagemagick.org/script/download.php) 7 | Image commands and responsive images. On Windows, tick "Add application directory to your system path" during installation. | `magick -version` |
 
-Alternative options:
-
-- Windows: install PHP via Herd, or via `winget`/Chocolatey, or manual install from `windows.php.net`.
-- macOS: install PHP via Herd, Homebrew (`brew install php`), or similar.
-
-### Node.js + npm
-
-- **Node.js** (LTS recommended) and **npm**
-
-Node is used for the frontend build pipeline (Vite + TailwindCSS + JS dependencies). You only need it when:
-
-- You change CSS/JS assets, Tailwind config, or add new Tailwind utility classes used in templates.
-- You want the live-reload frontend dev experience.
-
-## Setup
-
-1) Install PHP + Composer (see above)  
-2) Install Node.js + npm  
-3) Install PHP dependencies:
+Then get the site and start it:
 
 ```bash
+git clone https://github.com/Hagenberg-Jams/hagenberg-gamejam.at.git
+cd hagenberg-gamejam.at
 composer install
-```
-
-4) Install Node dependencies:
-
-```bash
 npm install
+npm run build     # builds the styles and scripts
+php hyde serve    # opens the site on http://localhost:8080
 ```
 
-5) Environment configuration  
-This project uses environment files for local vs production URLs and metadata. See `ENV_SETUP.md` for details.
+Run `composer install`, `npm install` and `npm run build` again after pulling an engine update.
 
-## Development
+**With Laravel Herd:** Instead of `php hyde serve`, you can open the site at `http://hagenberg-gamejam.at.test`. Copy `.env.local` to `.env` for that, so that links use this address.
 
-### Option A: Hyde dev server (works everywhere)
+## 3. Making a change
 
-```bash
-php hyde serve
+Every push to `main` goes live within about three minutes. Work like this:
+
+1. Get the latest version: `git pull`
+2. Make your change. The table below shows where things are.
+3. Check it on http://localhost:8080 while `php hyde serve` runs.
+4. Check the data: `php hyde jam:validate`
+5. Upload it:
+
+   ```bash
+   git add -A
+   git commit -m "Describe your change"
+   git push
+   ```
+
+6. Open the **Actions** tab on GitHub. A green tick on the latest **Site** run means the change is live. A red cross means the site was not updated. Open the run to see the error, fix it and push again. The live site stays as it was until then.
+
+**To check a change before it goes live,** push it to a new branch and open a pull request. The checks run and a preview link appears as a comment in the pull request. Merge the pull request to publish it.
+
+**Small text changes** also work on github.com: open the file, click the pencil, and commit to `main`. They go live the same way.
+
+### Where things are
+
+| What | Where |
+| --- | --- |
+| Home page: hero, highlights, about text, gallery, video, sponsors | `_data/homepage.yaml` |
+| Rules | `_data/rules.yaml` |
+| Dates and topic release of a jam | `_data/jams/YYYY.yaml` |
+| Games of a year | `_data/projects/YYYY.yaml` |
+| Imprint | `_data/imprint.yaml` |
+| Latest jam, registration, voting, awards, links, contact e-mail | `config/jam.php` |
+| Colours | `resources/assets/app.css` |
+| Images | `_media/` for the home page, `_media/YYYY/` for a year |
+| Game downloads | not in Git, see "After the jam" |
+
+**Dates:** Put dates with a time in quotes and with the time zone, for example `'2026-12-12T09:00:00+01:00'`. Use `+01:00` in winter and `+02:00` in summer.
+
+**Images:** Use WebP where you can. For each image on the home page, the build creates smaller copies ending in `-400w` and `-800w` next to it in `_media/`. Run `php hyde build` once after adding an image and commit these copies too. `php hyde jam:convert-images` converts JPG and PNG files to WebP and updates the YAML files. Try it with `--dry-run` first.
+
+**Sponsors:** Put the logo in `_input/sponsor/`, then run `php hyde jam:add-sponsor`. `php hyde jam:remove-sponsor` removes one.
+
+**Changing the look:** Copy the matching view from `vendor/hagenberg-jams/jam-engine/resources/views/` to the same path in `resources/views/`. Your copy then wins. If it would help other jams too, please suggest it in the [engine repository](https://github.com/Hagenberg-Jams/jam-engine/issues).
+
+## 4. A jam year, step by step
+
+### Months before the jam
+
+1. Create the year:
+
+   ```bash
+   php hyde jam:create-jam --keep-latest
+   ```
+
+   It asks for the year, the topic release, start, end and duration. Enter the release time, for example `2027-12-10 18:00`, and **do not enter the topic**. `--keep-latest` keeps the last jam in the navigation and on the home page button until the new one has games.
+
+2. Push. The home page now announces the dates and shows a countdown to the topic release.
+3. Update `_data/homepage.yaml` if anything changed, for example the about text.
+
+To move the topic release later, run `php hyde jam:topic-release 2027-12-10 18:00` and push. `--year=YYYY` picks another jam, `--remove` turns the countdown off.
+
+### Registration
+
+Teams register on the website at `/register`. The settings are in `config/jam.php` under `registration`:
+
+```php
+'registration' => [
+    'next_jam' => '2027',
+    'active' => false,                    // true opens the registration
+    'url' => '',                          // empty: the form on this site
+    'deadline' => '2027-12-05T23:59:00',
+    'form' => [
+        'enabled' => true,
+        'team_size' => [1, 6],
+        'onsite_capacity' => 100,
+        'programs' => [ /* study programmes, each person picks one */ ],
+        'texts' => ['intro' => '...', 'confirmed' => '...', 'declined' => ''],
+        // ...
+    ],
+],
 ```
 
-This starts Hyde’s local dev server (with the Hyde realtime compiler enabled in dev).
+1. Update `next_jam`, `deadline`, the intro text and the list of study programmes.
+2. **To open the registration,** set `'active' => true` and push. The home page then shows the button and the deadline. After the deadline the form closes by itself. `'active' => false` closes it earlier.
+3. Each new registration sends a mail to the organisers. Their addresses are in the GitHub secret `JAM_REGISTRATION_NOTIFY`, separated by commas.
 
-### Option B: Laravel Herd (no Hyde server needed)
+**On the admin page** you see all registrations, free seats and the waiting list:
 
-If you have Herd set up with a custom driver for HydePHP, you can open the site directly via your Herd domain
-(for example: `http://hagenberg-gamejam.at.test`) without running `php hyde serve`.
+- **Confirm** or **Decline** a team. The team gets a mail unless you untick "Mail the team about changes".
+- **Move** a team on site, to remote or to the waiting list. When seats become free, the page suggests the next team from the waiting list. The decision is yours.
+- **Delete** works only for declined or cancelled teams, so that every team hears about it first. For a test or a duplicate, untick "Mail the team about changes", decline, then delete.
+- **Add a registration** for teams that registered another way. They get a mail with the link to check their details.
+- **Exports:** "People on site (CSV)" for the security staff, "Everyone (CSV)", "Teams for the website (JSON)" for adding the games, and "Copy Discord names".
 
-For the correct `.env` file to use with Herd, see [`ENV_SETUP.md`](ENV_SETUP.md).
+Teams change or cancel their registration with the link in their mail. All registrations are deleted automatically 90 days after the jam.
 
-### When do I need npm during development?
+### At least one week before the topic release
 
-- If you only change content/data (YAML/Markdown), you can usually stick to `php hyde serve` (or Herd) without rebuilding assets.
-- If you change styles/scripts or introduce new Tailwind classes, rebuild frontend assets:
+The topic must stay secret until the release time, but this repository and the built pages are public. So the topic never goes into a file. It is stored as a GitHub secret instead:
 
-```bash
-npm run build
-```
+1. On GitHub, open **Settings → Secrets and variables → Actions** and click **New repository secret**.
+2. Add `JAM_TOPIC` with the topic as plain text, for example `Lost in Time`.
+3. Optional: add `JAM_TOPIC_VIDEO` with the YouTube ID of a reveal video. That is only the part after `v=`, for example `dQw4w9WgXcQ`. Set the video to unlisted on YouTube until the release.
+4. Open **Actions → Site → Run workflow** and run it on `main`.
+5. Open the run when it is finished. The step **Transfer the topic to Cloudflare** must show `Success! Uploaded secret JAM_TOPIC_DATA`.
 
-If you want a frontend dev watcher (Vite), you can run:
+**Without steps 4 and 5, the countdown may reach zero without a topic.** Every later run on `main` also uploads it, including the daily one at 04:00, but only the log shows that it worked. The topic is safe once it is uploaded: the server only hands it out from the release time on.
 
-```bash
-npm run dev
-```
+If the topic changes, update the secret and run the workflow again.
 
-## Building the site
+### Reveal day
 
-The static site output is generated into `_site/`:
+Nothing to do. At the release time, the countdown turns into the topic on every open page, without reloading. The next build, at the latest the daily one at 04:00, also writes the topic into the page itself.
 
-```bash
-php hyde build
-```
+If the countdown reaches zero and no topic appears, the secret did not reach the server. Check the secret and run the workflow again. Open pages keep asking the server, so the topic appears on them about three minutes later without reloading.
 
-### Automatic page generation (Jam years & games)
+### During the jam
 
-During `php hyde build`, a pre-build task generates pages automatically:
+The announcement disappears from the home page when the jam starts, the topic block after the last day of the jam. Use the CSV export for the list of people on site.
 
-- For every Jam year file in `_data/jams/YYYY.yaml` a year overview page `YYYY.html` is generated.
-- For every game entry in `_data/games/gamesYYYY.yaml` a game detail page under `YYYY/<game-slug>.html` is generated.
+### After the jam
 
-You do **not** need to create `_pages/` files for years/games. The build task is implemented in:
+1. Add the topic to `_data/jams/YYYY.yaml`, and the video if there was one:
 
-- `app/Actions/GenerateGameJamPagesBuildTask.php`
+   ```yaml
+   topic: 'Lost in Time'
+   topic_video: 'dQw4w9WgXcQ'
+   ```
 
-## Code Quality & Linting
+2. Push, then delete the secrets `JAM_TOPIC` and `JAM_TOPIC_VIDEO` on GitHub. **Do it in this order,** because without the secret and without `topic:` in the file the topic disappears from the site. Nothing needs to be deleted on Cloudflare: the server ignores a topic from an earlier year.
+3. On the admin page, download "Teams for the website (JSON)" and save it as `_input/teams-YYYY.json`. It only holds team names and the names each person chose for the website.
+4. Add the games, one at a time. Put the files into `_input/`:
 
-This project uses **Laravel Pint** (code style) and **PHPStan** (static analysis) for code quality.
+   | Folder | Content |
+   | --- | --- |
+   | `_input/header/` | One header image, cropped to 1920×520 |
+   | `_input/screenshots/` | Screenshots, cropped to 16:9 |
+   | `_input/download/` | The ZIP files of the game, any file name |
 
-### Available Commands
+   Then run:
 
-```bash
-# Check code style (without making changes)
-composer lint
+   ```bash
+   php hyde jam:add-project --year=YYYY
+   ```
 
-# Automatically fix code style issues
-composer lint:fix
+   It offers the teams from the JSON file and asks for the name, players, controls, the description and the award. For each ZIP file it asks for the platform (Windows, Linux, macOS or Web), renames it to `<game>-<Platform>.zip`, moves it to `games/YYYY/` and stores its checksum. The images go to `_media/YYYY/`.
+5. Make the new year the latest jam in `config/jam.php`: `'latest_jam' => 'YYYY'`.
+6. Upload the downloads to the file storage. The ZIP files are not in Git, the live site serves them from `files.hagenberg-gamejam.at`. Put the R2 access keys into `.env` (see `.env.example`), then:
 
-# Run static analysis
-composer analyse
+   ```bash
+   php hyde jam:sync-r2 --upload --year=YYYY --dry-run   # shows what would be uploaded
+   php hyde jam:sync-r2 --upload --year=YYYY
+   ```
 
-# Run both linting and analysis
-composer test
-```
+   `--download` gets the files of other years from the storage, for example on a new computer.
+7. Push. Check that the year page, the game pages and the downloads work.
 
-**Configuration:**
-- **Pint**: Uses PER-CS standard (configured in `pint.json`)
-- **PHPStan**: Level 9 (strictest) - configured in `phpstan.neon`
+### Voting and awards
 
-For detailed information about automation options (Git hooks, CI/CD, IDE integration), see [`LINTING.md`](LINTING.md).
+1. For the play session, print a sheet per game: `php hyde jam:print YYYY`. The PDFs land in `storage/pdfs/YYYY/`. `--only=slug1,slug2` prints single games.
+2. While the voting runs, set `voting.active` to `true` in `config/jam.php`, with the link and the deadline. The home page shows a button.
+3. After the voting, set `voting.active` back to `false` and enter the winners in `_data/projects/YYYY.yaml` with the keys from `awards` in `config/jam.php`, for example `winner: masterminds`.
 
-## Upgrading dependencies
+## 5. Rules
 
-### PHP (Composer) dependencies
+- **Never write the topic into a file in this repository before its release.** The repository is public. The build stops if `topic:` is in a YAML file before `topic_release`.
+- Everything on `main` is live. Use a pull request when you are unsure.
+- Real names, e-mail addresses and Discord names of registrations never go into this repository. Only the names people chose for the website do.
+- Never commit `.env`. It holds the R2 access keys.
+- Only add photos you have the rights to, and only of people who agreed to be shown.
+- Public addresses must stay as they are: `/YYYY`, `/YYYY/<game>`, `/people`, `/person/<name>`, `/media/...` and the downloads under `/games/YYYY/...`.
 
-Update packages:
+## 6. Updates and help
 
-```bash
-composer update
-```
+When there is a new version of the engine or another dependency, Dependabot opens a pull request. Check its preview, then merge it. From one week before the jam until the end of the voting, only merge updates that fix a problem.
 
-If you want to upgrade HydePHP major versions, do it intentionally:
+`composer test` checks the few PHP files of this repository with Pint and PHPStan. `composer lint:fix` fixes the code style.
 
-- Check `hyde/framework` constraints in `composer.json`
-- Read Hyde’s upgrade notes in their docs/releases
-- Run `php hyde build` afterwards and verify output
+Use `php hyde list jam` to see all commands. For problems or ideas that concern the engine, open an issue in the [engine repository](https://github.com/Hagenberg-Jams/jam-engine/issues).
 
-### Node dependencies
+### Settings outside this repository
 
-Update packages:
-
-```bash
-npm update
-```
-
-For more thorough upgrades (including major versions), consider using:
-
-```bash
-npx npm-check-updates -u
-npm install
-```
-
-Then rebuild assets:
-
-```bash
-npm run build
-```
-
-## Content management (how to add/update a new Game Jam)
-
-This project provides interactive Hyde commands to streamline adding new Game Jams and games. These commands handle image processing, file management, and YAML generation automatically.
-
-### Quick start: Using the commands
-
-**1. Create a new Game Jam year:**
-```bash
-php hyde gamejam:create-jam
-```
-
-**2. Add games to a year:**
-```bash
-php hyde gamejam:add-game
-```
-
-**3. Update checksums for game downloads:**
-```bash
-php hyde gamejam:update-checksums --year=2024
-```
-
-**4. Generate printable PDF sheets for games:**
-```bash
-php hyde gamejam:print 2025
-# Or for specific games only:
-php hyde gamejam:print 2025 --only="game-slug1,game-slug2"
-```
-
-### Detailed workflow
-
-#### Step 1: Create a new Game Jam year
-
-Run the interactive command:
-
-```bash
-php hyde gamejam:create-jam
-```
-
-This command will:
-- Ask for year, title, topic, dates, duration, and logo filename
-- Create `_data/jams/YYYY.yaml` with jam metadata
-- Create an empty `_data/games/gamesYYYY.yaml` file
-
-**Example:**
-```
-Year: 2025
-Title: 2025
-Topic: Future Worlds
-Start date: 2025-12-12
-End date: 2025-12-14
-Duration in hours: 36
-```
-
-#### Step 2: Prepare game assets
-
-Before adding a game, prepare the assets in the `_input/` directory:
-
-**Directory structure:**
-```
-_input/
-  header/          # Place the header image here (one image)
-  screenshots/     # Place all screenshot images here
-  download/        # Place game download ZIP files here (optional)
-```
-
-**Image requirements:**
-- Header image: One image file (e.g., JPG, PNG) - will be cropped to 1920:520 aspect ratio (if needed) and resized to 1920x520, or left as-is if already correct size
-- Screenshots: Multiple images (e.g., JPG, PNG) - will be cropped to 16:9, resized to 1920x1080 (full) and 400x225 (thumb)
-- All images are automatically converted to WebP format
-
-**Download file processing:**
-- Place all ZIP files in `_input/download/` (any filename is fine)
-- The command will ask interactively for each file which platform it is (Windows, Linux, macOS, or Web)
-- Files are automatically renamed to `{game-slug}-{Platform}.zip` (e.g., `my-awesome-game-Windows.zip`)
-- Files are moved to `games/YYYY/` with checksums calculated and added to YAML
-
-#### Step 3: Add a game
-
-Run the interactive command:
-
-```bash
-php hyde gamejam:add-game
-# Or specify year directly:
-php hyde gamejam:add-game --year=2024
-```
-
-This command will:
-
-1. **Ask for game data:**
-   - Game name (used to generate URL slug)
-   - Number of players (single number like "1" or "2", or range like "3-8" or "3-5")
-   - Controls (keyboard, mouse, gamepad, touch - multi-select)
-   - **Controls text** (optional - detailed control instructions, e.g., "Movement: W, A, S, D\nInteraction: E")
-   - Description (multiline input - type `---END---` when finished)
-   - Team name
-   - Team members (comma/semicolon/line-separated - intelligent parsing with preview)
-   - Winner status (yes/no + optional placement)
-
-2. **Process images:**
-   - Validates that header and screenshots exist in `_input/`
-   - Processes header image: crops to 1920:520 aspect ratio (if needed), resizes to 1920x520, converts to WebP (skips processing if already correct size)
-   - Processes screenshots: crops to 16:9, creates full (1920x1080) and thumb (400x225) versions
-   - Moves processed images to `_media/YYYY/` with proper naming: `{slug}_header.webp`, `{slug}_image1_full.webp`, `{slug}_image1_thumb.webp`, etc.
-
-3. **Process downloads:**
-   - Finds all ZIP files in `_input/download/`
-   - Asks interactively for each file which platform it is (Windows, Linux, macOS, or Web)
-   - Renames files to `{game-slug}-{Platform}.zip` format
-   - Copies renamed files to `games/YYYY/`
-   - Calculates SHA256 checksums
-   - Adds download entries to YAML
-
-4. **Add to YAML:**
-   - Creates game entry in `_data/games/gamesYYYY.yaml`
-   - Uses proper YAML formatting with literal blocks for descriptions
-   - Checks for duplicate game names (asks to overwrite if exists)
-
-5. **Cleanup:**
-   - On success: Removes processed files from `_input/` directories (keeps directory structure)
-   - On error: Keeps source files so you can fix issues and re-run
-
-**Example interaction:**
-```
-Select year: 2024
-Game name: My Awesome Game
-Number of players (e.g., "1", "2-4", "3-8"): 3-8
-Controls: keyboard, mouse
-Description: [multiline input, type ---END--- when done]
-Team name: Awesome Team
-Team members: John Doe, Jane Smith, Bob Johnson
-Is this a winning game? [y/N]: y
-Placement: 1st
-```
-
-**Player count format:**
-- Single player: `"1"` → displays as "1 Player"
-- Fixed multiplayer: `"2"` → displays as "2 Players"
-- Variable multiplayer: `"3-8"` → displays as "3–8 Players" (with en-dash)
-- The range format is useful for games that support a variable number of players (e.g., "3-5" for games that can be played with 3, 4, or 5 players)
-
-**Team members parsing:**
-The command intelligently parses team members from various formats:
-- Comma-separated: `"John Doe, Jane Smith, Bob Johnson"`
-- Semicolon-separated: `"John Doe; Jane Smith; Bob Johnson"`
-- Line-separated: One per line
-- Markdown list format: `"- John Doe\n- Jane Smith"` or `"* John Doe\n* Jane Smith"` or `"+ John Doe\n+ Jane Smith"` (the list prefixes "- ", "* ", "+ " are automatically removed)
-- Mixed formats are supported
-
-After parsing, you'll see a preview and can confirm or correct.
-
-#### Step 4: Generate printable PDF sheets (optional)
-
-You can generate printable A4 PDF sheets for games to distribute at play events:
-
-```bash
-php hyde gamejam:print 2025
-```
-
-This will create PDF files in `storage/pdfs/2025/` with:
-- Game title and year
-- Team name and members
-- Description (with clickable links converted from Markdown)
-- Controls text (if provided)
-- Input methods and supported platforms
-- Screenshots
-
-To generate PDFs for specific games only:
-```bash
-php hyde gamejam:print 2025 --only="game-slug1,game-slug2"
-```
-
-**Note:** The `storage/` directory is excluded from git, so generated PDFs won't be committed to the repository.
-
-#### Step 5: Mark the latest Jam (navigation + homepage CTA)
-
-Update:
-
-- `config/gamejam.php` → `latest_jam`
-
-This controls which year is shown as "latest" in the navigation and which years go under the "Archive" dropdown.
-
-#### Step 6: Update the homepage content (annual)
-
-Edit:
-
-- `_data/homepage.yaml`
-
-This file is intended to be updated yearly and contains:
-
-- `about` (text + image filename)
-- `video` (YouTube ID + copy)
-- `sponsors` (name, url, logo filename)
-
-Note: In templates, `/media/` is prepended automatically for homepage images and sponsor logos.
-
-#### Step 7: Update registration/voting state (optional)
-
-If needed, update:
-
-- `config/gamejam.php` → `registration.*` and `voting.*`
-
-#### Step 8: Build & verify
-
-```bash
-php hyde build
-```
-
-Open `_site/index.html` and the new `YYYY.html` page to verify everything renders correctly.
-
-### Manual workflow (alternative)
-
-If you prefer to work manually instead of using the commands:
-
-1. **Add the new Jam year metadata**
-
-   Create a new YAML file:
-
-   - `_data/jams/YYYY.yaml`
-
-   This file contains jam metadata (title, topic, dates, duration, etc.) used for the year page.
-
-2. **Add the games list for that year**
-
-   Create a new YAML file:
-
-   - `_data/games/gamesYYYY.yaml`
-
-   Each entry should include the game name and all metadata needed for the year overview and game detail pages.
-
-3. **Add media assets**
-
-   Put year-specific assets under:
-
-   - `_media/YYYY/` (screenshots, etc.)
-
-   Global shared assets (logos, homepage images, sponsor logos) live directly under:
-
-   - `_media/`
-
-### Requirements for image processing
-
-The `gamejam:add-game` and `gamejam:convert-images` commands require **ImageMagick** to be installed and available in your system PATH.
-
-- **Windows**: Install from [ImageMagick website](https://imagemagick.org/script/download.php) or via package manager
-- **macOS**: `brew install imagemagick`
-- **Linux**: Usually available via package manager (`apt-get install imagemagick`, `yum install ImageMagick`, etc.)
-
-Verify installation:
-```bash
-magick --version
-```
-
-#### Converting existing images to a different format
-
-The `gamejam:convert-images` command allows you to convert all pixel images to any format supported by ImageMagick (WebP, AVIF, JPG, PNG, etc.) across your entire site. This is useful for:
-
-- Converting older JPG/PNG images to modern formats like WebP or AVIF for better performance
-- Standardizing image formats across all years
-- Batch conversion of images without manual processing
-- Future-proof: works with any format ImageMagick supports
-
-**Usage:**
-
-```bash
-# Preview what would be converted (dry-run mode, defaults to WebP)
-php hyde gamejam:convert-images --dry-run
-
-# Convert all images to WebP (default format)
-php hyde gamejam:convert-images
-
-# Explicitly specify WebP format
-php hyde gamejam:convert-images --format=webp
-
-# Convert only images for a specific year
-php hyde gamejam:convert-images --format=webp --year=2015
-
-# Convert to a different format (e.g., AVIF, PNG, JPG)
-php hyde gamejam:convert-images --format=avif
-php hyde gamejam:convert-images --format=png
-php hyde gamejam:convert-images --format=jpg
-```
-
-**What it does:**
-
-1. **Scans all image files** in `_media/YYYY/` directories and root `_media/` directory
-2. **Converts pixel images** to the target format using ImageMagick (supports all ImageMagick formats: WebP, AVIF, HEIC, JXL, JPG, PNG, GIF, etc.)
-3. **Automatically validates** that ImageMagick supports the target format before conversion
-4. **Skips SVG files** (vector graphics are preserved as-is)
-5. **Skips favicons and app icons** (favicon-16x16.png, favicon-32x32.png, apple-touch-icon.png, android-chrome-*.png are preserved as PNG for browser compatibility)
-6. **Skips already converted images** (if an image is already in the target format, it's not re-converted)
-7. **Updates all YAML references** automatically:
-   - `_data/games/games*.yaml` files (headerimage, images[].file, images[].thumb)
-   - `_data/homepage.yaml` (hero images, about image, sponsor logos - only pixel images, SVG logos are preserved)
-8. **Updates Blade template references** automatically (image references in template files)
-9. **Deletes old files** after successful conversion
-
-**Notes:**
-
-- **Default format**: If no `--format` is specified, the command defaults to **WebP**
-- Always use `--dry-run` first to preview what will be converted
-- The command preserves image quality (uses quality 90 for lossy formats like WebP, AVIF, JPG)
-- **SVG files are never converted** (vector graphics remain as SVG)
-- **Favicons and app icons are never converted** (favicon-*.png, apple-touch-icon.png, android-chrome-*.png remain as PNG for browser compatibility)
-- The command is safe to run multiple times (skips already converted images)
-- **Future-proof**: Works with any format ImageMagick supports, including future formats like AVIF, HEIC, JXL, etc.
-- To see all supported formats, run: `magick -list format`
-
-### Available commands
-
-- `php hyde gamejam:create-jam` - Create a new Game Jam year with metadata files
-- `php hyde gamejam:add-game [--year=YYYY]` - Add a new game to a Game Jam year with automatic image processing
-- `php hyde gamejam:update-checksums [--year=YYYY]` - Calculate and update SHA256 checksums for game download files
-- `php hyde gamejam:convert-images [--format=webp] [--year=YYYY] [--dry-run]` - Convert all pixel images to a target format and update references
+These are set once and only change when something moves. Organisation owners manage them.
+
+| What | Where |
+| --- | --- |
+| `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID` | GitHub secrets, used to deploy |
+| `TURNSTILE_SECRET` | GitHub secret, spam protection of the registration |
+| `EMAIL_API_TOKEN` | GitHub secret, mails of the registration |
+| `JAM_REGISTRATION_NOTIFY` | GitHub secret, organisers who get a mail per registration |
+| `GAMES_BASE_URL` | GitHub variable, `https://files.hagenberg-gamejam.at` |
+| Pages project `hagenberg-gamejam-at`, R2 bucket, Turnstile widget, Access app "Game Jam Admin" | Cloudflare dashboard |
