@@ -45,3 +45,6 @@
 /_media/app.js
 /_media/styles.js
 /functions
+
+# Downloads of jam:fetch-submissions
+/submissions

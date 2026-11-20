@@ -168,7 +168,16 @@ The announcement disappears from the home page when the jam starts, the topic bl
 
 2. Push, then delete the secrets `JAM_TOPIC` and `JAM_TOPIC_VIDEO` on GitHub. **Do it in this order,** because without the secret and without `topic:` in the file the topic disappears from the site. Nothing needs to be deleted on Cloudflare: the server ignores a topic from an earlier year.
 3. On the admin page, download "Teams for the website (JSON)" and save it as `_input/teams-YYYY.json`. It only holds team names and the names each person chose for the website.
-4. Add the games, one at a time. Put the files into `_input/`:
+4. Download the uploads of all teams from the upload page, then add the games one at a time. With the R2 access keys in `.env` (see step 6):
+
+   ```bash
+   php hyde jam:fetch-submissions                       # into submissions/YYYY/<team>/, README.md put into each ZIP
+   php hyde jam:add-project --submission=<team>         # <team> is the folder name, for example the-awesomes
+   ```
+
+   `jam:fetch-submissions` takes the latest version of each platform (`--all` for every version). `jam:add-project --submission` takes name, team, members, description and controls from the README, the first screenshot as header image, all screenshots, and the ZIP files with their platform. It asks for players, control types and the award. Run `jam:fetch-submissions` again after a bugfix upload, it only downloads what changed.
+
+   For a game without an upload, put the files into `_input/` instead:
 
    | Folder | Content |
    | --- | --- |
