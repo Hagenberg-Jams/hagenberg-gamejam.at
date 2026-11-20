@@ -113,6 +113,15 @@ return [
         ],
     ],
 
+    // Upload page at /submit for the end of the jam, admin page at /admin/submissions.
+    // Teams are the confirmed registrations, the upload code is the GitHub secret JAM_SUBMISSION_CODE.
+    // Turnstile, sender, organisers and Access come from the registration form above.
+    'submission' => [
+        'enabled' => true,
+        // Empty: the end of the jam. Later uploads are marked as late.
+        'deadline' => '',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Game download base URL (e.g. Cloudflare R2 public bucket)
