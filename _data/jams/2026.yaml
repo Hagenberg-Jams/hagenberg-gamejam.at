@@ -3,3 +3,16 @@ startdate: '2026-12-12T09:00:00+01:00'
 enddate: '2026-12-13T21:00:00+01:00'
 topic_release: '2026-12-11T18:00:00+01:00'
 hours: 36
+# The categories of this year: how much AI a team used. Teams choose one when they upload, and the
+# awards are given in each category (winner: <key> on a project). Name and description can change
+# at any time, but keep the key once teams have uploaded.
+categories:
+  - key: purists
+    name: Purists
+    description: No AI in your game. Every line of code, every asset and every text is made by your team. Asking an AI questions is fine, since search engines answer with AI anyway.
+  - key: pragmatists
+    name: Pragmatists
+    description: AI helps here and there, for example with code completion or a single asset. Your team builds the game.
+  - key: pilots
+    name: Pilots
+    description: Heavily agentic. AI agents write most of the code or make most of the assets, and your team pilots them.

@@ -120,6 +120,16 @@ return [
         'enabled' => true,
         // Empty: the end of the jam. Later uploads are marked as late.
         'deadline' => '',
+        // Above the categories from _data/jams/YYYY.yaml on the upload page.
+        'texts' => [
+            'category_label' => 'How much AI did you use?',
+            'category_hint' => 'The awards are given in each category, so choose honestly. You can change it with a later upload.',
+        ],
+    ],
+
+    'labels' => [
+        // The categories of a jam, on the year and project pages.
+        'category' => 'AI usage',
     ],
 
     /*
